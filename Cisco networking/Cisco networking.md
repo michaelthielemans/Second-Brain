@@ -1,7 +1,7 @@
 #cisco #networking 
 ### Routing protocols
 RIP , EIGRP , OSPF
-[[OSPF -  open shortest path first]]
+[[Routing OSPF -  open shortest path first]]
 
 
 

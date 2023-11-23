@@ -1,3 +1,8 @@
+## admin distance
+
+0 =  directly connected
+1 =  static routes
+
 ## Routing types
 
 - standard static route
