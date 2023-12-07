@@ -6,8 +6,8 @@ ospf is an IGP - Interior Gateway Protocol
 
 >1. Routing protocol messages
 >2. Building data structure = DataBase
->3. calculating algorithm = Dijkstra
-## Link-State Operation steps
+>3. Calculating algorithm = Dijkstra -> add new routes to the routing table
+### Link-State Operation steps
 Each router in the OSPF network is processing through the following steps:
 
 1. Establish Neighbour Adjacencies = Hello packets
@@ -84,6 +84,20 @@ When a change is perceived (incremental updates)
 - Routes are processed using the SPF algorithm
 
 
+
+To verify the OSPFv2 adjacencies, use the `show ip ospf neighbor` command. The state of neighbors in multiaccess networks can be as follows:
+
+>FULL/DROTHER - This is a DR or BDR router that is fully adjacent with a non-DR or BDR router. These two neighbors can exchange Hello packets, updates, queries, replies, and acknowledgments.
+
+>FULL/DR - The router is fully adjacent with the indicated DR neighbor. These two neighbors can exchange Hello packets, updates, queries, replies, and acknowledgments.
+
+>FULL/BDR - The router is fully adjacent with the indicated BDR neighbor. These two neighbors can exchange Hello packets, updates, queries, replies, and acknowledgments.
+
+>2-WAY/DROTHER - The non-DR or BDR router has a neighbor relationship with another non-DR or BDR router. These two neighbors exchange Hello packets.
+
+The normal state for an OSPF router is usually FULL. If a router is stuck in another state, it is an indication that there are problems in forming adjacencies. The only exception to this is the 2-WAY state, which is normal in a multiaccess broadcast network
+
+
 ## OSPF Packets
 
 | type| packet | short | description |
@@ -127,7 +141,7 @@ When a change is perceived (incremental updates)
 
 | Database | table | description | command |
 | -- | -- | -- | -- |
-| Adjacency Database|Neighbor Table| <ul><li>Neighbor routers with bi-directional connect</li><li>table = Unique for each router</li></ul>| `show ip ospf neighbor network` | 
+| Adjacency Database|Neighbor Table| <ul><li>Neighbor routers with bi-directional connection</li><li>table = Unique for each router</li></ul>| `show ip ospf neighbor network` | 
 | Link-state Database (LSDB) | Topology Table | <ul><li>This database represents the network LSDB</li><li>All routers within an area have identical LSDB</li></ul> | `show ip ospf database` |
 | Forward database | routing table | <ul><li>List of routes generated when an algorithm is run on the link-state database</li><li>Each router's routing table is unique and contains information on how and where to send packets to other routers</li></ul>| `show ip route`| 
 
@@ -136,42 +150,20 @@ When a change is perceived (incremental updates)
 * **single-area** -> all routers within area 0
 * **multi-area** -> backbone network stays at area 0
 
->	The routing domain is divided into multiple smaller routing domains 
->	will produce smaller routing tables
->	reduced link-state updates
->	less frequent SPF calculations
+>- The routing domain is divided into multiple smaller routing domains 
+>- will produce smaller routing tables
+>- reduced link-state updates
+>- less frequent SPF calculations
 
+## Wildcard mask calculation
+> Wildcard mask = 255.255.255.255 - subnetmask
+> 255.255.255.0 -> 0.0.0.255
 ## OSPFv3 = OSPF for ipv6
-## DR and BDR
-
-A multi-access network (multiple routers on one single subnet - L2 net) can create 2 problems:
-- An extensive amount of adjacencies
-- An enormous amount of LSA flooding over the network (multicast)
-
->[!info] If there would be no DR and BDR election:
->Calculate the total amount of adjacencies on a multi-access network:
->n= number of routers in the network
->a = n(n-1) / 2
-
->Without a DR and BDR all the LSU messages would be flooded on the network. Also the amount of LSAck packets could become enormous. This is because every flooded (multicast) LSU packet has to be acknowledged by every router.
-
->OSPF elects a DR to be the collection and distribution point for LSAs sent and received. A BDR is also elected in case the DR fails. All other routers become DROTHERs. A DROTHER is a router that is neither the DR nor the BDR.
-
-
-## Cost calculations
-
-- In ospf the Metric of a route is called the cost.
-- The lower the cost the better
-- reference bandwidth by default = 100,000kbps
-- the minimum cost = 1
-
-Cost calculation = reference bandwidth / interface bandwidth
-
-
-
 ## Router ID selection
 
-Manually configure a router ID -> `router-id 1.1.1.1`
+> All routers in the ospf area must have a routerID. If not manually entered a routerID is chosen automatically.
+
+Manually configure a router ID -> `router-id 1.1.1.1` [[#Configure a RouterID]]
 Automatically assign router ID 
 
 ```mermaid
@@ -186,8 +178,118 @@ B-->|yes| D
 #### Use loopback as the routerID
 >Instead of relying on physical interface, the router ID can be assigned to a loopback interface. Typically, the IPv4 address for this type of loopback interface should be configured using a 32-bit subnet mask (255.255.255.255). This effectively creates a host route. A 32-bit host route would not get advertised as a route to other OSPF routers
 
+>[!attention] Be aware that you have to reset the ospf process after you modified the router-id.
+>[[#Change the Router-ID]]
 
+
+
+## DR and BDR
+
+### Why do we need a DR / BDR
+A multi-access network (multiple routers on one single subnet - L2 net) can have 2 problems:
+- An extensive amount of adjacencies
+- An enormous amount of LSA flooding over the network (multicast)
+
+>[!info] If there would be no DR and BDR election:
+>Calculate the total amount of adjacencies on a multi-access network:
+>n= number of routers in the network
+>total amount of adjacencies = n(n-1) / 2
+
+>Without a DR and BDR all the LSU messages would be flooded on the network. Also the amount of LSAck packets could become enormous. This is because every flooded (multicast) LSU packet has to be acknowledged by every router.
+
+>OSPF elects a DR to be the collection and distribution point for LSAs sent and received. A BDR is also elected in case the DR fails. All other routers become DROTHERs. A DROTHER is a router that is neither the DR nor the BDR.
+
+### DR and BDR election process
+
+1. Router with highest priority is chosen as DR. (default priority = '1')
+2. Router with highest routerID is chosen as DR
+3. Router with a priority '0' will not take part in the election process.
+4. A value of 0 does not become a DR or a BDR.
+5. A value of 1 to 255 on the interface makes it more likely that the router becomes the DR or the BDR.
+
+![[Pasted image 20231130140530.png]]
+
+#### Procedure when DR fails!
+>If the DR fails, the BDR is automatically promoted to DR. This is the case even if another DROTHER with a higher priority or router ID is added to the network after the initial DR/BDR election. However, after a BDR is promoted to DR, a new BDR election occurs and the DROTHER with the highest priority or router ID is elected as the new BDR.
+
+
+
+
+### Change OSPF interface priority
+[[#Change router priority]]
+>[!attention] After changing the router priority you have to reset the ospf process.
+### How the DR send updates to its ospf neighbor routers
+The DR is responsible for collecting and distributing LSAs sent and received. The DR uses the multicast IPv4 address 224.0.0.5 which is meant for all OSPF routers.
+### BDR functions
+- The BDR listens passively and maintains a relationship with all the routers. If the DR stops producing Hello packets, the BDR promotes itself and assumes the role of DR. Like the DR he also listens on the multicast address (244.0.0.6) for incoming ospf packets.
+### DROTHERS
+- All other routers become a DROTHER (a router that is neither the DR nor the BDR). DROTHERs use the multiaccess address 224.0.0.6 (all designated routers) to send OSPF packets to the DR and BDR. Only the DR and BDR listen for 224.0.0.6.
+### Passive interfaces
+By default, OSPF messages are forwarded out all OSPF-enabled interfaces. However, these messages only need to be sent out interfaces that are connecting to other OSPF-enabled routers.
+Sending out unneeded messages on a LAN affects the network in three ways:
+- Inefficient Use of Bandwidth - Available bandwidth is consumed transporting unnecessary messages.
+- Inefficient Use of Resources - All devices on the LAN must process and eventually discard the message.
+- Increased Security Risk - Without additional OSPF security configurations, OSPF messages can be intercepted with packet sniffing software. Routing updates can be modified and sent back to the router, corrupting the routing table with false metrics that misdirect traffic.
+[[#Configure a Passive Interface]]
+### Point-to-point links
+By default, Cisco routers elect a DR and BDR on Ethernet interfaces, even if there is only one other device on the link. You can verify this with the show ip ospf interface command. The DR/ BDR election process is unnecessary as there can only be two routers on the point-to-point network between R1 and R2. Notice in the output that the router has designated the network type as BROADCAST.
+[[#Point-to-point links]]
+## Cost calculations & adjustments
+
+- In ospf the Metric of a route is called the cost.
+- The lower the cost the better
+- reference bandwidth by default = 100,000kbps = 100Mbit
+- Lowest cost = 1 (only integer values)
+
+Cost calculation = reference bandwidth / interface bandwidth
+
+>[!attention] If you change the reference bandwidth, you have to change it on ALL routers!!
+
+### Default Route Propagation
+if a default static route is configured on an interface it is possible to propagate this route into OSPF 
+for example, the static route: ip route 0.0.0.0 0.0.0.0 <next-hop-address | exit-intf>
+```
+R2(config)# router ospf 10
+R2(config-router)# default-information originate
+```
+----
+
+---------
 ## OSPF Configuration
+### NEW OSPF process
+Start a new ospf process with a specific process ID. It is not necessary to use the same process id on all the routers in the same ospf area, but is is recommended.
+```cisco
+R1(conf)router ospf 10
+```
+### Configure a Router-ID
+```
+R1(conf)router ospf 10
+R1(conf-router)router-id 1.1.1.1
+```
+#### Change the Router-ID
+```
+R1(conf)router ospf 10
+R1(conf-router)router-id 2.2.2.2
+R1#clear ip ospf process
+```
+### Modify router priority
+
+```
+R1(conf)#interface fa0/1
+R1(conf-if)#ip ospf priority 50
+R1#clear ip ospf process
+```
+
+
+### Check if the interface = DR/BDR/DROTHER
+```
+show ip ospf interface fa0/1
+```
+### Verify DR/BDR Adjacencies
+you can see all the neighbor routers and the state of the adjacency
+```
+show ip ospf neighbor
+```
 ### Adding networks to the OSPF process
 
 1. In the first example, the wildcard mask identifies the interface based on the network addresses. Any active interface that is configured with an IPv4 address belonging to that network will participate in the OSPFv2 routing process.
@@ -203,30 +305,60 @@ R1(config-router)#network 10.1.1.12 0.0.0.3 area 0
 R1(config)#router ospf 10
 R1(config-router)#network 10.10.1.1 0.0.0.0 area 0
 R1(config-router)#network 10.1.1.5 0.0.0.0 area 0
-R1(config-router)# **network 10.1.1.14 0.0.0.0 area 0
+R1(config-router)#network 10.1.1.14 0.0.0.0 area 0
 ```
 
-### Configure OSPF Using the ip ospf Command
-
+### Configure OSPF  from the interface, using the ip ospf Command
 ```
-R1(config-router)#interface GigabitEthernet 0/0/0
-R1(config-if)# **ip ospf 10 area 0** R1(config-if)#interface GigabitEthernet 0/0/1
+R1(config)#interface GigabitEthernet 0/0/0
 R1(config-if)#ip ospf 10 area 0
-R1(config-if)# **interface Loopback 0
-R1(config-if)# **ip ospf 10 area 0
+```
+### Configure a Passive Interface
+>Use the **passive-interface** router configuration mode command to prevent the transmission of routing messages through a router interface, but still allow that network to be advertised to other routers. The configuration example identifies the R1 Loopback 0/0/0 interface as passive.
+```
+R1(config-router)#passive-interface loopback 0
+```
+### Configure a point-to-point link (on multi-access link)
+```
+R1(conf)#interface fa0/1
+R1(conf-if)#ip ospf network point-to-point
 ```
 
-### configure a Passive Interface
->Use the **passive-interface** router configuration mode command to prevent the transmission of routing messages through a router interface, but still allow that network to be advertised to other routers. The configuration example identifies the R1 Loopback 0/0/0 interface as passive.
-`R1(config-router)#passive-interface loopback 0`
-## OSPF Commands
+
+----
+### Modify the reference bandwidth (cost reference)
+```
+R1(conf)auto-cost reference-bandwidth <value in Mbps>
+```
+### Manually change cost on interface
+```
+R1(conf-if)#ip ospf cost <cost value>
+```
+### Modify hello and dead intervals
+```
+Router(config-if)# ip ospf hello-interval <seconds>
+Router(config-if)# ip ospf dead-interval <seconds>
+```
+#### Set the hello and dead intervals to default values
+```
+R1(conf-if)#no ip ospf hello-interval
+R1(conf-if)#no ip ospf dead-interval
+```
+
+### Default static route propagation
+```
+R2(config)#router ospf 10
+R2(config-router)# default-information originate
+```
+## All OSPF Commands
 
 #### show commands:
-
-| show ip protocols | include Router ID|
-|--|--|
-|`R1# show ip ospf interface GigabitEthernet 0/0/0`| ospf interface information |
-
+```
+R1#show ip ospf neighbor
+show ip protocols
+show ip ospf
+show ip ospf interface
+```
 
 #### ospf config commands
 
@@ -238,6 +370,18 @@ R1(config-if)# **ip ospf 10 area 0
 |`R1#clear ip ospf process`| reload the new ospf configuration |
 |`Router(config-router)#network 10.10.1.0 0.0.0.255 area 0`| adding area's|
 |`R1(config-if)# ip ospf 10 area 0`| configure ospf on the selected interface|
-|`R1(config-router)#passive-interface loopback 0` | make passive interface
+|`R1(config-router)#passive-interface loopback 0` | make passive interface|
+|`R1(config-router)#auto-cost reference-bandwidth`|--|
+```
+R1(conf)#router ospf 56
+R1(conf-router)#default-information originate
+```
+#### debug hello packets , adjacencies
+debug ip ospf adj
 
-#### 
+
+
+
+disable all debugging
+`no debug all
+

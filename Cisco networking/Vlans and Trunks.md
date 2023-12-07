@@ -26,7 +26,7 @@ show vlan <ID>
 
 # Trunks
 
-## configure a trunk
+## configure a trunk on switch
 ```
 (conf-if)# switchport mode trunk
 (conf-if)# switchport trunk native vlan <ID>
@@ -36,6 +36,14 @@ show vlan <ID>
 ```
 check the config
 #show interface fa 0/18 switchport
+```
+## configure a trunk on a router
+
+```
+
+R1(conf)#interface g0/1.10
+R1(conf-if)#encapsulation dot1q vlan 10
+R1(conf)
 ```
 
 ## DTP - Dynamic Trunking Protocol

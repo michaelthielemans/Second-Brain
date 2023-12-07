@@ -291,3 +291,16 @@ set-executionpolicy remotesigned
 get-history
 
 hoofdstuk 12 niet op examen
+
+## getting and setting NTFS permissions.
+
+`get-acl | format-list`
+
+```
+$acl-var = get-acl c:\test
+System.Security.AccessControl.FileSystemAccessRule("Users","FullControl","Allow")
+$acl-var.SetAccessRule($newaccessrule)
+$acl | Set-Acl c:\test
+```
+
+

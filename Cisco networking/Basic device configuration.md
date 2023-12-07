@@ -4,7 +4,7 @@
 
 > `(conf)#hostname <name>`
 > `(conf)#ip domain-name <domainname>`
-> `(conf)#no ip domainname-lookup`
+> `(conf)#no ip domain name-lookup`
 > `(conf)#no sychro logging`
 > `(conf)#username <name> secret <passw>`
 
@@ -15,8 +15,6 @@
 `(conf)#enable secret <this password will be hashed>`
 
 >create a key pair for ssh
->```(conf)
->```
 ```
 (conf)#crypto key generate rsa modulus 1024
 (conf)#

@@ -1,3 +1,30 @@
 #cisco #wan
 
-# 
+# Topologies
+WANs are implemented using the following logical topology designs:
+
+•Point-to-Point Topology
+•Hub-and-Spoke Topology
+•Dual-homed Topology
+•Fully Meshed Topology
+•Partially Meshed Topology
+
+# WAN OSI Layers
+Wan protocols focus on layer 1 and layer 2 
+
+|Layer 1 Protocols |
+|--|
+|Synchronous Digital Hierarchy (SDH)|
+|Synchronous Optical Networking (SONET|
+|Dense Wavelength Division Multiplexing (DWDM)|
+
+|Layer 2 Protocols|
+|--|
+|Broadband (i.e., DSL and Cable)|
+|Wireless|
+|Ethernet WAN (Metro Ethernet)|
+|Multiprotocol Label Switching (MPLS)|
+|Point-to-Point Protocol (PPP) (less used)|
+|High-Level Data Link Control (HDLC) (less used)|
+|Frame Relay (legacy)|
+|Asynchronous Transfer Mode (ATM) (legacy)|

@@ -1,0 +1,228 @@
+{
+  "main": {
+    "id": "ef298e020ab515e0",
+    "type": "split",
+    "children": [
+      {
+        "id": "ec9ed7c8010eb44f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1416e6eb27ec837e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cisco networking/DHCP configuration.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "11782e87e0958760",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cisco networking/NAT for IPv4.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "19fc9a79e7bcd5ba",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Windows/Active directory.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "a1591f8311fbd9f7",
+    "type": "split",
+    "children": [
+      {
+        "id": "d5b4b0bab74b746c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8d0292ea51f596e7",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "db4088df1fde803e",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "default priority",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "f28b5ebb603d664a",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "f9757c9a7378738d",
+    "type": "split",
+    "children": [
+      {
+        "id": "c4a88945c1a4b7f3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "58ec7d59eddc91fc",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Windows/Active directory.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "295faa67257e4b83",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Windows/Active directory.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "837abfd6fd8b8f60",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "a339efef03bae4a1",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Windows/Active directory.md"
+              }
+            }
+          },
+          {
+            "id": "2b998744a847b7ba",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
+    }
+  },
+  "active": "19fc9a79e7bcd5ba",
+  "lastOpenFiles": [
+    "DNS with Active Directory.md",
+    "Cisco networking/NAT for IPv4.md",
+    "Cisco networking/DHCP configuration.md",
+    "cisco complete configuration file.md",
+    "Cisco networking/Cisco networking.md",
+    "Cisco networking/Cisco IOS & hardware.md",
+    "Cisco networking/Basic device configuration.md",
+    "Cisco networking/Vlans and Trunks.md",
+    "Cisco networking/VPN & IPsec.md",
+    "Cisco networking/WAN architectures.md",
+    "Cisco networking/Routing OSPF -  open shortest path first.md",
+    "Cisco networking/ACL - Access control lists.md",
+    "Windows/NTFS permissions.md",
+    "Windows/Powershell.md",
+    "Windows/Active directory.md",
+    "Obsidian/mermaid examples.md",
+    "Windows/registry.md",
+    "Powershell summary.md",
+    "Dev Ops & CI CD.md",
+    "Cisco networking/Network security concepts.md",
+    "Pasted image 20231130140530.png",
+    "2023-11-17.md",
+    "Git/Git.md",
+    "Kubernetes/K8s architecture.md",
+    "Excalidraw/Drawing 2023-11-23 19.22.35.excalidraw.md",
+    "Excalidraw",
+    "rsakey.pub",
+    "rsakey",
+    "Kubernetes/Kubernetes Operators.md",
+    "Linux/Ansible.md",
+    "Git",
+    "Networking",
+    "Untitled 1.canvas",
+    "Pasted image 20231110210251.png",
+    "Pasted image 20231116184553.png",
+    "Untitled.canvas",
+    "Kubernetes",
+    "Obsidian",
+    "Cisco networking",
+    "Windows",
+    "Linux"
+  ]
+}
