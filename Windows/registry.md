@@ -1,3 +1,4 @@
+#windows
 ### 2 main folders, all others are subfoldera
 ---
 HKEY_LOCAL_MACHINE

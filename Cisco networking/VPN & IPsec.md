@@ -6,22 +6,34 @@
 - Common solution for securing enterprise traffic across the internet
 - Site-to-site and remote access VPNs are created and managed by the enterprise using IPsec and SSL VPNs.
 
->Service Provider VPNs
+>Service Provider VPNs (Belnet, proximus, telenet,...)
 - created and managed by the provider network.
 - Multiprotocol Label Switching (MPLS) at Layer 2 or Layer 3
 - Create secure channels between an enterprise’s sites, effectively segregating the traffic from other customer traffic.
 ### Remote access VPNs
-- Clientless VPN connection
-	The connection is secured using a web browser SSL connection.
 
+- VPN gateway <-----> software on client (openvpn client , cisco anyconnect, ...)
+- Client-less VPN connection
+	- (https is http + SSL) -> only web based traffic
+	- The connection is secured using a web browser SSL connection.
+	
 - Client-based VPN connection
-	VPN client software such as Cisco AnyConnect Secure Mobility Client must be installed on the remote user’s end device.
+	- (mostly IPsec, can handle all kind of traffic)
+	- VPN client software such as Cisco AnyConnect Secure Mobility Client must be installed on the remote user’s end device.
 ### Site-to-site VPNs
+
+VPN gateway <----> router
+Internal hosts have no knowledge that a VPN is used.
+
+
 
 ## SSL VPNs
 SSL uses the public key infrastructure and digital certificates to authenticate peers. The type of VPN method implemented is based on the access requirements of the users and the organization’s IT processes. The table compares IPsec and SSL remote access deployments
 
 ## GRE over IPsec
+
+GRE. tunnel placed inside a IPsec tunnel -> make sure the GRE is not visible on the dirty internet.
+
 - Generic Routing Encapsulation (GRE) is a non-secure site-to-site VPN tunneling protocol.
 - A GRE tunnel can encapsulate various network layer protocols as well as multicast and broadcast traffic.
 - GRE does not by default support encryption; and therefore, it does not provide a secure VPN tunnel.
@@ -39,6 +51,8 @@ The terms used to describe the encapsulation of GRE over IPsec tunnel are passen
 
 ## GRE tunnel configuration
 
+
+
 1. Create the tunnel interface by using the global configuration command interface tunnel tunnel-number.
 2. Identify the local source of the tunnel by using the interface parameter command tunnel source {ip-address | interface-id}. The tunnel source can be a physical interface or a loopback interface.
 
@@ -48,15 +62,44 @@ Step 4.  Allocate an IP address to the tunnel interface by using the command ip
 
 # IPsec technologies
 
-|IPsec| protocols |
+|IPsec| protocol choices |
 |--|--|--|
 |IPsec header|
 |confidentiality| DES, 3DES, AES, SEAL| symmetric keys|
-|integrity|HMAC(MD5, SHA)|check data not changed in transit|
+|integrity (hashing)|HMAC(MD5, SHA)|check data not changed in transit|
 |authentication|Pre-shared key (PSK) or (RSA) authentication uses digital certificates|
-|Diffie-Helman|
+|Diffie-Hellman|
 
-# IKE - Internet Key Exchange Phases
+## IP sec header
+AH only confidentiality 
+ESP confidentiallity + encryption
+
+#### AH
+#### ESP
+
+- tunnel mode or transport mode
+	- transport = original ip header 
+	- tunnel mode = encrypt full packet + new ip header
+
+
+## confidentiality
+
+encryption of the payload
+DES = not 
+3DES only when data 
+AES = best solution (128-bits,192-bits)
+## integrity
+MD5 , SHA
+
+- Check if the data is not changed or manipulated durint transport
+- 'Calculation of checksum'
+-
+
+## Authentication
+
+pre-shared key
+RSA = digital certificates
+## IKE - Internet Key Exchange Phases
 
 Phase 1: negotiation of the policy set =  mgmt, 1 set
 	1. encryption
@@ -79,10 +122,26 @@ Traditional IPsec provides two modes of packet transport:
 # Diffie-Hellman
 
 DH is a public key technology
-It is used to securely transfer the shared key over an unsecure network, through PKI
+It is used to securely transfer the shared key over an un-secure network, through PKI
 
 DH groups:
 DH 1,2,5 -> no longer secure
-DH 14,15,16 -> secure untill 2030
+DH 14,15,16 -> secure until 2030
 DH 19,20,21 -> with respective key sizes of 256 bits, 384 bits, 521 bits
 DH group 24 is the preferred next generation encryption.
+
+
+
+
+
+
+
+
+
+
+
+## Dynamic multipoint VPN
+- Hub and spoke architecture
+
+
+## ip sec VTI

@@ -354,10 +354,15 @@ R2(config-router)# default-information originate
 
 #### show commands:
 ```
-R1#show ip ospf neighbor
-show ip protocols
-show ip ospf
-show ip ospf interface
+R1# show ip protocols
+R1# show ip ospf
+R1# show ip ospf interface
+R1# show ip ospf neighbor
+R1# show ip ospf database
+
+verbose debugging
+R1#debug ip ospf adj
+R1#debug ip ospf events
 ```
 
 #### ospf config commands

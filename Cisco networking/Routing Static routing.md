@@ -1,3 +1,4 @@
+#cisco 
 ## admin distance
 
 0 =  directly connected

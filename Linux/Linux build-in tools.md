@@ -1,3 +1,4 @@
+#linux 
 ## SSH -  openSSH
 
 by default SSH uses password authentication
