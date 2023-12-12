@@ -4,47 +4,42 @@
     "type": "split",
     "children": [
       {
-        "id": "ec9ed7c8010eb44f",
+        "id": "c408d48eb92e3d20",
         "type": "tabs",
         "children": [
           {
-            "id": "1416e6eb27ec837e",
+            "id": "5f178923b4399586",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cisco networking/DHCP configuration.md",
+                "file": "Windows/DNS with Active Directory.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "11782e87e0958760",
+            "id": "f641db19a763be66",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Cisco networking/NAT for IPv4.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           },
           {
-            "id": "19fc9a79e7bcd5ba",
+            "id": "d68e119ff3f049c6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Windows/Active directory.md",
+                "file": "Windows/DNS with Active Directory.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -94,7 +89,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 292.5024719238281
   },
   "right": {
     "id": "f9757c9a7378738d",
@@ -110,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Windows/Active directory.md",
+                "file": "Windows/DNS with Active Directory.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Windows/Active directory.md",
+                "file": "Windows/DNS with Active Directory.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Windows/Active directory.md"
+                "file": "Windows/DNS with Active Directory.md"
               }
             }
           },
@@ -162,8 +157,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
@@ -181,48 +175,48 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "19fc9a79e7bcd5ba",
+  "active": "5f178923b4399586",
   "lastOpenFiles": [
-    "DNS with Active Directory.md",
-    "Cisco networking/NAT for IPv4.md",
-    "Cisco networking/DHCP configuration.md",
-    "cisco complete configuration file.md",
-    "Cisco networking/Cisco networking.md",
-    "Cisco networking/Cisco IOS & hardware.md",
-    "Cisco networking/Basic device configuration.md",
-    "Cisco networking/Vlans and Trunks.md",
+    "Git/Git.md",
+    "Cisco networking/Configuration file.md",
     "Cisco networking/VPN & IPsec.md",
     "Cisco networking/WAN architectures.md",
-    "Cisco networking/Routing OSPF -  open shortest path first.md",
-    "Cisco networking/ACL - Access control lists.md",
-    "Windows/NTFS permissions.md",
-    "Windows/Powershell.md",
-    "Windows/Active directory.md",
-    "Obsidian/mermaid examples.md",
-    "Windows/registry.md",
-    "Powershell summary.md",
+    "Windows/DNS.md",
+    "Windows/DNS with Active Directory.md",
+    "Windows/IIS webserver.md",
+    "Linux/Apache",
     "Dev Ops & CI CD.md",
+    "Untitled.canvas",
+    "Cisco networking/Vlans and Trunks.md",
+    "Cisco networking/Basic device configuration.md",
+    "Cisco networking/Routing OSPF -  open shortest path first.md",
+    "Linux/Linux build-in tools.md",
+    "Windows/Powershell summary.md",
+    "Windows/registry.md",
+    "Networking/IPv6.md",
+    "Cisco networking/Routing Static routing.md",
+    "Windows/NTFS permissions.md",
     "Cisco networking/Network security concepts.md",
-    "Pasted image 20231130140530.png",
-    "2023-11-17.md",
-    "Git/Git.md",
+    "Cisco networking/NAT for IPv4.md",
     "Kubernetes/K8s architecture.md",
-    "Excalidraw/Drawing 2023-11-23 19.22.35.excalidraw.md",
+    "Cisco networking/DHCP configuration.md",
+    "Linux/Ansible.md",
+    "README.md",
+    "Windows/Active directory.md",
+    "Cisco networking/Cisco networking.md",
+    "Cisco networking/Cisco IOS & hardware.md",
+    "Pasted image 20231130140530.png",
     "Excalidraw",
     "rsakey.pub",
     "rsakey",
-    "Kubernetes/Kubernetes Operators.md",
-    "Linux/Ansible.md",
     "Git",
     "Networking",
     "Untitled 1.canvas",
     "Pasted image 20231110210251.png",
     "Pasted image 20231116184553.png",
-    "Untitled.canvas",
     "Kubernetes",
     "Obsidian",
     "Cisco networking",
-    "Windows",
-    "Linux"
+    "Windows"
   ]
 }
