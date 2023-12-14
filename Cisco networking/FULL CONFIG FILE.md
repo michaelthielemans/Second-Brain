@@ -83,6 +83,7 @@ remark <remark>
 permit ip any any
 permit ip <source_subnet> <wildcard> <destination_subnet> <wildcard>
 permit tcp any any eq <tcp_port_#>
+exit
 !
 ! GRE Tunnel (ipv4)
 ! ----------
@@ -92,7 +93,8 @@ tunnel source <loopback 0>
 tunnel destination <ip of destination>
 bandwidth <bw in kb>
 ip mtu <1400 - in bytes>
-! 
+exit
+!
 ! GRE tunnel (ipv6)
 ! -----------------
 interface tunnel 0
@@ -100,6 +102,7 @@ ip address <tunnel interface IP>
 tunnel source <mostly loopback o>
 tunnel destination <ip of dest>
 tunnel mode gre ipv6
+exit
 !
 ! IPSEC tunnel
 ! ------------
@@ -110,5 +113,23 @@ authentication pre-share
 group 14
 lifetime 3600
 exit
-**crypto isakmp key <pre-shared key> address <remote peer ip>
+!
+crypto isakmp key <pre-shared key> address <remote peer ip>
+!
+crypto ipsec transform-set GRE-VPN esp-aes 256 esp-sha256-hmac
+mode transport
+exit
+!
+! create crypto map
+! -----------------
+crypto map GRE-CMAP 10 ipsec-isakmp
+match address GRE-VPN-ACL
+set transform-set GRE-VPN
+set peer 64.100.1.2
+exit
+!
+! assign the map to an interface
+! ------------------------------
+interface g0/0/0
+crypto map GRE-CMAP
 ```

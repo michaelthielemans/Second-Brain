@@ -4,35 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "c408d48eb92e3d20",
+        "id": "f59d433a09057ff8",
         "type": "tabs",
         "children": [
           {
-            "id": "f641db19a763be66",
+            "id": "2b8d32559f353191",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "diff-view",
               "state": {
                 "file": "Git/Git.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1607527d51d44746",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SSH configuration.md",
-                "mode": "source",
-                "source": false
+                "staged": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +84,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SSH configuration.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +100,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SSH configuration.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,9 +121,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "SSH configuration.md"
-              }
+              "state": {}
             }
           },
           {
@@ -163,7 +145,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 495.5
+    "width": 373.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -176,13 +158,15 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "1607527d51d44746",
+  "active": "2b8d32559f353191",
   "lastOpenFiles": [
-    "Git/Git.md",
-    "SSH configuration.md",
-    "Cisco networking/VPN & IPsec.md",
     "Untitled.canvas",
     "VIM/VIM commands.md",
+    "Cisco networking/FULL CONFIG FILE.md",
+    "Git/Git.md",
+    "Cisco networking/Cisco networking.md",
+    "SSH configuration.md",
+    "Cisco networking/VPN & IPsec.md",
     "README.md",
     "Windows/DNS with Active Directory.md",
     "Linux/Networking.md",
@@ -192,7 +176,6 @@
     "Linux/Bash scripting.md",
     "Linux/Linux commands.md",
     "VIM",
-    "Cisco networking/FULL CONFIG FILE.md",
     "Cisco networking/Qos.md",
     "Cisco networking/WAN architectures.md",
     "Windows/NTFS permissions.md",
@@ -205,8 +188,6 @@
     "Cisco networking/Routing OSPF -  open shortest path first.md",
     "Linux/Linux build-in tools.md",
     "Windows/Powershell summary.md",
-    "Windows/registry.md",
-    "Networking/IPv6.md",
     "Pasted image 20231130140530.png",
     "Excalidraw",
     "rsakey.pub",

@@ -78,3 +78,18 @@ Ctrl + d - move cursor and screen down 1/2 page
 Ctrl + u - move cursor and screen up 1/2 page
 
 **Tip** Prefix a cursor movement command with a number to repeat it. For example, 4jmoves down 4 lines.
+
+
+## Working with multiple files
+
+:e[dit] file - edit a file in a new buffer
+:bn[ext] - go to the next buffer
+:bp[revious] - go to the previous buffer
+:bd[elete] - delete a buffer (close a file)
+:b[uffer]# - go to a buffer by index #
+:b[uffer] file - go to a buffer by file
+:ls or :buffers - list all open buffers
+:sp[lit] file - open a file in a new buffer and split window
+:vs[plit] file - open a file in a new buffer and vertically split window
+:vert[ical] ba[ll] - edit all buffers as vertical windows
+:tab ba[ll] - edit all buffers as tabs
