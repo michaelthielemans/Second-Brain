@@ -13,6 +13,14 @@
   IdentityFile ~/.ssh/id_ed25519
 ```
 
+>[!info] if you do not enter a passphrase after the key generation process , omit the `useKeyChain yes` line.
+
+
+### Add the key to the ssh agent: (not always needed)
+If you have a passphrase on the private key you can add it to the mac keychain by adding the ` --apple-use-keychain` parameter.
+```shell
+ssh-add --apple-use-keychain ~/.ssh/<file_privatekey>
+```
 
 ## Check which ssh keys are available on your machine
 `ls -al ~/.ssh
