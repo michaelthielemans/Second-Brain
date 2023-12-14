@@ -1,0 +1,117 @@
+#cisco #qualityofservice
+
+# Network transmissions quality
+## Types of delay
+>- fixed delay
+>- variable delay
+>- jitter = varitations in delay between packets
+
+
+|**Delay**|**Description**|
+|---|---|
+|Code delay|The fixed amount of time it takes to compress data at the source before transmitting to the first internetworking device, usually a switch.|
+|Packetization delay|The fixed time it takes to encapsulate a packet with all the necessary header information.|
+|Queuing delay|The variable amount of time a frame or packet waits to be transmitted on the link.|
+|Serialization delay|The fixed amount of time it takes to transmit a frame onto the wire.|
+|Propagation delay|The variable amount of time it takes for the frame to travel between the source and destination.|
+|De-jitter delay|The fixed amount of time it takes to buffer a flow of packets and then send them out in evenly spaced intervals.|
+
+### Playout Delay Buffer Compensates for Jitter
+
+
+# Traffic characteristics
+
+## Voice traffic
+
+The voice sampling packets are evenly spread over time all having the same size.
+
+|Voice Traffic Characteristics|One-Way Requirements|
+|---|---|
+|- Smooth<br>- Benign/goedaardig<br>- Drop sensitive<br>- Delay sensitive<br>- UDP priority|- Latency ≤ 150ms<br>- Jitter ≤ 30ms<br>- Loss ≤ 1% Bandwidth (30 - 128 Kbps)|   |
+
+
+## Video traffic
+UDP ports such as 554, are used for the Real-Time Streaming Protocol (RSTP)
+
+|Video Traffic Characteristics|One-Way Requirements|
+|---|---|
+|- Bursty<br>- Greedy<br>- Drop sensitive<br>- Delay sensitive<br>- UDP priority|- Latency ≤ 200-400 ms<br>- Jitter ≤ 30-50 ms<br>- Loss ≤ 0.1**-**1%<br>- Bandwidth (384 Kbps - > 20 Mbps|   |
+
+## Data traffic
+
+|Data Traffic Characteristics|
+|---|
+|- Smooth/bursty<br>- Benign and greedy<br>- Drop insensitive<br>- Delay insensitive<br>- TCP retransmits|
+
+### Quality of Experience or QoE
+- Does the data come from an interactive application?
+- Is the data mission critical?
+### Factors to Consider for Data Delay
+
+|**Factor**|**Mission Critical**|**Not Mission Critical**|
+|---|---|---|
+|Interactive|Prioritize for the lowest delay of all data traffic and strive for a 1 to 2 second response time.|Applications could benefit from lower delay.|
+|Not interactive|Delay can vary greatly as long as the necessary minimum bandwidth is supplied.|Gets any leftover bandwidth after all voice, video, and other data application needs are met.|
+
+
+# Queuing algorithms
+
+## First-In, First-Out (FIFO)
+
+when used:
+- when there is no congestion
+- fasted method
+## Weighted Fair Queuing (WFQ)
+
+- does not allow classification of traffic
+- automated scheduling method
+- classifies traffic by packer header addressing
+- traffic comes is -> is evaluated -> put in the queue (if it has a high priority then it is placed in front of the queue)
+- there is only one queue
+
+#### It weighs the traffic and gives it a priority:
+- High
+- medium
+- normal
+- low
+#### Header addressing:
+> - source and destination IP addresses
+> - MAC addresses
+> - port numbers
+> - protocol
+> - Type of Service (ToS) value
+
+#### Limitations
+- NOT supported with tunneling and encryption because these features modify the packet content information required by WFQ for classification.
+- Although WFQ automatically adapts to changing network traffic conditions, it does not offer the degree of precise control over bandwidth allocation that CBWFQ offers.
+##  Class-Based Weighted Fair Queuing (CBWFQ)
+
+-  Extends the standard WFQ functionality to provide support for **user-defined** traffic classes
+
+##### Define traffic classes based on match criteria including:
+>- protocols
+>- access control lists (ACLs)
+>- input interfaces
+
+##### Create classes and add characteristics to the class like:
+>- bandwidth
+>- weight
+>- maximum packet limit>
+
+>[!error] Each class has it own FIFO queue!
+> When the queue of the class reaches the packet limit, tail drop will occur.
+## Low Latency Queuing (LLQ)
+
+It allows to strictly prioritise Real-time traffic above all other traffic! It is mainly intended for voice traffic(because it requires low jitter/delay)
+
+A PQ (priority Queuing) is added on top of CBWFQ
+
+# QoS Techniques
+## avoid packet loss
+- increase link capacity
+- increase buffer size to accommodate bursts
+- drop lower priority packets in advance
+	-> WRED (weighted random early detection) -> starts dropping packets before congestion occurs.
+
+# QoS Models
+

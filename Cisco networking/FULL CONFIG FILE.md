@@ -77,12 +77,38 @@ access-list <100-199> permit ip <source_subn> <wildcard> <dest_subn> <wildcard>
 access-list <100-199> permit tcp <source> <destination> eq <port#>
 !
 ! Extended named ACL
-! ---------------------
+! ------------------
 ip access-list extended <nameofextendedACL>
 remark <remark>
 permit ip any any
 permit ip <source_subnet> <wildcard> <destination_subnet> <wildcard>
 permit tcp any any eq <tcp_port_#>
 !
-
+! GRE Tunnel (ipv4)
+! ----------
+interface tunnel 0
+ip address <tunnel ip source>
+tunnel source <loopback 0>
+tunnel destination <ip of destination>
+bandwidth <bw in kb>
+ip mtu <1400 - in bytes>
+! 
+! GRE tunnel (ipv6)
+! -----------------
+interface tunnel 0
+ip address <tunnel interface IP>
+tunnel source <mostly loopback o>
+tunnel destination <ip of dest>
+tunnel mode gre ipv6
+!
+! IPSEC tunnel
+! ------------
+crypto isakmp policy 10
+encryption aes 256
+hash sha256
+authentication pre-share
+group 14
+lifetime 3600
+exit
+**crypto isakmp key <pre-shared key> address <remote peer ip>
 ```

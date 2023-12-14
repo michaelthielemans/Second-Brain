@@ -51,8 +51,6 @@ The terms used to describe the encapsulation of GRE over IPsec tunnel are passen
 
 ## GRE tunnel configuration
 
-
-
 1. Create the tunnel interface by using the global configuration command interface tunnel tunnel-number.
 2. Identify the local source of the tunnel by using the interface parameter command tunnel source {ip-address | interface-id}. The tunnel source can be a physical interface or a loopback interface.
 
@@ -145,3 +143,12 @@ DH group 24 is the preferred next generation encryption.
 
 
 ## ip sec VTI
+
+
+# IPSEC Configuration
+
+## Crypto maps
+older method
+
+#### ISAKMP - Internet Security Association and Key Management Protocol
+ => a set of parameters to build a secure link
