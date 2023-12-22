@@ -8,43 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "649391e8e1fec310",
+            "id": "a49fed20e72a4c2d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Networking/Config files/FULL ROUTER CONFIG.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "53b185ba6bdadfd6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Networking/Enterprise networking/Port mirroring.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ed22f2359cd73c41",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Networking/Wifi.md",
+                "file": "Networking/Enterprise networking/6. NAT for IPv4.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Networking/Wifi.md",
+                "file": "Networking/Enterprise networking/6. NAT for IPv4.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Networking/Wifi.md",
+                "file": "Networking/Enterprise networking/6. NAT for IPv4.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Networking/Wifi.md"
+                "file": "Networking/Enterprise networking/6. NAT for IPv4.md"
               }
             }
           },
@@ -158,8 +133,12 @@
             "id": "2b998744a847b7ba",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Networking/Cisco networking.md",
+                "mode": "source",
+                "source": false
+              }
             }
           },
           {
@@ -171,7 +150,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -188,36 +167,36 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "ed22f2359cd73c41",
+  "active": "a49fed20e72a4c2d",
   "lastOpenFiles": [
-    "Networking/IPv6.md",
+    "Networking/Enterprise networking/3. Network security concepts.md",
+    "Networking/Enterprise networking/1. Routing OSPF -  open shortest path first.md",
+    "Networking/Config files/FULL ROUTER CONFIG.md",
+    "Networking/Enterprise networking/6. NAT for IPv4.md",
+    "Networking/Cisco networking.md",
+    "Networking/Enterprise networking/4-5. ACL - Access control lists.md",
+    "Networking/Enterprise networking/10. Network management.md",
+    "12. Troubleshooting.md",
+    "Networking/Enterprise networking/9. Qos.md",
+    "Networking/Enterprise networking/8. VPN & IPsec.md",
+    "Networking/Enterprise networking/7. WAN architectures.md",
     "Networking/Wifi.md",
+    "Networking/IPv6.md",
     "Mac/Serial console port.md",
-    "Networking/Enterprise networking/WAN architectures.md",
-    "Networking/Enterprise networking/VPN & IPsec.md",
-    "Networking/Enterprise networking/Qos.md",
     "Networking/Enterprise networking/Port mirroring.md",
-    "Networking/Enterprise networking/Network security concepts.md",
-    "Networking/Enterprise networking/Network management.md",
-    "Networking/Enterprise networking/NAT for IPv4.md",
-    "Networking/Enterprise networking/ACL - Access control lists.md",
     "Networking/Vlans and Trunks.md",
     "Networking/SpanningTree Protocol.md",
     "Networking/Routing Static routing.md",
     "Networking/LACP and Etherchannel.md",
     "Networking/examen cisco.md",
     "Networking/DHCP configuration.md",
-    "Networking/Cisco networking.md",
     "Networking/Cisco IOS & hardware.md",
     "Networking/Config files/Basic device configuration.md",
-    "Networking/Config files/FULL ROUTER CONFIG.md",
     "Networking/Config files",
     "Networking/Enterprise networking",
     "FULL SWITCH CONFIG.md",
     "Dev Ops & CI CD.md",
     "www.hacksplaining.com.md",
-    "VIM/VIM commands.md",
-    "hacksplaining.md",
     "Untitled.canvas",
     "Excalidraw/Pasted image 20231130140530.png",
     "Mac",

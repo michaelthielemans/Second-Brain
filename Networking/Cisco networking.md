@@ -1,13 +1,13 @@
 #cisco #networking 
 ### Routing protocols
 RIP , EIGRP , OSPF
-[[Routing OSPF -  open shortest path first]]
+[[1. Routing OSPF -  open shortest path first]]
 
 
 
-[[ACL - Access control lists]]
+[[4-5. ACL - Access control lists]]
 
 
 
-[[VPN & IPsec]]
+[[8. VPN & IPsec]]
 

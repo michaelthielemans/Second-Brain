@@ -85,10 +85,36 @@ permit ip <source_subnet> <wildcard> <destination_subnet> <wildcard>
 permit tcp any any eq <tcp_port_#>
 exit
 !
-
-
-
-
+! Static NAT
+! ----------
+ip nat source static <inside local> <inside global>
+interface<inside>
+ip nat inside
+interface<outside>
+ip nat outside
+!
+! Dynamic NAT (pooledNAT)
+! -----------
+R1(confif)# ip nat pool <name_of_pool> <start_addr> <end_addr> <subnetmask>
+R1(config)# access-list 1 permit <subnet> <wildcard>
+R1(config)# ip nat inside source list 1 pool <name_of_pool>
+R1(config)# interface <inside_facing>
+R1(config-if)# ip nat inside
+R1(config-if)# interface <outside_facing>
+R1(config-if)# ip nat outside
+!
+! PAT
+! ---
+R1(confif)# ip nat pool <name_of_pool> <start_addr> <end_addr> <subnetmask>
+R1(config)# access-list 1 permit <subnet> <wildcard>
+R1(config)# ip nat inside source list 1 pool <name_of_pool> overload
+R1(config)# interface <inside_facing>
+R1(config-if)# ip nat inside
+R1(config-if)# interface <outside_facing>
+R1(config-if)# ip nat outside
+!
+! 
+! ----
 
 ! GRE Tunnel (ipv4)
 ! ----------
