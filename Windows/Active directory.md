@@ -1,7 +1,4 @@
 #Windows #ActiveDirectory
-single sign on
-
-
 # NTDS.dit
 is the database file for AD
 it contains partitions:

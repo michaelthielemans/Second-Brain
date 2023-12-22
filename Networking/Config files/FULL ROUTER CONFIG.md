@@ -31,8 +31,8 @@ dns-server <dns_ip>
 ! -------------
 ! ip route 0.0.0.0 0.0.0.0 <next_hop_router>
 ! 
-! VLAN configuration
-! ------------------
+! VLAN configuration on router
+! ----------------------------
 interface GigabitEthernet0/0/0.10
 encapsulation dot1Q 10
 ip address <ip_addr> <submask>
@@ -85,6 +85,11 @@ permit ip <source_subnet> <wildcard> <destination_subnet> <wildcard>
 permit tcp any any eq <tcp_port_#>
 exit
 !
+
+
+
+
+
 ! GRE Tunnel (ipv4)
 ! ----------
 interface tunnel 0
@@ -124,7 +129,7 @@ exit
 ! -----------------
 crypto map GRE-CMAP 10 ipsec-isakmp
 match address GRE-VPN-ACL
-set transform-set GRE-VPN
+set transform-set <transform-set-name>
 set peer 64.100.1.2
 exit
 !
@@ -132,4 +137,15 @@ exit
 ! ------------------------------
 interface g0/0/0
 crypto map GRE-CMAP
+!
+! create IPsec profile
+! ----------------
+crypto ipsec profile <profile_name>
+set transform-set <transform-set-name>
+exit
+!
+! apply the profile to an interface
+! ---------------------------------
+interface tunnel 1
+tunnel protection ipsec profile <profile_name>
 ```

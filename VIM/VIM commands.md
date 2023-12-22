@@ -1,11 +1,3 @@
-Modes:
-------
-i or a -> insert mode
-o -> insert mode start on next line
-v -> visual mode / mark text mode
-
-commands:
-
 x -> delete char
 u -> undo
 p -> paste
@@ -19,17 +11,15 @@ e -> jump to next words last char
 :q -> quit
 :wq -> quit with saving
 :q! -> quit withou saving
-:e <filename> -> open a second file in a new buffer
+:e filename -> open a second file in a new buffer
 :bn -> buffer next
 :bv -> buffer previous
-:split <filename> open a second file the same window
-:splitv <filename> vertical splitscreen
-
-v visualmode
-------------
+:split filename open a second file the same window
+:splitv filename vertical splitscreen
+v - visualmode
+----------------------
 y -> yank a selection
 p -> past the selection
-
 # Cursor movement
 
 h - move cursor left
@@ -78,7 +68,6 @@ Ctrl + d - move cursor and screen down 1/2 page
 Ctrl + u - move cursor and screen up 1/2 page
 
 **Tip** Prefix a cursor movement command with a number to repeat it. For example, 4jmoves down 4 lines.
-
 
 ## Working with multiple files
 

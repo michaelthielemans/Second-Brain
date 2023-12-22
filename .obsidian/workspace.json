@@ -4,21 +4,47 @@
     "type": "split",
     "children": [
       {
-        "id": "f59d433a09057ff8",
+        "id": "cc9c9112f8ae444f",
         "type": "tabs",
         "children": [
           {
-            "id": "2b8d32559f353191",
+            "id": "649391e8e1fec310",
             "type": "leaf",
             "state": {
-              "type": "diff-view",
+              "type": "markdown",
               "state": {
-                "file": "Git/Git.md",
-                "staged": false
+                "file": "Networking/Config files/FULL ROUTER CONFIG.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "53b185ba6bdadfd6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Networking/Enterprise networking/Port mirroring.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ed22f2359cd73c41",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Networking/Wifi.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -47,11 +73,11 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "devops",
                 "matchingCase": false,
                 "explainSearch": false,
-                "collapseAll": false,
-                "extraContext": false,
+                "collapseAll": true,
+                "extraContext": true,
                 "sortOrder": "alphabetical"
               }
             }
@@ -68,7 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 292.5024719238281
+    "width": 278.5024719238281
   },
   "right": {
     "id": "f9757c9a7378738d",
@@ -84,6 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Networking/Wifi.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,6 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Networking/Wifi.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -112,7 +140,7 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
+                "useHierarchy": false
               }
             }
           },
@@ -121,7 +149,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Networking/Wifi.md"
+              }
             }
           },
           {
@@ -141,11 +171,11 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 373.5
+    "width": 280.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -158,37 +188,41 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "2b8d32559f353191",
+  "active": "ed22f2359cd73c41",
   "lastOpenFiles": [
-    "Untitled.canvas",
-    "VIM/VIM commands.md",
-    "Cisco networking/FULL CONFIG FILE.md",
-    "Git/Git.md",
-    "Cisco networking/Cisco networking.md",
-    "SSH configuration.md",
-    "Cisco networking/VPN & IPsec.md",
-    "README.md",
-    "Windows/DNS with Active Directory.md",
-    "Linux/Networking.md",
-    "Linux/Links and iNodes.md",
-    "Linux/Kernel and processesi.md",
-    "Linux/Devices.md",
-    "Linux/Bash scripting.md",
-    "Linux/Linux commands.md",
-    "VIM",
-    "Cisco networking/Qos.md",
-    "Cisco networking/WAN architectures.md",
-    "Windows/NTFS permissions.md",
-    "Windows/DNS.md",
-    "Windows/IIS webserver.md",
-    "Linux/Apache",
+    "Networking/IPv6.md",
+    "Networking/Wifi.md",
+    "Mac/Serial console port.md",
+    "Networking/Enterprise networking/WAN architectures.md",
+    "Networking/Enterprise networking/VPN & IPsec.md",
+    "Networking/Enterprise networking/Qos.md",
+    "Networking/Enterprise networking/Port mirroring.md",
+    "Networking/Enterprise networking/Network security concepts.md",
+    "Networking/Enterprise networking/Network management.md",
+    "Networking/Enterprise networking/NAT for IPv4.md",
+    "Networking/Enterprise networking/ACL - Access control lists.md",
+    "Networking/Vlans and Trunks.md",
+    "Networking/SpanningTree Protocol.md",
+    "Networking/Routing Static routing.md",
+    "Networking/LACP and Etherchannel.md",
+    "Networking/examen cisco.md",
+    "Networking/DHCP configuration.md",
+    "Networking/Cisco networking.md",
+    "Networking/Cisco IOS & hardware.md",
+    "Networking/Config files/Basic device configuration.md",
+    "Networking/Config files/FULL ROUTER CONFIG.md",
+    "Networking/Config files",
+    "Networking/Enterprise networking",
+    "FULL SWITCH CONFIG.md",
     "Dev Ops & CI CD.md",
-    "Cisco networking/Vlans and Trunks.md",
-    "Cisco networking/Basic device configuration.md",
-    "Cisco networking/Routing OSPF -  open shortest path first.md",
-    "Linux/Linux build-in tools.md",
-    "Windows/Powershell summary.md",
-    "Pasted image 20231130140530.png",
+    "www.hacksplaining.com.md",
+    "VIM/VIM commands.md",
+    "hacksplaining.md",
+    "Untitled.canvas",
+    "Excalidraw/Pasted image 20231130140530.png",
+    "Mac",
+    "VIM",
+    "Linux/Apache",
     "Excalidraw",
     "rsakey.pub",
     "rsakey",
@@ -196,9 +230,6 @@
     "Networking",
     "Untitled 1.canvas",
     "Pasted image 20231110210251.png",
-    "Pasted image 20231116184553.png",
-    "Kubernetes",
-    "Obsidian",
-    "Cisco networking"
+    "Pasted image 20231116184553.png"
   ]
 }

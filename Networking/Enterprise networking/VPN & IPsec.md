@@ -1,3 +1,4 @@
+#cisco #ipsec
 ## VPN types
 
 ### Enterprise and service provider VPNs
@@ -147,8 +148,23 @@ DH group 24 is the preferred next generation encryption.
 
 # IPSEC Configuration
 
-## Crypto maps
+### Step 1:  Create a ISAKMP policy
+
+### Step 2: Create a crypto map OR IPSec profile
+
+#### Crypto maps
 older method
+
+#### IPsec profiles
+Is the Preferred method for configuring a IPSec tunnel
+
+> Primary, secondary and common profiles
+
+
+
 
 #### ISAKMP - Internet Security Association and Key Management Protocol
  => a set of parameters to build a secure link
+
+
+### Step 3: Assign the profile OR the map to an interface
