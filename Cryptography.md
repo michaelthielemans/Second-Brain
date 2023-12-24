@@ -1,5 +1,4 @@
-#crypto #security #cisco 
-# cryptography
+#crypto
 ### Hashing algoritms
 - MD5 - legacy
 - SHA-1 legacy
@@ -60,11 +59,3 @@ Certificate Signing request
 5. The certificate is signed with the PRIVATE key of the Certificate authority.
 
 
-
-# Threat vectors (inside / outside)
-Internal threats have the potential to cause greater damage
-
-# Threat Actors
-White Hat Hackers = ethical hackers
-Gray Hat Hackers = who commit crimes and do arguably unethical things, but not for personal gain or to cause damage
-Black Hat Hackers = unethical criminals

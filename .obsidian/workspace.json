@@ -4,22 +4,47 @@
     "type": "split",
     "children": [
       {
-        "id": "cc9c9112f8ae444f",
+        "id": "2056a35b5a0f0203",
         "type": "tabs",
         "children": [
           {
-            "id": "a49fed20e72a4c2d",
+            "id": "1f534a0118db246d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Networking/Enterprise networking/6. NAT for IPv4.md",
+                "file": "Dev Ops & CI CD.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "56b4af29c53bce91",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Networking/Enterprise networking/3. Network security concepts.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9bc8f5f209c47df0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cryptography.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -69,7 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 278.5024719238281
+    "width": 373.5024719238281
   },
   "right": {
     "id": "f9757c9a7378738d",
@@ -85,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Networking/Enterprise networking/6. NAT for IPv4.md",
+                "file": "Cryptography.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Networking/Enterprise networking/6. NAT for IPv4.md",
+                "file": "Cryptography.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Networking/Enterprise networking/6. NAT for IPv4.md"
+                "file": "Cryptography.md"
               }
             }
           },
@@ -167,36 +192,36 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "a49fed20e72a4c2d",
+  "active": "9bc8f5f209c47df0",
   "lastOpenFiles": [
     "Networking/Enterprise networking/3. Network security concepts.md",
+    "Cryptography.md",
+    "Windows/Security.md",
+    "DevSecOps.md",
+    "Dev Ops & CI CD.md",
+    "Windows/Powershell summary.md",
+    "Windows/Powershell.md",
+    "Networking/Enterprise networking/12. Troubleshooting.md",
+    "Mac/Serial console port.md",
+    "Networking/Enterprise networking/6. NAT for IPv4.md",
     "Networking/Enterprise networking/1. Routing OSPF -  open shortest path first.md",
     "Networking/Config files/FULL ROUTER CONFIG.md",
-    "Networking/Enterprise networking/6. NAT for IPv4.md",
     "Networking/Cisco networking.md",
     "Networking/Enterprise networking/4-5. ACL - Access control lists.md",
     "Networking/Enterprise networking/10. Network management.md",
-    "12. Troubleshooting.md",
     "Networking/Enterprise networking/9. Qos.md",
     "Networking/Enterprise networking/8. VPN & IPsec.md",
     "Networking/Enterprise networking/7. WAN architectures.md",
     "Networking/Wifi.md",
     "Networking/IPv6.md",
-    "Mac/Serial console port.md",
     "Networking/Enterprise networking/Port mirroring.md",
     "Networking/Vlans and Trunks.md",
     "Networking/SpanningTree Protocol.md",
     "Networking/Routing Static routing.md",
     "Networking/LACP and Etherchannel.md",
     "Networking/examen cisco.md",
-    "Networking/DHCP configuration.md",
-    "Networking/Cisco IOS & hardware.md",
-    "Networking/Config files/Basic device configuration.md",
     "Networking/Config files",
     "Networking/Enterprise networking",
-    "FULL SWITCH CONFIG.md",
-    "Dev Ops & CI CD.md",
-    "www.hacksplaining.com.md",
     "Untitled.canvas",
     "Excalidraw/Pasted image 20231130140530.png",
     "Mac",
