@@ -1,3 +1,5 @@
+#obsidian
+
 |Style|Syntax|Example|Output|
 |---|---|---|---|
 |Bold|`** **` or `__ __`|`**Bold text**`|**Bold text**|

@@ -1,3 +1,4 @@
+#linux 
 x -> delete char
 u -> undo
 p -> paste

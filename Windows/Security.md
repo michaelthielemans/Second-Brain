@@ -1,11 +1,4 @@
-#security #windows 
-- Symmetric
-	- pre-shared key
-- Asymmetric
-	- private public keypair
+#security #windows #crypto 
 
-Certificate
-
-
-## Certificates
+# [[Cryptography]]
 

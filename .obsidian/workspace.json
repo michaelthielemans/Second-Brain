@@ -4,47 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "2056a35b5a0f0203",
+        "id": "125a83ba322d0c3f",
         "type": "tabs",
         "children": [
           {
-            "id": "1f534a0118db246d",
+            "id": "579ac778662a1d5c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Dev Ops & CI CD.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "56b4af29c53bce91",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Networking/Enterprise networking/3. Network security concepts.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9bc8f5f209c47df0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Cryptography.md",
+                "file": "Mac/Serial console port.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -73,9 +48,9 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "devops",
+                "query": "line:(tty)",
                 "matchingCase": false,
-                "explainSearch": false,
+                "explainSearch": true,
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical"
@@ -90,11 +65,12 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 373.5024719238281
+    "width": 401.5024719238281
   },
   "right": {
     "id": "f9757c9a7378738d",
@@ -110,7 +86,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cryptography.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +102,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cryptography.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,21 +123,15 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Cryptography.md"
-              }
+              "state": {}
             }
           },
           {
             "id": "2b998744a847b7ba",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Networking/Cisco networking.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           },
           {
@@ -179,7 +147,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 280.5
+    "width": 618.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -192,37 +160,36 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "9bc8f5f209c47df0",
+  "active": "2b998744a847b7ba",
   "lastOpenFiles": [
-    "Networking/Enterprise networking/3. Network security concepts.md",
+    "Mac/Serial console port.md",
+    "Networking/Config files/FULL SWITCH CONFIG.md",
+    "Untitled.canvas",
+    "www.hacksplaining.com.md",
+    "Dev Ops & CI CD.md",
+    "Obsidian/mermaid examples.md",
+    "Networking/Cisco networking.md",
+    "Git/Git.md",
+    "VIM/VIM commands.md",
+    "Obsidian/Mark down styling.md",
     "Cryptography.md",
+    "Networking/Enterprise networking/3. Network security concepts.md",
     "Windows/Security.md",
     "DevSecOps.md",
-    "Dev Ops & CI CD.md",
     "Windows/Powershell summary.md",
     "Windows/Powershell.md",
     "Networking/Enterprise networking/12. Troubleshooting.md",
-    "Mac/Serial console port.md",
     "Networking/Enterprise networking/6. NAT for IPv4.md",
     "Networking/Enterprise networking/1. Routing OSPF -  open shortest path first.md",
     "Networking/Config files/FULL ROUTER CONFIG.md",
-    "Networking/Cisco networking.md",
     "Networking/Enterprise networking/4-5. ACL - Access control lists.md",
     "Networking/Enterprise networking/10. Network management.md",
     "Networking/Enterprise networking/9. Qos.md",
     "Networking/Enterprise networking/8. VPN & IPsec.md",
     "Networking/Enterprise networking/7. WAN architectures.md",
     "Networking/Wifi.md",
-    "Networking/IPv6.md",
-    "Networking/Enterprise networking/Port mirroring.md",
-    "Networking/Vlans and Trunks.md",
-    "Networking/SpanningTree Protocol.md",
-    "Networking/Routing Static routing.md",
-    "Networking/LACP and Etherchannel.md",
-    "Networking/examen cisco.md",
     "Networking/Config files",
     "Networking/Enterprise networking",
-    "Untitled.canvas",
     "Excalidraw/Pasted image 20231130140530.png",
     "Mac",
     "VIM",
