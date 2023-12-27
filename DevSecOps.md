@@ -153,3 +153,57 @@ https://owasp.org/www-project-proactive-controls/
 • This is a document with Controls, which the naming reflects: C01, C02, C03, ... , C10
 
 “the most important control and control categories thateveryarchitectand developer should absolutely, 100% include in every project.”
+
+### C1: Define Security Requirements
+- What are the security requirements of our application and how do we get to them? For 
+- Should the application apply to level1, level2, level3 security requirements.
+	- for example a application for a bank has higher requirements that an application for a sportsclub.
+- example:
+    OWASP Application Security Verification Standard
+- This is a “standard” = Extensive, elaborate document of
+    requirements
+- Standard = you can comply to level1, or level2, or level3
+    
+- Result:  
+    • Secure Coding Guidelines for your team • Secure Test-Driven Development
+    
+    • Requirements can be tested via Automatic Security Tests, you can do more focused Penetration Testing, you can start a Bug Bounty program, ...
+
+### C2: Leverage Security Frameworks and Libraries
+- You have to implement a lot of security controls! Stand on the shoulders of Giants in the Dev-world!
+- Use native secure features, before 3rd party libraries (Spring Security, ...)
+- Or... use Open Source security libraries and frameworks that are well vetted
+- Don’t forget to update!
+== Use security frameworks in you dev pipeline ==
+
+### C3: Secure Database Access
+
+• Remember our example? SQL Injection?
+A whole control dedicated to DB access  
+• Looking at the practical sense... use Cheat Sheets
+• Database Security Cheat Sheet  
+• Query Parameterization Cheat Sheet
+
+### C4: Encode and Escape Data & C5: Validate All Inputs
+
+• Number one attack vector of XSS  
+(see Cheat Sheets for Injection Problems)
+
+• Use HTML Sanitizers & DOM Purify tools  
+• Really hard to do. HTML is very tricky... (.innerHTML function)  
+• Most Frameworks do auto-escaping  
+• Use validation options of your framework, but be aware of flaws
+
+• SAST and DAST security tools are very good at XSS discovery
+
+### Dynamic & Static Application Security Testing
+
+### C8: Protect Data Everywhere
+
+• Data in Transit: Remember HTTPS?
+• Data at Rest (in storage):
+• Use standard well vetted crypto libraries (Lipsodium, Tink)
+• Use a form of secrets management to protect application secrets and keys (vaultproject.io)
+• Personal Hardware Security Module
+
+### C9: Implement Security Logging and Monitoring
