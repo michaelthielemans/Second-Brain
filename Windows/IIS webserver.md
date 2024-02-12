@@ -1,10 +1,12 @@
 #windows 
 
+# Path of default site
+` \initpub\wwwroot\start.html
+http://localhost:80
+
 # Bindings
 
 Bind a webpage/webapplication to a url and/or port.
-
-
 # https config
 ## Certificate request
 
@@ -23,8 +25,6 @@ RSA
 DH
 
 bitlength 1024
-
-
 ## Signing the request
 
 make sure to select the webserver certificate template
@@ -32,24 +32,22 @@ make sure to select the webserver certificate template
 --> IIS only sees webserver certificates that are available in the cert store.
 # certificate
 when importing a certificate you can add a friendly name to it in order to make it easier to manage.
-
-
 ### Certificate store
 
-the location where the cert will be stored.
+The location where the cert will be stored.
 
-## HSTS
+## HSTS - HTTP Strict Transport Security
 
-Strictly force users to connect over https.
+Strictly force client browsers to connect over https.
+It can be enable on the IIS server.
 
-it can be enable on the IIS server.
+The http response header includes the "Strict-Transport-Security" along with a "max age". The browser receives the header, and memorizes the HSTS policy for the number of seconds specified by the “max-age” directive. So within the "max age" time frame the browser will automatically redirect all request to HTTPS. ( even if the user enters http://)
 #### max age
 
-this parameter is send to the browser so the browser caches how long he only should use httpshow long the site is available
+This parameter is send to the browser so the browser caches how long he only should use https.
 
-# CSP
-content security protocol
+## CSP
+The Content Security Policy header implements an additional layer of security. This policy helps prevent attacks such as Cross-Site Scripting (XSS) and other code injection attacks by limiting content sources that are approved and thus permitting the browser to load them.
 
-prevents cross-site scripting (XSS)
-In IIs -> http response header
+This uses the whitelisting method which tells the browser from where to fetch the images, scripts, CSS, etc.
 

@@ -4,22 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "125a83ba322d0c3f",
+        "id": "8aaeeb42bc43a2f8",
         "type": "tabs",
         "children": [
           {
-            "id": "579ac778662a1d5c",
+            "id": "d7036f5e82f98bce",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Networking/Enterprise networking/6. NAT for IPv4.md",
+                "file": "System Engineering/system engineering.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "91f548c7afd3db24",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Kubernetes/K8s architecture.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -48,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "kube",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": true,
@@ -65,11 +78,12 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 401.5024719238281
+    "width": 265.5024719238281
   },
   "right": {
     "id": "f9757c9a7378738d",
@@ -85,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Networking/Enterprise networking/6. NAT for IPv4.md",
+                "file": "Kubernetes/K8s architecture.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Networking/Enterprise networking/6. NAT for IPv4.md",
+                "file": "Kubernetes/K8s architecture.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Networking/Enterprise networking/6. NAT for IPv4.md"
+                "file": "Kubernetes/K8s architecture.md"
               }
             }
           },
@@ -146,11 +160,11 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 618.5
+    "width": 302.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -163,46 +177,46 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "8d0292ea51f596e7",
+  "active": "91f548c7afd3db24",
   "lastOpenFiles": [
-    "Networking/Enterprise networking/12. Troubleshooting.md",
-    "Networking/Enterprise networking/Port mirroring.md",
-    "Networking/Enterprise networking/11. Network designs.md",
-    "Networking/Enterprise networking/10. Network management.md",
-    "DevSecOps.md",
-    "Mac/Serial console port.md",
-    "Networking/Config files/FULL SWITCH CONFIG.md",
-    "Untitled.canvas",
-    "www.hacksplaining.com.md",
-    "Dev Ops & CI CD.md",
-    "Obsidian/mermaid examples.md",
-    "Networking/Cisco networking.md",
-    "Git/Git.md",
-    "VIM/VIM commands.md",
-    "Obsidian/Mark down styling.md",
+    "Mac/SSH configuration.md",
+    "Images and container filesystems.md",
+    "System Engineering/system engineering.md",
+    "Podman & Docker",
     "Cryptography.md",
-    "Networking/Enterprise networking/3. Network security concepts.md",
+    "Windows Server/DNS technology.md",
+    "System Engineering",
+    "Windows Server/DNS server.excalidraw.md",
+    "Windows Server/DNS client.md",
+    "Windows Server/Windows server command list.md",
+    "Windows/GPO & AGDLP & DSC.md",
+    "Networking/Pasted image 20231130140530.png",
+    "Networking/NTP.excalidraw.md",
+    "Windows Server",
+    "Windows/DNS.md",
+    "Windows/Active directory.md",
+    "DevSecOps.md",
+    "Dev Ops & CI CD.md",
     "Windows/Security.md",
+    "Windows/registry.md",
     "Windows/Powershell summary.md",
     "Windows/Powershell.md",
-    "Networking/Enterprise networking/6. NAT for IPv4.md",
-    "Networking/Enterprise networking/1. Routing OSPF -  open shortest path first.md",
-    "Networking/Config files/FULL ROUTER CONFIG.md",
-    "Networking/Enterprise networking/4-5. ACL - Access control lists.md",
-    "Networking/Enterprise networking/9. Qos.md",
+    "Windows/NTFS permissions.md",
+    "Windows/IIS webserver.md",
+    "Windows/examen windows.md",
+    "Windows/DNS with Active Directory.md",
+    "README.md",
     "Networking/Enterprise networking/8. VPN & IPsec.md",
-    "Networking/Enterprise networking/7. WAN architectures.md",
+    "Networking/Enterprise networking/9. Qos.md",
+    "Networking/HSRP - Hot Standy Routing.md",
+    "Untitled.canvas",
     "Networking/Config files",
     "Networking/Enterprise networking",
-    "Excalidraw/Pasted image 20231130140530.png",
     "Mac",
     "VIM",
     "Linux/Apache",
     "Excalidraw",
     "rsakey.pub",
-    "rsakey",
-    "Git",
-    "Networking",
     "Untitled 1.canvas",
     "Pasted image 20231110210251.png",
     "Pasted image 20231116184553.png"

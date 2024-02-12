@@ -7,7 +7,6 @@ it contains partitions:
 3. Configuration partition = sites and domains, replication settings
 4. Global catalog partition (optionally)
 
-
 # Global Catalog domain controller
 Is the DC that contains (subset of the attributes) all the objects is the whole forest.
 

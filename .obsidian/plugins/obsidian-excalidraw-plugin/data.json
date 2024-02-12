@@ -218,7 +218,7 @@
             "containerId": null,
             "originalText": "Document",
             "lineHeight": 1.25,
-            "baseline": 17
+            "baseline": 18
           }
         ],
         "id": "p48owge02Pk0wOF3tY1S5",
@@ -466,7 +466,7 @@
             "containerId": null,
             "originalText": "Image",
             "lineHeight": 1.25,
-            "baseline": 17
+            "baseline": 18
           }
         ],
         "id": "o7lnINMtKGGPyY3kFMyo8",
@@ -547,7 +547,7 @@
             "containerId": null,
             "originalText": "Folder",
             "lineHeight": 1.25,
-            "baseline": 17
+            "baseline": 18
           },
           {
             "type": "line",
@@ -771,7 +771,7 @@
             "containerId": null,
             "originalText": "Email",
             "lineHeight": 1.25,
-            "baseline": 17
+            "baseline": 18
           },
           {
             "type": "rectangle",
@@ -969,7 +969,7 @@
             "containerId": null,
             "originalText": "Sound",
             "lineHeight": 1.25,
-            "baseline": 17
+            "baseline": 18
           },
           {
             "type": "ellipse",
@@ -1306,7 +1306,7 @@
             "containerId": null,
             "originalText": "Video",
             "lineHeight": 1.25,
-            "baseline": 17
+            "baseline": 18
           },
           {
             "type": "rectangle",
@@ -1855,7 +1855,7 @@
             "containerId": null,
             "originalText": "Microphone",
             "lineHeight": 1.25,
-            "baseline": 17
+            "baseline": 18
           }
         ],
         "id": "tlWSqQ6PLFqU4O5EV-OeT",
@@ -2060,7 +2060,7 @@
             "containerId": null,
             "originalText": "Camera",
             "lineHeight": 1.25,
-            "baseline": 17
+            "baseline": 18
           }
         ],
         "id": "qrkW0h18VoTrl3IJn-ZvR",
@@ -2331,7 +2331,7 @@
             "containerId": null,
             "originalText": "Speaker",
             "lineHeight": 1.25,
-            "baseline": 17
+            "baseline": 18
           }
         ],
         "id": "Ff06EXm7ADTN_kytW1LYe",
@@ -2994,7 +2994,7 @@
             "containerId": null,
             "originalText": "Model",
             "lineHeight": 1.25,
-            "baseline": 17
+            "baseline": 18
           }
         ],
         "id": "3cgIYSos8Iz5blfc823Xc",
@@ -3300,7 +3300,7 @@
             "containerId": null,
             "originalText": "Network",
             "lineHeight": 1.25,
-            "baseline": 17
+            "baseline": 18
           }
         ],
         "id": "XwYdnBnUHCRpI_tPIaHdK",
@@ -3630,7 +3630,7 @@
             "containerId": null,
             "originalText": "Internet",
             "lineHeight": 1.25,
-            "baseline": 17
+            "baseline": 18
           }
         ],
         "id": "QbxXyWQtP6ThAb4vEcBcQ",
@@ -3800,7 +3800,7 @@
             "containerId": null,
             "originalText": "User",
             "lineHeight": 1.25,
-            "baseline": 17
+            "baseline": 18
           }
         ],
         "id": "TcbL0tmvRv1gqoDMF80Af",
@@ -3978,7 +3978,7 @@
             "containerId": null,
             "originalText": "Home",
             "lineHeight": 1.25,
-            "baseline": 17
+            "baseline": 18
           }
         ],
         "id": "qiROftQpdXPd1tGrzpPZZ",
@@ -4182,7 +4182,7 @@
             "containerId": null,
             "originalText": "Pie chart",
             "lineHeight": 1.25,
-            "baseline": 17
+            "baseline": 18
           }
         ],
         "id": "nFiixWBZuUfk-LVb1FnzV",
@@ -4395,7 +4395,7 @@
             "containerId": null,
             "originalText": "Bar chart",
             "lineHeight": 1.25,
-            "baseline": 17
+            "baseline": 18
           }
         ],
         "id": "5eDqWaq0PzLnG5Mc8MreD",
@@ -4624,7 +4624,7 @@
             "containerId": null,
             "originalText": "Firewall",
             "lineHeight": 1.25,
-            "baseline": 17
+            "baseline": 18
           }
         ],
         "id": "lW5_lLLJdiwwRS096-m43",
@@ -4800,7 +4800,7 @@
             "containerId": null,
             "originalText": "Cloud",
             "lineHeight": 1.25,
-            "baseline": 17
+            "baseline": 18
           }
         ],
         "id": "LFnib3Gp-D1J4ZRdrP-n8",
@@ -4876,7 +4876,7 @@
             "containerId": null,
             "originalText": "Database",
             "lineHeight": 1.25,
-            "baseline": 17
+            "baseline": 18
           },
           {
             "type": "line",
@@ -5409,7 +5409,7 @@
             "containerId": null,
             "originalText": "Drive",
             "lineHeight": 1.25,
-            "baseline": 17
+            "baseline": 18
           }
         ],
         "id": "9JL5o9E-EjDHQlI_ZUfuW",
@@ -5486,7 +5486,7 @@
             "containerId": null,
             "originalText": "Server",
             "lineHeight": 1.25,
-            "baseline": 17
+            "baseline": 18
           },
           {
             "type": "rectangle",
@@ -5979,7 +5979,7 @@
             "containerId": null,
             "originalText": "Host",
             "lineHeight": 1.25,
-            "baseline": 17
+            "baseline": 18
           }
         ],
         "id": "WI5c1OdeaRxBPkznGpjJZ",
@@ -6205,7 +6205,7 @@
             "containerId": null,
             "originalText": "Device",
             "lineHeight": 1.25,
-            "baseline": 17
+            "baseline": 18
           }
         ],
         "id": "MXY3D8si4Gk8DXgyO3U9D",
@@ -6282,7 +6282,7 @@
             "containerId": null,
             "originalText": "Printer",
             "lineHeight": 1.25,
-            "baseline": 17
+            "baseline": 18
           },
           {
             "type": "rectangle",
@@ -6896,7 +6896,7 @@
             "containerId": null,
             "originalText": "Settings",
             "lineHeight": 1.25,
-            "baseline": 17
+            "baseline": 18
           }
         ],
         "id": "IrKJ9J6-vWJvHhtT8ktSg",
@@ -7109,7 +7109,7 @@
             "containerId": null,
             "originalText": "Key",
             "lineHeight": 1.25,
-            "baseline": 17
+            "baseline": 18
           }
         ],
         "id": "ze-sgkoESl6N2QuuEq_iJ",
@@ -7265,7 +7265,7 @@
             "containerId": null,
             "originalText": "Yes",
             "lineHeight": 1.25,
-            "baseline": 17
+            "baseline": 18
           }
         ],
         "id": "DQ4aQV1tz_geijXIxKkHb",
@@ -7449,7 +7449,7 @@
             "containerId": null,
             "originalText": "No",
             "lineHeight": 1.25,
-            "baseline": 17
+            "baseline": 18
           }
         ],
         "id": "HLIQPycaAIydOKpqrgJAM",
@@ -9645,7 +9645,7 @@
             "containerId": null,
             "originalText": "Comment",
             "lineHeight": 1.25,
-            "baseline": 17
+            "baseline": 18
           }
         ],
         "id": "TTWStiAY45IwI1BfGYlgX",
@@ -9726,7 +9726,7 @@
             "containerId": "p7qAVRWw1SPg3o--WoUmB",
             "originalText": "Block",
             "lineHeight": 1.25,
-            "baseline": 17
+            "baseline": 18
           },
           {
             "type": "line",
@@ -9905,7 +9905,7 @@
             "containerId": "PhtNYhgDsIdhQszVpdHIB",
             "originalText": "Task",
             "lineHeight": 1.25,
-            "baseline": 17
+            "baseline": 18
           },
           {
             "type": "line",
@@ -10055,7 +10055,7 @@
             "containerId": "8r9b4YrSMWrnbgLnvNqaL",
             "originalText": "Pool",
             "lineHeight": 1.25,
-            "baseline": 17
+            "baseline": 18
           },
           {
             "type": "rectangle",
@@ -10099,7 +10099,7 @@
   "mdBorderColor": "Black",
   "mdCSS": "",
   "scriptEngineSettings": {},
-  "defaultTrayMode": true,
+  "defaultTrayMode": false,
   "previousRelease": "2.0.1",
   "showReleaseNotes": true,
   "showNewVersionNotification": true,
