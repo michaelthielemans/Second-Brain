@@ -58,7 +58,7 @@ it is possible that forum.tweakers.net is in a different zone and blog.tweakers.
 |zones | descr|
 |--|--|
 |primary| read write copy of a dns database|
-|secondary | read only |
+|secondary | read only copy of primary |
 |stub| copy of a zone |
 |active directory integrated | |
 ## Start Of Authority (SOA) file

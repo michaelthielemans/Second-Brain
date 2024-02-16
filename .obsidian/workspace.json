@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "8aaeeb42bc43a2f8",
+        "id": "985fe60b561a185c",
         "type": "tabs",
         "children": [
           {
-            "id": "d7036f5e82f98bce",
+            "id": "9c921834c3121910",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "System Engineering/system engineering.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "91f548c7afd3db24",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Kubernetes/K8s architecture.md",
+                "file": "Windows/DNS with Active Directory.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -61,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "kube",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": true,
@@ -78,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -99,7 +85,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Kubernetes/K8s architecture.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +101,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Kubernetes/K8s architecture.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,9 +122,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Kubernetes/K8s architecture.md"
-              }
+              "state": {}
             }
           },
           {
@@ -160,7 +142,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -177,23 +159,28 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "91f548c7afd3db24",
+  "active": "6ebe52bc1f1100dd",
   "lastOpenFiles": [
-    "Mac/SSH configuration.md",
-    "Images and container filesystems.md",
+    "Windows/DNS with Active Directory.md",
+    "Windows/DNS.md",
+    "Windows Server/DNS client.md",
+    "Windows Server/DNS in active directory.md",
     "System Engineering/system engineering.md",
+    "Excalidraw/Drawing 2024-02-15 19.33.45.excalidraw.md",
+    "Images and container filesystems.md",
+    "Kubernetes/Kubernetes Operators.md",
+    "Kubernetes/K8s architecture.md",
+    "Mac/SSH configuration.md",
     "Podman & Docker",
     "Cryptography.md",
     "Windows Server/DNS technology.md",
     "System Engineering",
     "Windows Server/DNS server.excalidraw.md",
-    "Windows Server/DNS client.md",
     "Windows Server/Windows server command list.md",
     "Windows/GPO & AGDLP & DSC.md",
     "Networking/Pasted image 20231130140530.png",
     "Networking/NTP.excalidraw.md",
     "Windows Server",
-    "Windows/DNS.md",
     "Windows/Active directory.md",
     "DevSecOps.md",
     "Dev Ops & CI CD.md",
@@ -204,11 +191,6 @@
     "Windows/NTFS permissions.md",
     "Windows/IIS webserver.md",
     "Windows/examen windows.md",
-    "Windows/DNS with Active Directory.md",
-    "README.md",
-    "Networking/Enterprise networking/8. VPN & IPsec.md",
-    "Networking/Enterprise networking/9. Qos.md",
-    "Networking/HSRP - Hot Standy Routing.md",
     "Untitled.canvas",
     "Networking/Config files",
     "Networking/Enterprise networking",
