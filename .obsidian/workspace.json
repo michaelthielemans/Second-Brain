@@ -4,16 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "985fe60b561a185c",
+        "id": "ed7048b5c71b27ef",
         "type": "tabs",
         "children": [
           {
-            "id": "9c921834c3121910",
+            "id": "298b36368fea4459",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          },
+          {
+            "id": "22443d5a21152038",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Windows/DNS with Active Directory.md",
+                "file": "Domains and trusts.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +56,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#systemengineering",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": true,
@@ -69,7 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 265.5024719238281
+    "width": 267.5
   },
   "right": {
     "id": "f9757c9a7378738d",
@@ -142,11 +150,11 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 302.5
+    "width": 401.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -159,38 +167,39 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "6ebe52bc1f1100dd",
+  "active": "298b36368fea4459",
   "lastOpenFiles": [
-    "Windows/DNS with Active Directory.md",
-    "Windows/DNS.md",
-    "Windows Server/DNS client.md",
-    "Windows Server/DNS in active directory.md",
-    "System Engineering/system engineering.md",
-    "Excalidraw/Drawing 2024-02-15 19.33.45.excalidraw.md",
-    "Images and container filesystems.md",
-    "Kubernetes/Kubernetes Operators.md",
-    "Kubernetes/K8s architecture.md",
-    "Mac/SSH configuration.md",
-    "Podman & Docker",
-    "Cryptography.md",
+    "System Engineering/system engineering roles and players.md",
+    "System Engineering/Chapter 7 Project management.md",
+    "System Engineering/Chapter 6 spec and uncertainty.md",
+    "System Engineering/Chapter 5 Safety vs security.md",
+    "System Engineering/chapter 4.md",
+    "System Engineering/chapter 3.md",
+    "System Engineering/Chapter 2 System lifecycle.md",
+    "System Engineering/Chapter 1 system engineering intro.md",
+    "System Engineering/Brainstorm sessions.md",
+    "System Engineering/Requirements and.md",
+    "Domains and trusts.md",
+    "Untitled",
+    "Obsidian/mermaid examples.md",
+    "Obsidian/Mark down styling.md",
+    "Windows Server/Active Directory Domain partitions.md",
+    "Windows Server/Active directory replication.md",
     "Windows Server/DNS technology.md",
-    "System Engineering",
     "Windows Server/DNS server.excalidraw.md",
-    "Windows Server/Windows server command list.md",
-    "Windows/GPO & AGDLP & DSC.md",
-    "Networking/Pasted image 20231130140530.png",
-    "Networking/NTP.excalidraw.md",
-    "Windows Server",
+    "Windows Server/DNS in active directory.md",
+    "Windows Server/DNS client.md",
+    "Cryptography.md",
+    "Podman & Docker/Images and container filesystems.md",
+    "Windows/DNS with Active Directory.md",
     "Windows/Active directory.md",
-    "DevSecOps.md",
-    "Dev Ops & CI CD.md",
-    "Windows/Security.md",
-    "Windows/registry.md",
-    "Windows/Powershell summary.md",
-    "Windows/Powershell.md",
-    "Windows/NTFS permissions.md",
-    "Windows/IIS webserver.md",
-    "Windows/examen windows.md",
+    "Windows/DNS.md",
+    "Excalidraw/Drawing 2024-02-15 19.33.45.excalidraw.md",
+    "Kubernetes/Kubernetes Operators.md",
+    "Podman & Docker",
+    "System Engineering",
+    "Networking/Pasted image 20231130140530.png",
+    "Windows Server",
     "Untitled.canvas",
     "Networking/Config files",
     "Networking/Enterprise networking",
@@ -198,7 +207,6 @@
     "VIM",
     "Linux/Apache",
     "Excalidraw",
-    "rsakey.pub",
     "Untitled 1.canvas",
     "Pasted image 20231110210251.png",
     "Pasted image 20231116184553.png"
