@@ -4,7 +4,6 @@
 - to solve problems with replication.
 	- if you have a remote site you can give that site a separate subdomain , this way you dont need to replicate 
 
-
 ## The domain partition contains ADUC
 this partition is replicated across all DCs inside a DOMAIN
 ## The configuration partition contains Sites and services

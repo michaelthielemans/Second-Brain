@@ -4,30 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "ed7048b5c71b27ef",
+        "id": "bb846b54e345c98b",
         "type": "tabs",
         "children": [
           {
-            "id": "298b36368fea4459",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
-          },
-          {
-            "id": "22443d5a21152038",
+            "id": "33b529f468ad66c8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Domains and trusts.md",
+                "file": "Windows Server AD DS/FSMO rollen.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6132e9d19135096f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Windows Server AD DS/REALM.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -93,6 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Windows Server AD DS/REALM.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,6 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Windows Server AD DS/REALM.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -130,7 +137,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Windows Server AD DS/REALM.md"
+              }
             }
           },
           {
@@ -150,11 +159,11 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 401.5
+    "width": 212.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -167,8 +176,17 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "298b36368fea4459",
+  "active": "6132e9d19135096f",
   "lastOpenFiles": [
+    "Windows Server AD DS/FSMO rollen.md",
+    "Windows Server AD DS/REALM.md",
+    "Windows Server AD DS/Windows server command list.md",
+    "Windows Server AD DS/Domains and trusts.md",
+    "Windows Server AD DS/DNS technology.md",
+    "Windows Server AD DS/DNS in active directory.md",
+    "Windows Server AD DS/DNS client.md",
+    "Windows Server AD DS/Active directory replication.md",
+    "Windows Server AD DS/Active Directory Domain partitions.md",
     "System Engineering/system engineering roles and players.md",
     "System Engineering/Chapter 7 Project management.md",
     "System Engineering/Chapter 6 spec and uncertainty.md",
@@ -179,27 +197,18 @@
     "System Engineering/Chapter 1 system engineering intro.md",
     "System Engineering/Brainstorm sessions.md",
     "System Engineering/Requirements and.md",
-    "Domains and trusts.md",
     "Untitled",
     "Obsidian/mermaid examples.md",
     "Obsidian/Mark down styling.md",
-    "Windows Server/Active Directory Domain partitions.md",
-    "Windows Server/Active directory replication.md",
-    "Windows Server/DNS technology.md",
-    "Windows Server/DNS server.excalidraw.md",
-    "Windows Server/DNS in active directory.md",
-    "Windows Server/DNS client.md",
+    "Windows Server AD DS/DNS server.excalidraw.md",
     "Cryptography.md",
     "Podman & Docker/Images and container filesystems.md",
     "Windows/DNS with Active Directory.md",
     "Windows/Active directory.md",
-    "Windows/DNS.md",
-    "Excalidraw/Drawing 2024-02-15 19.33.45.excalidraw.md",
-    "Kubernetes/Kubernetes Operators.md",
     "Podman & Docker",
     "System Engineering",
     "Networking/Pasted image 20231130140530.png",
-    "Windows Server",
+    "Windows Server AD DS",
     "Untitled.canvas",
     "Networking/Config files",
     "Networking/Enterprise networking",
