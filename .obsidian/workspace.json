@@ -8,24 +8,24 @@
         "type": "tabs",
         "children": [
           {
-            "id": "33b529f468ad66c8",
+            "id": "6132e9d19135096f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Windows Server AD DS/FSMO rollen.md",
+                "file": "System Engineering/chapter 3.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "6132e9d19135096f",
+            "id": "8ff181e90e5c813c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Windows Server AD DS/REALM.md",
+                "file": "Chapter 8.md",
                 "mode": "source",
                 "source": false
               }
@@ -61,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#systemengineering",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": true,
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Windows Server AD DS/REALM.md",
+                "file": "Chapter 8.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Windows Server AD DS/REALM.md",
+                "file": "Chapter 8.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Windows Server AD DS/REALM.md"
+                "file": "Chapter 8.md"
               }
             }
           },
@@ -176,9 +176,21 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "6132e9d19135096f",
+  "active": "8ff181e90e5c813c",
   "lastOpenFiles": [
+    "System Engineering/chapter 3.md",
+    "Chapter 8.md",
+    "System Engineering/Time Management.md",
+    "System Engineering/Brainstorm sessions.md",
+    "System Engineering/Chapter 1 system engineering intro.md",
+    "System Engineering/Chapter 2 System lifecycle.md",
+    "System Engineering/chapter 4.md",
+    "System Engineering/Chapter 5 Safety vs security.md",
+    "System Engineering/Chapter 6 spec and uncertainty.md",
+    "System Engineering/Chapter 7 Project management.md",
+    "System Engineering/system engineering roles and players.md",
     "Windows Server AD DS/FSMO rollen.md",
+    "Windows Server AD DS/IPsec.md",
     "Windows Server AD DS/REALM.md",
     "Windows Server AD DS/Windows server command list.md",
     "Windows Server AD DS/Domains and trusts.md",
@@ -187,24 +199,12 @@
     "Windows Server AD DS/DNS client.md",
     "Windows Server AD DS/Active directory replication.md",
     "Windows Server AD DS/Active Directory Domain partitions.md",
-    "System Engineering/system engineering roles and players.md",
-    "System Engineering/Chapter 7 Project management.md",
-    "System Engineering/Chapter 6 spec and uncertainty.md",
-    "System Engineering/Chapter 5 Safety vs security.md",
-    "System Engineering/chapter 4.md",
-    "System Engineering/chapter 3.md",
-    "System Engineering/Chapter 2 System lifecycle.md",
-    "System Engineering/Chapter 1 system engineering intro.md",
-    "System Engineering/Brainstorm sessions.md",
     "System Engineering/Requirements and.md",
     "Untitled",
     "Obsidian/mermaid examples.md",
     "Obsidian/Mark down styling.md",
     "Windows Server AD DS/DNS server.excalidraw.md",
     "Cryptography.md",
-    "Podman & Docker/Images and container filesystems.md",
-    "Windows/DNS with Active Directory.md",
-    "Windows/Active directory.md",
     "Podman & Docker",
     "System Engineering",
     "Networking/Pasted image 20231130140530.png",
