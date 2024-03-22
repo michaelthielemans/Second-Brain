@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Windows/Active directory.md",
+                "file": "Windows Server AD DS/Active directory.md",
                 "mode": "source",
                 "source": false
               }
@@ -37,7 +37,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "vrageni.md",
+                "file": "Windows Server AD DS/Active directory.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e905adf3618ddbe7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "chapter 10.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +97,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "fsmo",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": true,
@@ -122,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Remote Desktop services.md",
+                "file": "chapter 10.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Remote Desktop services.md",
+                "file": "chapter 10.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Remote Desktop services.md"
+                "file": "chapter 10.md"
               }
             }
           },
@@ -200,19 +212,25 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "a4c07984ba8c5928",
+  "active": "e905adf3618ddbe7",
   "lastOpenFiles": [
-    "vrageni.md",
-    "Remote Desktop services.md",
-    "Windows/Active directory.md",
-    "System Engineering/chapter 9 testen.md",
+    "Windows Server AD DS/Active directory.md",
+    "chapter 10.md",
     "Windows Server AD DS/FSMO rollen.md",
-    "Windows Server AD DS/IPsec.md",
-    "System Engineering/Chapter 8 Agile.md",
     "Windows Server AD DS/Active Directory Database with Domain partitions.md",
-    "Windows Server AD DS/Windows server command list.md",
-    "Windows Server AD DS/Domains and trusts.md",
     "Windows Server AD DS/Active directory replication.md",
+    "Windows Server AD DS/DNS client.md",
+    "Windows Server AD DS/DNS in active directory.md",
+    "Windows Server AD DS/DNS server.excalidraw.md",
+    "Windows Server AD DS/DNS technology.md",
+    "Windows Server AD DS/Domains and trusts.md",
+    "Windows Server AD DS/IPsec.md",
+    "Windows Server AD DS/REALM.md",
+    "Windows Server AD DS/Windows server command list.md",
+    "vragen.md",
+    "Remote Desktop services.md",
+    "System Engineering/chapter 9 testen.md",
+    "System Engineering/Chapter 8 Agile.md",
     "System Engineering/chapter 3.md",
     "System Engineering/Time Management.md",
     "System Engineering/Brainstorm sessions.md",
@@ -222,12 +240,6 @@
     "System Engineering/Chapter 5 Safety vs security.md",
     "System Engineering/Chapter 6 spec and uncertainty.md",
     "System Engineering/Chapter 7 Project management.md",
-    "System Engineering/system engineering roles and players.md",
-    "Windows Server AD DS/REALM.md",
-    "Windows Server AD DS/DNS technology.md",
-    "Windows Server AD DS/DNS in active directory.md",
-    "Windows Server AD DS/DNS client.md",
-    "System Engineering/Requirements and.md",
     "Untitled",
     "Podman & Docker",
     "System Engineering",

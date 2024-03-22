@@ -5,10 +5,10 @@ netdom query fsmo
 ```
 
 
-RID via ADUC
+RID master via ADUC
 PDC via aduc
 domain naming master via dom trust
-infr
+infrastructure master - 1 per domain
 
 
 

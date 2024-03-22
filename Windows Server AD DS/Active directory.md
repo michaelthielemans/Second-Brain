@@ -39,3 +39,5 @@ manages the different pools of RIDs that every DC can manage. Because different 
 - The PDC emulator performs all of the functionality that a Windows NT 4.0 Server-based PDC or earlier PDC performs for Windows NT 4.0-based or earlier clients.
 
 ## Infrastructure Master
+
+**Updating references from objects in the local domain to objects in other domains**. There can be only one Infrastructure Master DC in each domain.
