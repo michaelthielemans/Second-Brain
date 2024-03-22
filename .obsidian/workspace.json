@@ -18,8 +18,45 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "61d782e0d99ecf15",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Windows/Active directory.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "39c1a51cfc2c124e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "vrageni.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a4c07984ba8c5928",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Remote Desktop services.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -69,7 +106,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 267.5
+    "width": 308.5
   },
   "right": {
     "id": "f9757c9a7378738d",
@@ -85,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "System Engineering/chapter 9 testen.md",
+                "file": "Remote Desktop services.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "System Engineering/chapter 9 testen.md",
+                "file": "Remote Desktop services.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "System Engineering/chapter 9 testen.md"
+                "file": "Remote Desktop services.md"
               }
             }
           },
@@ -163,10 +200,19 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "288ba5157e2d48bd",
+  "active": "a4c07984ba8c5928",
   "lastOpenFiles": [
-    "System Engineering/Chapter 8.md",
+    "vrageni.md",
+    "Remote Desktop services.md",
+    "Windows/Active directory.md",
     "System Engineering/chapter 9 testen.md",
+    "Windows Server AD DS/FSMO rollen.md",
+    "Windows Server AD DS/IPsec.md",
+    "System Engineering/Chapter 8 Agile.md",
+    "Windows Server AD DS/Active Directory Database with Domain partitions.md",
+    "Windows Server AD DS/Windows server command list.md",
+    "Windows Server AD DS/Domains and trusts.md",
+    "Windows Server AD DS/Active directory replication.md",
     "System Engineering/chapter 3.md",
     "System Engineering/Time Management.md",
     "System Engineering/Brainstorm sessions.md",
@@ -177,21 +223,12 @@
     "System Engineering/Chapter 6 spec and uncertainty.md",
     "System Engineering/Chapter 7 Project management.md",
     "System Engineering/system engineering roles and players.md",
-    "Windows Server AD DS/FSMO rollen.md",
-    "Windows Server AD DS/IPsec.md",
     "Windows Server AD DS/REALM.md",
-    "Windows Server AD DS/Windows server command list.md",
-    "Windows Server AD DS/Domains and trusts.md",
     "Windows Server AD DS/DNS technology.md",
     "Windows Server AD DS/DNS in active directory.md",
     "Windows Server AD DS/DNS client.md",
-    "Windows Server AD DS/Active directory replication.md",
-    "Windows Server AD DS/Active Directory Domain partitions.md",
     "System Engineering/Requirements and.md",
     "Untitled",
-    "Obsidian/mermaid examples.md",
-    "Obsidian/Mark down styling.md",
-    "Windows Server AD DS/DNS server.excalidraw.md",
     "Podman & Docker",
     "System Engineering",
     "Networking/Pasted image 20231130140530.png",

@@ -1,42 +1,48 @@
 #ActiveDirectory 
-# intra site replication
-every 5 min a DC will NOTIFY the other DCs if he has changes in its database
-these properties are in the registry
--> he will not SEND the updates himself
+# Replication between DC’s in 1 site
+
+•Every hour 1 DC will contact the others to ASK for changes (PULL REPLICATION)  
+•Every 5 minutes 1 DC will NOTIFY the other DC’s of the changes in its database (PUSH REPLICATION) 
 If the amount of updates is large it can happen that the DC sends a notify faster than 5 minutes.
+•The protocol for replication is RPC (remote procedure calls) 
+	RPC works with dynamic ports. Is not firewall friendly
+•Replication can happen every moment of the day (no schedule)
+	It is not possible to configure a schedule
+# AD replication between DCs of OTHER sites
 
-replication protocol = RPC
-RPC works with dynamic ports. Is not firewall friendly
-
-
-Replication can happen every moment of the day
-
-every hour 1 DC will contact the other to ask for changes -> PULL REPLICATION
-
-
-# inter site replication
-
-- every 3hours dc will contact the others to ask for changes
-- no notify -> no push replication
+- Every 3 hours dc will contact the others to ask for changes (pull request)
+- **The DC has 1 hour to continue replication.
+- There is no notify -> no push replication
 - Protocol for replication = IP   => firewall friendly
-- can happen dat and night, as long as the dc waits for 2 hours before a new pull attempt is started.
+- can happen day and night, as long as the dc waits for 2 hours before a new pull attempt is started. Time frames can be configure.
 
+# KCC -Knowledge Consistency Checker- service
 
-# Moving a dc from a local site to a remote site
-If you move the DC all the configuration for replication happen automatically, If it fails CHECK DNS !!
+the KCC service task is to create the 'automatically generated' connection object.
+Based of the structure of your sites it will auto configure. 
+
 There is a service(KCC= knowledge consistency checker) that checks every 15 min the site structure and configure automatically the best configuration
 
-If the connectin object is not created automatically by the KCC , than best check the DNS settings.
+You can manually trigger the KCC,  right-click NTDS settings -> all tasks -> check replication topology
 
-You can manually trigger the KCC,  rightclick NTDS settings -> all tasks -> check replication topology
+Open 'Sites and Services' select the "NTDS settings" of the DC you want to generate automatically the connection object, right-click on "NTDS settings" and select "check replication topology". do the same on the other DCs if needed.
+
+Once you create a connection object yourself the KCC will not be responsible and thus it will not be updated
+# Moving a dc from a local site to a remote site
+If you move the DC all the configuration for replication happen automatically, If it fails CHECK DNS !!
+
+If the connection object is not created automatically by the KCC , than best check the DNS settings.
+
+You can manually trigger the KCC,  right-click NTDS settings -> all tasks -> check replication topology
 
 so behind the NTDS object sits the KCC that configures the stuff.
 
-# Manually trigger replicate
+# Manually trigger replicate or force a replication
 
 1. With AD sites and services console
-	1. NTDS -> rigth click on the connection object
-2. via command line -> PS# repadm /replicate
+	1. NTDS -> right-click on the connection object -> replicate now
+		this is a one-way replication, it is a pull request. If you want to replicate in 2-way, you also have to do the same on the other DC.
+1. via command line -> PS# repadm /replicate
 
 # check replication status
 1. PS# repadmin /showrepl

@@ -2,7 +2,6 @@ check roles
 
 ```powershell
 netdom query fsmo
-
 ```
 
 
@@ -25,3 +24,4 @@ regsv32 schmmgmt.dll
 
 vanaf nu is er een extra snapin in mmc beschikbaar
 
+## Flexible Rollen
