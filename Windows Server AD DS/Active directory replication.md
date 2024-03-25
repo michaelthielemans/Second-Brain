@@ -1,27 +1,27 @@
 #ActiveDirectory 
 # Replication between DC’s in 1 site
 
-•Every hour 1 DC will contact the others to ASK for changes (PULL REPLICATION)  
-•Every 5 minutes 1 DC will NOTIFY the other DC’s of the changes in its database (PUSH REPLICATION) 
-If the amount of updates is large it can happen that the DC sends a notify faster than 5 minutes.
-•The protocol for replication is RPC (remote procedure calls) 
+- Every hour 1 DC will contact the others to ASK for changes (PULL REPLICATION)  
+- Every 5 minutes 1 DC will NOTIFY the other DC’s of the changes in its database (PUSH REPLICATION) 
+- If the amount of updates is large it can happen that the DC sends a notify faster than 5 minutes.
+- The protocol for replication is RPC (remote procedure calls) 
 	RPC works with dynamic ports. Is not firewall friendly
-•Replication can happen every moment of the day (no schedule)
+- Replication can happen every moment of the day (no schedule)
 	It is not possible to configure a schedule
 # AD replication between DCs of OTHER sites
 
 - Every 3 hours dc will contact the others to ask for changes (pull request)
-- **The DC has 1 hour to continue replication.
-- There is no notify -> no push replication
-- Protocol for replication = IP   => firewall friendly
-- can happen day and night, as long as the dc waits for 2 hours before a new pull attempt is started. Time frames can be configure.
+- The DC has 1 hour to continue replication.
+- There is no notify -> no push replication only pull
+- Protocol for replication = IP with fixed port  => firewall friendly
+- Can happen day and night, as long as the dc waits for 2 hours before a new pull attempt is started. Time frames can be configure.
 
 # KCC -Knowledge Consistency Checker- service
 
-the KCC service task is to create the 'automatically generated' connection object.
+The KCC service task is to create the 'automatically generated' connection object.
 Based of the structure of your sites it will auto configure. 
 
-There is a service(KCC= knowledge consistency checker) that checks every 15 min the site structure and configure automatically the best configuration
+KCC checks every 15 min the site structure and configure automatically the best configuration
 
 You can manually trigger the KCC,  right-click NTDS settings -> all tasks -> check replication topology
 

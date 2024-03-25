@@ -1,3 +1,4 @@
+#windows 
 # DNS client commands
 ```
 ipconfig /displaydns
@@ -27,6 +28,7 @@ Test-dnsserver –ipaddress 10.151.11.111  -zonename “dom.tm”
 ```powershell
 repadmin /syncall #replicate to all dc's
 repadmin /replicate dest-dc01 source-dc01   #pull replication from dst to source
+repadmin /showrepl #show the replication status
 ```
 ### DCdiag
 

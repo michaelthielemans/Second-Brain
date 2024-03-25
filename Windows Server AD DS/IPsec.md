@@ -1,10 +1,42 @@
-certificates are used for
+#windows 
+
+Different types of encryption are :
 - IIS HTTPS
 - IPSEC
 - L2TP
 
+## SSL and TLS encryption
+- SSL = secure sockets layer (deprecated)
+- TLS = Transport Layer security
 
-## IPSEC on windows computer
+>**Transport Layer Security (TLS) is the upgraded version of SSL that fixes existing SSL vulnerabilities**. TLS authenticates more efficiently and continues to support encrypted communication channels.
+ Now TLS is used as a underlaying encryption technology for HTTPS, in the past https used SSL
+
+
+- TLS provide authentication and encryption
+- TLS uses certificates to establish encrypted communication session
+- TLS is a protocol stack and it is using multiple layers on the OSI model.
+
+With TLS and SSL the source and destination ports are not encrypted.
+
+# IPSEC
+
+- IPSEC encrypts the layer 3 payload.
+- IPSEC in conjunction with NAT can be a problem because the layer for information is encrypted, this means that NAT cannot read the port information. Also NAT will alter the dest and source port of packets, since this values are protected with a integrity hash in the AH layer NAT will not work.
+
+## IPSEC packet structure
+
+In a IPSEC packet a AH field is added between the IP header and the payload.
+This AH (Authentication header) function is to:
+	- make sure the payload and the IP header data is not altered (replay attack). By calculating a hash sum of the information and placing the result in the AH header.
+
+## 2 modes of operation: TRANSPORT and TUNNEL mode
+
+#### Transport mode
+Is the easiest mode
+>Is used to protect an end-to-end conversation between two hosts. This protection is either authentication and/or encryption, but it is not a tunneling protocol. It has nothing to do with a traditional VPN: it's simply a secured IP connection
+
+## Configure IPSEC on windows
 
 mmc.exe -> add snap-in : IP security policy management
 1. create ip security policy

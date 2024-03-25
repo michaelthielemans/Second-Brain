@@ -1,4 +1,4 @@
-
+#ActiveDirectory 
 # Forest topology
 
 > All child domains within a forest have a 2-way transitive trust to the root domain.
