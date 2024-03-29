@@ -32,14 +32,13 @@ The original DNS server that received the initial query will wait briefly for an
 
 # Conditional forwarding
 
-Conditional forwarders are DNS servers that only forward queries for specific domain names. Instead of forwarding _all_ queries it cannot resolve locally to a forwarder, a conditional forwarder is configured to forward a query to specific forwarders based on the domain name contained in the query. Forwarding according to domain names improves conventional forwarding by adding a name-based condition to the forwarding process.
-
+Conditional forwarders are DNS servers that only forward queries for specific domain names. Instead of forwarding _all_ the queries it cannot resolve locally to a forwarder, a conditional forwarder is configured to forward a query to specific forwarders based on the domain name contained in the query. Forwarding according to domain names improves conventional forwarding by adding a name-based condition to the forwarding process.
 
 # Root hints
 
 >The root hints are the IP addresses configured inside a DNS server. These are the IPs of the higher level DNS servers.
 
-Root hints are **a list of the DNS servers on the Internet that your DNS servers can use to resolve queries for names that it does not know**. When a DNS server cannot resolve a name query by using its local data, it uses its root hints to send the query to a DNS server.
+Root hints is **a list of the DNS servers on the Internet that your DNS servers can use to resolve queries for names that it does not know**. When a DNS server cannot resolve a name query by using its local data, it uses its root hints to send the query to a DNS server.
 
 # DNS caching
 
@@ -55,12 +54,12 @@ subdomains: forum.tweakers.net
 
 it is possible that forum.tweakers.net is in a different zone and blog.tweakers.net is in the same zone as tweakers.net. 
 
-|zones | descr|
-|--|--|
-|primary| read write copy of a dns database|
-|secondary | read only copy of primary |
-|stub| copy of a zone |
-|active directory integrated | |
+| zones                       | descr                                                                                                        |
+| --------------------------- | ------------------------------------------------------------------------------------------------------------ |
+| primary                     | read write copy of a dns database                                                                            |
+| secondary                   | read only copy of primary                                                                                    |
+| stub                        | copy of a zone                                                                                               |
+| active directory integrated | a zone file that is replicated across multiple domain controllers with the use of AD replication technology. |
 ## Start Of Authority (SOA) file
 Each zone has a SOA file, this file contains different records: MNAME, RNAME,REFRESH,RETRY,.....
 it contains information about that zone: contact info, admin,.....
@@ -71,10 +70,10 @@ A DNS server hosting a primary zone is the primary source for information about 
 
 You can store a standard primary zone in a local file, or you can store zone data in AD DS. When you store zone data in AD DS other features are available, such as secure dynamic updates and the ability for each domain controller that hosts the zone to function as a primary and be able to process updates to the zone. When the zone is stored in a file, by default the primary zone file is named `zone_name.dns`, and it's located in the `%windir%\System32\Dns` folder on the server.
 
-When you deploy Active Directory, a DNS zone that is associated with your organization’s AD DS domain name is automatically created. By default the AD DS DNS zone replicates to any other domain controller configured as a DNS server in the domain. You can also configure Active Directory Integrated DNS zones to replicate to all domain controllers within an AD DS forest, or specific domain controllers enrolled in a particular AD DS domain partition.
+When you deploy Active Directory, a DNS zone that is associated with your organisation’s AD DS domain name is automatically created. By default the AD DS DNS zone replicates to any other domain controller configured as a DNS server in the domain. You can also configure Active Directory Integrated DNS zones to replicate to all domain controllers within an AD DS forest, or specific domain controllers enrolled in a particular AD DS domain partition.
 ### Secondary zone ( = read only copy of a zone file)
 
-A secondary zone is a read-only copy of a primary zone. When a zone that this DNS server hosts is a secondary zone, this DNS server is a secondary source for information about this zone. The zone at this server must be obtained from another remote DNS server computer that also hosts the zone. This DNS server must have network access to the remote DNS server that supplies this server with updated information about the zone. Because a secondary zone is only a copy of a primary zone that is hosted on another server, it can't be stored in AD DS as an Active Directory Integrated zone.
+A secondary zone is a read-only copy of a primary zone. When the zone that this DNS server hosts is a secondary zone, this DNS server is a secondary source for information about this zone. The zone at this server must be obtained from another remote DNS server computer that also hosts the zone. This DNS server must have network access to the remote DNS server that supplies this server with updated information about the zone. Because a secondary zone is only a copy of a primary zone that is hosted on another server, it can't be stored in AD DS as an Active Directory Integrated zone.
 
 In most cases, a secondary zone periodically copies resource records directly from the primary zone. But in some complex configurations, a secondary zone can copy resource records from another secondary zone.
 
@@ -149,12 +148,9 @@ reverse lookup = ip address to domainname
 the dns server will answer to the reverse lookup query with a reversed IP
 10.2.3.4 -- will be answered as --> 4.3.2.10
 
-
-
 # DNS client
 ### nslookup command
 nslookup -> does not use the local cache, performs immediately a query to the dns server.
-
 
 # DNS dynamic registration of hosts
 

@@ -9,9 +9,9 @@
 ## what is CRUD
 > Create Read Update Delete
 ## Feasibility study (examen vraag)
-•Overstijgen de kosten de te verwachten opbrengsten?
-•Wat is de historische achtergrond van het business probleem
-•Wat kunnen we verbeteren 
+- Overstijgen de kosten de te verwachten opbrengsten?
+- Wat is de historische achtergrond van het business probleem
+- Wat kunnen we verbeteren 
 Is er (1) management commitment & (3) user involvement (1 – 3 – 2)
 
 ## who is freeman?
@@ -41,8 +41,8 @@ HOE moet het kunnen
 - differential backup
 
 
-ISO 9001
-belofte nakomen
+ISO 9001 certificate
+belofte nakomen om te voldoen aan een certificaat
 
 ## compliance
 

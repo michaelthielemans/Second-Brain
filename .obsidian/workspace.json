@@ -4,18 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "3d73ce58d0a56d90",
+        "id": "deffe9117a9b351b",
         "type": "tabs",
         "children": [
           {
-            "id": "a4c07984ba8c5928",
+            "id": "6db9b36bdfad40ab",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "Windows Server AD DS/DNS in active directory.md",
-                "mode": "source",
-                "source": false
+                "file": "Windows Server AD DS/DNS client schema.md"
               }
             }
           }
@@ -48,7 +46,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "fsmo",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": true,
@@ -85,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Windows Server AD DS/DNS in active directory.md",
+                "file": "Windows Server AD DS/DNS client schema.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Windows Server AD DS/DNS in active directory.md",
+                "file": "Windows Server AD DS/DNS client schema.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Windows Server AD DS/DNS in active directory.md"
+                "file": "Windows Server AD DS/DNS client schema.md"
               }
             }
           },
@@ -163,34 +161,34 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "a4c07984ba8c5928",
+  "active": "6db9b36bdfad40ab",
   "lastOpenFiles": [
-    "Windows Server AD DS/DNS technology.md",
     "Windows Server AD DS/DNS in active directory.md",
-    "Windows Server AD DS/DNS server schema.md",
-    "Windows Server AD DS/DNS client schema.md",
-    "Windows Server AD DS/Active directory replication.md",
-    "Windows Server AD DS/Windows server command list.md",
-    "Windows Server AD DS/Active Directory Database with Domain partitions.md",
-    "Windows Server AD DS/Active directory.md",
-    "Windows Server AD DS/vragen.md",
-    "Windows Server AD DS/Remote Desktop services.md",
-    "Windows Server AD DS/FSMO rollen.md",
+    "System Engineering/system engineering roles and players.md",
+    "System Engineering/Time Management.md",
+    "System Engineering/chapter 10.md",
     "System Engineering/chapter 9 testen.md",
-    "Windows Server AD DS/REALM.md",
+    "System Engineering/Chapter 8 Agile.md",
+    "System Engineering/Chapter 7 Project management.md",
+    "System Engineering/Chapter 6 spec and uncertainty.md",
+    "System Engineering/Chapter 5 Safety vs security.md",
+    "System Engineering/chapter 4.md",
+    "System Engineering/chapter 3.md",
+    "System Engineering/Chapter 2 System lifecycle.md",
+    "System Engineering/Chapter 1 system engineering intro.md",
+    "System Engineering/Brainstorm sessions.md",
     "Windows Server AD DS/IPsec.md",
     "Windows Server AD DS/Domains and trusts.md",
-    "System Engineering/chapter 10.md",
-    "waarom.md",
-    "System Engineering/Chapter 8 Agile.md",
-    "System Engineering/chapter 3.md",
-    "System Engineering/Time Management.md",
-    "System Engineering/Brainstorm sessions.md",
-    "System Engineering/Chapter 1 system engineering intro.md",
-    "System Engineering/Chapter 2 System lifecycle.md",
-    "System Engineering/chapter 4.md",
-    "System Engineering/Chapter 5 Safety vs security.md",
-    "System Engineering/Chapter 6 spec and uncertainty.md",
+    "Windows Server AD DS/FSMO rollen.md",
+    "Windows Server AD DS/Active Directory Database with Domain partitions.md",
+    "Windows/DNS.md",
+    "Windows Server AD DS/DNS client schema.md",
+    "Windows Server AD DS/DNS server schema.md",
+    "Windows Server AD DS/Nog uitzoeken.md",
+    "Windows Server AD DS/Remote Desktop services.md",
+    "Windows Server AD DS/AD recovery.md",
+    "Windows Server AD DS/Active directory replication.md",
+    "Windows Server AD DS/DNS technology.md",
     "Untitled",
     "Podman & Docker",
     "System Engineering",

@@ -1,6 +1,6 @@
 #ActiveDirectory #windows  
 
-# The AD Database
+# The AD Database Partitions
 >Each domain controller has a Active Directory database NTDS.DIT , inside this database are the following partitions.
 
 ## NTDS.dit
@@ -8,7 +8,7 @@ Is the database file for AD
 It contains the following partitions:
 1. Domain partition = ADUC content
 2. Schema partition = templates of all the objects => attribute definitions
-3. Configuration partition = sites and domains, replication settings
+3. Configuration partition = sites and domains, replication settings.
 4. Application partition  = DNS, ...
 5. Global catalog partition (if DC is Global catalog server)
 
@@ -21,10 +21,6 @@ It contains the following partitions:
 ### Domain wide replication
 - domain partition
 - application partition (it depends on the settings)
-## With the active directory forest structure you can manage your domains to solve:
-- Organisational needs
-- to solve problems with replication.
-	- if you have a remote site you can give that site a separate subdomain , this way you dont need to replicate 
 
 ## The domain partition
 - It contains all the information you can find in ADUC
@@ -86,3 +82,7 @@ De global catalog partition zal van alle users, computers, en andere object in d
 - En nuttig zijn voor een search opdracht (een paswoord is dan wel uniek, maar verandert constant, en het heeft geen zin om dit bij te houden, want we doen nooit een zoekopdracht naar een user die een bepaald paswoord heeft)
 
 - Op deze manier beschikken we over een gereduceerde versie van de domain partition waarin we snel naar nuttige informative kunnen zoeken. Andere domains en domain controllers kunnen op die manier informatie op een snelle manier in het forest terug vinden.
+# With the active directory forest structure you can manage your domains to solve:
+- Organisational needs
+- to solve problems with replication.
+	- if you have a remote site you can give that site a separate subdomain , this way you dont need to replicate 

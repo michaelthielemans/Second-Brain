@@ -1,5 +1,5 @@
 #systemengineering 
-## the six hats by Edward de bono
+## the six hats by Edward de bono about brainstorm sessions
 
 - the positive hat - yellow
 - the negative hat - black

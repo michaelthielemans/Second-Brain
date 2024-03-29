@@ -1,3 +1,17 @@
+dns server met child domain.
+
+een dns query naar het child domain sturen maar het record staat niet in de zonefile van het childdomain. 
+- op child dns een forwarder?
+- op child dns een cond forwarder?
+- ???
+
+
+First domain controller in the forest is it a Global catalog by default? 
+At least 1 Global Catalog server in the forest.
+Best practice = a global catalog on every site in the forest. -> less lookups that have to cross the wan network
+
+
+
 repadmin?
 
 leerpad 6

@@ -89,17 +89,17 @@ building a PoC Proof of Concept
 
 De hoofdactiviteit in de ontwikkelingsfase is:
 
-•Analyseren van het gekozen concept
-•Keuze van een overall architectuur
-•Specificatie van het systeem en subsystemen
-•Design van de verschillende onderdelen
-•Mens-machine interface wordt bepaald (Human Systems Integration)
-•Definitie van een prototype (PoC)
+- Analyseren van het gekozen concept
+- Keuze van een overall architectuur
+- Specificatie van het systeem en subsystemen
+- Design van de verschillende onderdelen
+- Mens-machine interface wordt bepaald (Human Systems Integration)
+- Definitie van een prototype (PoC)
   Er worden regelmatig reviews gehouden met interne en externe stakeholders
-•Verificatie en validatie beslissingen t.o.v. requirements
-•En moeten milestones (decision gates) genomen worden
-•Feedback wordt verwerkt
-•Aanpassingen zijn een fundamenteel onderdeel van de ontwikkelingsfase
+- Verificatie en validatie beslissingen t.o.v. requirements
+- En moeten milestones (decision gates) genomen worden
+- Feedback wordt verwerkt
+- Aanpassingen zijn een fundamenteel onderdeel van de ontwikkelingsfase
 
 ### Design and development will take 12% of the time but it will define 20% of the overall costs.
 # Phase 3: Production and test
@@ -107,14 +107,14 @@ In de productiefase wordt het prototype van het system aangepast en geoptimalise
 
 Er zullen aanpassingen moeten gebeuren
 
-•Om productieproblemen op te lossen
-•Kosten te reduceren
-•Om de performantie te verbeteren
+- Om productieproblemen op te lossen
+- Kosten te reduceren
+- Om de performantie te verbeteren
 
 Het systeem wordt uitvoerig getest t.o.v. de eisen
 
-•Alle aanpassingen moeten geverifieerd en gevalideerd worden
-•Dus eerst een evaluatie, dan een goedkeuring en uiteindelijk een aanpassing
+- Alle aanpassingen moeten geverifieerd en gevalideerd worden
+- Dus eerst een evaluatie, dan een goedkeuring en uiteindelijk een aanpassing
 
 Als het systeem voldoet aan alle eisen wordt het in gebruik genomen
 

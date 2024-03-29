@@ -8,7 +8,6 @@ Security = protecting systems against humans
 
 Risico = kans x impact
 
-
 # GDPR
 
 ## 5 rechten van de betrokkene

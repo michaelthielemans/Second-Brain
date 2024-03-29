@@ -13,7 +13,7 @@ een programma kan een verzameling van projecten zijn, heeft niet altijd een eind
 # Project structuren en organisatie structuren
 
 ### soorten structure
-- hierarchie
+- hierarchie - zwak project
 - lijn - staf
 - functionele
 - matrix organisatie

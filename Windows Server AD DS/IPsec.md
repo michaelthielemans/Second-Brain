@@ -10,11 +10,11 @@ Different types of encryption are :
 - TLS = Transport Layer security
 
 >**Transport Layer Security (TLS) is the upgraded version of SSL that fixes existing SSL vulnerabilities**. TLS authenticates more efficiently and continues to support encrypted communication channels.
- Now TLS is used as a underlaying encryption technology for HTTPS, in the past https used SSL
+  Now TLS is used as a underlaying encryption technology for HTTPS, in the past https used SSL
 
 
 - TLS provide authentication and encryption
-- TLS uses certificates to establish encrypted communication session
+- TLS uses certificates to establish key exchange in order to be able to have a encrypted communication session
 - TLS is a protocol stack and it is using multiple layers on the OSI model.
 
 With TLS and SSL the source and destination ports are not encrypted.
@@ -40,7 +40,7 @@ Is the easiest mode
 
 mmc.exe -> add snap-in : IP security policy management
 1. create ip security policy
-2. name for example -> very secure ping
+2. name for example -> for example: very secure ping
 3. no activate default rules ( if the default rules are selected -> this will use kerberos)
 4. add rule
 	1. does not specify tunnel
