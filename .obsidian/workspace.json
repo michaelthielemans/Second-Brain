@@ -28,6 +28,17 @@
             }
           },
           {
+            "id": "621a8866dc84696d",
+            "type": "leaf",
+            "state": {
+              "type": "diff-view",
+              "state": {
+                "file": "snipe-it",
+                "staged": true
+              }
+            }
+          },
+          {
             "id": "1ed22b63d31b86d6",
             "type": "leaf",
             "state": {
@@ -40,7 +51,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -180,8 +191,12 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "6ebe52bc1f1100dd",
+  "active": "621a8866dc84696d",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
+    "snipe-it",
+    "Project hosting/waarom.md",
+    "Project hosting/kubeadm installation.md",
     "Project hosting/Objectives.md",
     "Project.md",
     "Project hosting/Intro.md",
@@ -206,10 +221,6 @@
     "Windows Server AD DS/Active Directory Database partitions.md",
     "waarom.md",
     "System Engineering/system engineering roles and players.md",
-    "System Engineering/Time Management.md",
-    "System Engineering/chapter 10.md",
-    "System Engineering/chapter 9 testen.md",
-    "System Engineering/Chapter 8 Agile.md",
     "Podman & Docker",
     "System Engineering",
     "Networking/Pasted image 20231130140530.png",
@@ -220,7 +231,6 @@
     "Mac",
     "VIM",
     "Linux/Apache",
-    "Excalidraw",
     "Untitled 1.canvas",
     "Pasted image 20231110210251.png",
     "Pasted image 20231116184553.png"

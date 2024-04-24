@@ -1,0 +1,3 @@
+podman pod create -n snipe-it-pod -p 80:80
+podman run --name snipe-mysql --env-file=env_file --mount type=volume,source=snipesql-vol,target=/var/lib/mysql -d --pod snipe-it-pod mysql:5.6
+podman run --rm --pod snipe-it-pod snipe/snipe-it
