@@ -119,8 +119,8 @@ R1(config-if)# ip nat outside
 ! GRE Tunnel (ipv4)
 ! ----------
 interface tunnel 0
-ip address <tunnel ip source>
-tunnel source <loopback 0>
+ip address <ip of the tunnel itself>
+tunnel source <interf | loopback>
 tunnel destination <ip of destination>
 bandwidth <bw in kb>
 ip mtu <1400 - in bytes>

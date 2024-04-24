@@ -4,18 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "125a83ba322d0c3f",
+        "id": "deffe9117a9b351b",
         "type": "tabs",
         "children": [
           {
-            "id": "579ac778662a1d5c",
+            "id": "6db9b36bdfad40ab",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "Networking/Enterprise networking/6. NAT for IPv4.md",
-                "mode": "source",
-                "source": false
+                "file": "Windows Server AD DS/DNS client schema.md"
               }
             }
           }
@@ -69,8 +67,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 401.5024719238281,
-    "collapsed": true
+    "width": 401.5024719238281
   },
   "right": {
     "id": "f9757c9a7378738d",
@@ -86,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Networking/Enterprise networking/6. NAT for IPv4.md",
+                "file": "Windows Server AD DS/DNS client schema.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Networking/Enterprise networking/6. NAT for IPv4.md",
+                "file": "Windows Server AD DS/DNS client schema.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Networking/Enterprise networking/6. NAT for IPv4.md"
+                "file": "Windows Server AD DS/DNS client schema.md"
               }
             }
           },
@@ -151,7 +148,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 618.5
+    "width": 238.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -164,46 +161,46 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "6ebe52bc1f1100dd",
+  "active": "8d0292ea51f596e7",
   "lastOpenFiles": [
-    "Networking/Enterprise networking/12. Troubleshooting.md",
-    "Networking/Enterprise networking/Port mirroring.md",
-    "Networking/Enterprise networking/11. Network designs.md",
-    "Networking/Enterprise networking/10. Network management.md",
-    "DevSecOps.md",
-    "Mac/Serial console port.md",
-    "Networking/Config files/FULL SWITCH CONFIG.md",
+    "Windows Server AD DS/DNS in active directory.md",
+    "System Engineering/system engineering roles and players.md",
+    "System Engineering/Time Management.md",
+    "System Engineering/chapter 10.md",
+    "System Engineering/chapter 9 testen.md",
+    "System Engineering/Chapter 8 Agile.md",
+    "System Engineering/Chapter 7 Project management.md",
+    "System Engineering/Chapter 6 spec and uncertainty.md",
+    "System Engineering/Chapter 5 Safety vs security.md",
+    "System Engineering/chapter 4.md",
+    "System Engineering/chapter 3.md",
+    "System Engineering/Chapter 2 System lifecycle.md",
+    "System Engineering/Chapter 1 system engineering intro.md",
+    "System Engineering/Brainstorm sessions.md",
+    "Windows Server AD DS/IPsec.md",
+    "Windows Server AD DS/Domains and trusts.md",
+    "Windows Server AD DS/FSMO rollen.md",
+    "Windows Server AD DS/Active Directory Database with Domain partitions.md",
+    "Windows/DNS.md",
+    "Windows Server AD DS/DNS client schema.md",
+    "Windows Server AD DS/DNS server schema.md",
+    "Windows Server AD DS/Nog uitzoeken.md",
+    "Windows Server AD DS/Remote Desktop services.md",
+    "Windows Server AD DS/AD recovery.md",
+    "Windows Server AD DS/Active directory replication.md",
+    "Windows Server AD DS/DNS technology.md",
+    "Untitled",
+    "Podman & Docker",
+    "System Engineering",
+    "Networking/Pasted image 20231130140530.png",
+    "Windows Server AD DS",
     "Untitled.canvas",
-    "www.hacksplaining.com.md",
-    "Dev Ops & CI CD.md",
-    "Obsidian/mermaid examples.md",
-    "Networking/Cisco networking.md",
-    "Git/Git.md",
-    "VIM/VIM commands.md",
-    "Obsidian/Mark down styling.md",
-    "Cryptography.md",
-    "Networking/Enterprise networking/3. Network security concepts.md",
-    "Windows/Security.md",
-    "Windows/Powershell summary.md",
-    "Windows/Powershell.md",
-    "Networking/Enterprise networking/6. NAT for IPv4.md",
-    "Networking/Enterprise networking/1. Routing OSPF -  open shortest path first.md",
-    "Networking/Config files/FULL ROUTER CONFIG.md",
-    "Networking/Enterprise networking/4-5. ACL - Access control lists.md",
-    "Networking/Enterprise networking/9. Qos.md",
-    "Networking/Enterprise networking/8. VPN & IPsec.md",
-    "Networking/Enterprise networking/7. WAN architectures.md",
     "Networking/Config files",
     "Networking/Enterprise networking",
-    "Excalidraw/Pasted image 20231130140530.png",
     "Mac",
     "VIM",
     "Linux/Apache",
     "Excalidraw",
-    "rsakey.pub",
-    "rsakey",
-    "Git",
-    "Networking",
     "Untitled 1.canvas",
     "Pasted image 20231110210251.png",
     "Pasted image 20231116184553.png"

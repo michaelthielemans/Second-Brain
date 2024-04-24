@@ -8,10 +8,10 @@ Objects are stored in memory as tables.
 #### why object oriented?
 > - windows itself is object oriented -> easy to communicate with ps
 > - working , filtering, formatting, sorting,... objects is easiers than flat text.
-> - Less code to write to accomplish the same
+> - Less code to write to accomplish the same result.
 > - you can easily perform actions on objects with methods
 
-- object class - the blueprint of an object should look like
+- object class = the blueprint of an object should look like
 - instance = a entity that has been created from an object class 
 - methods = things you can **do** with an object
 - properties (attributes)
@@ -36,7 +36,6 @@ get-host | select-object version
 
 verb-noun -property argument
 get-command -totalcount 2
-
 ### Wildcards
 
 | symbol | function|
@@ -44,7 +43,6 @@ get-command -totalcount 2
 | * | all chars possible unspecified amount|
 |\[a-c] | 1 char that can be in the range of chars from a to c |
 | ? | exactly 1 random char |
-
 
 ## Help , Search cmdlets  and their methods and attributes
 ```powershell
@@ -56,17 +54,18 @@ get-process -? -online
 
 ```powershell
 get-command -verb get -noun proc[e-i]*
-get-command -verb ge? -noune ?rocess
+get-command -verb ge? -noun ?rocess
 ```
 ### get all the methods and properties available on a command
 ```powershell
-get-process | get-member -membertyp property
-get-process | get-member -membertyp method
+get-process | get-member -membertype property
+get-process | get-member -membertype method
 ```
 
 ## Getting property of one or more object
 
 ```powershell
+
 (get-process).starttime
 ```
 
@@ -76,6 +75,7 @@ $var1=get-process
 ```
 
 ```powershell
+# Return a list with the starttimes of all the processes.
 get-process | foreach-object{$_.starttime}
 ```
 
@@ -89,12 +89,12 @@ $date2 = ($date).add-date(2)
 
 >[!warn] Using a variable: If the result of the cmdlet provides multiple objects, these objects are seen together as 1 array. This is not always what we want.
 ```powershell
-$var1=get-date
-$var1.addays(2)
+$date1=get-date
+$date1.addays(2)
 $var1.gettype()  --> system.Array
 ```
 
->[!warn] For cmdlets that produce multiple objects user the FOREACH
+>[!warn] For cmdlets that produce multiple objects use the FOREACH
 ```powershell
 get-process | ForEach-Object {$_.gettype()}
 ```
@@ -107,7 +107,7 @@ get-process | ForEach-Object {$_.gettype() }
 ```powershell
 get-process | select-object -property name,id -first 5 -last 7
 abbriviated notation:
-get-process | select-object name,id -first 5 last 7
+get-process | select-object name,id -first 5 -last 7
 ```
 
 ## Filtering and sorting the result: where-object
@@ -136,20 +136,19 @@ get-process | sort-object -descending -> by default ascending is used
 
 ## Cmdlets: Files/folders:
 
-| cmdlet | alias |function |
-|--|--|--|
-| get-childitem | gc | list dir|
-|get-location | gl | print working dir |
-|set-locatin | sl | change dir cd |
-|copy-item | copy | copy file or folder |
-|remove-item | del | |
-|move-item | move | |
-|rename-item | rn | |
-|new-item | ni | |
-|get-content file.txt| / | show the content of a file|
-|add-content file.txt| / | add content to a text file|
-|set-content file.txt| / | add and overwrite content of a file|
-
+| cmdlet | alias | function |
+| ---- | ---- | ---- |
+| get-childitem | gc | list dir |
+| get-location | gl | print working dir |
+| set-locatin | sl | change dir cd |
+| copy-item | copy | copy file or folder |
+| remove-item | del |  |
+| move-item | move |  |
+| rename-item | rn |  |
+| new-item | ni |  |
+| get-content file.txt | / | show the content of a file |
+| add-content file.txt | / | add content to a text file |
+| set-content file.txt | / | add and overwrite content of a file |
 
 ## Cmdlets: Networking
 
@@ -189,7 +188,6 @@ get-process | select-object -property name,handles,...
 $list1 = 1,1,1,2,2,2,3,3,3,4,4,4,2,2
 $list1 | select-object -unique
 ```
-
 ##### Measuring / counting objects
 ```powershell
 get-childitem | measure-object
@@ -218,8 +216,8 @@ get-childitem = gci
 ### User-defined aliases
 >create a new alias
 ```powershell
-set-alias aliasname cmdlet ->can overwrite an existing alias
-new-alias aliasname cmdlet ->this will give an error if the alias already exists
+set-alias aliasname <cmdlet> ->can overwrite an existing alias
+new-alias aliasname <cmdlet> ->this will give an error if the alias already exists
 ```
 
 >[!remark] In order to create an alias of a cmdlet that uses properties you need to create a function for it !
@@ -233,47 +231,78 @@ function gcg {get-command -verb get}
 
 >[!error] After closing the shell the self made alias is no longer available!
 >How to solve it?
-> Export/import the ALL aliases : builtin + userdefined
->	`export-alias** path filename`
->	`import-alias** -path path`
-> 	Export/import only a specific alias
+> Export/import the aliases : builtin + userdefined
+>	`export-alias -path filename.csv`
+>	`import-alias -path filename.csv`
+> Export/import only a specific alias
 > 	`export-alias -path alias.txt -name aliasname`
-> 	Using power-shell profiles
+> Using power-shell profiles
 
 ## Profiles
+A _PowerShell profile_ is a script that runs when PowerShell starts.
 Profile config files are applied from least specific to most specific.
 
-check your current profile
+How to check your current profile
+```powershell
 echo $pshome
+```
 
 the standard location of the profile is saved into the variable `$profile
+```powershell
+test-path $profile
+```
 
-`test-path $profile
-
-create new profile
+Create a new profile
 ```powershell
 new-item -path $profile -type file -force
 ```
 
 edit the profile config file with notepad
-
 ```powershell
 notepad $profile
 ```
 
-```notepad
-#adding new aliases
+adding aliases to a profile -> so aliases would be automatically added to new powershell session
+```powershell
 set-alias gd get-date
 ```
 
-restart powershell to apply the new profile settings
+Restart powershell to apply the new profile settings!
+
+### 6 different Profile locations
+
+From powershell 3 there are 6 different locations where profiles can be stored. The profile in the most specific location has the precedence.
+
+##### From least specific to most specific:
+
+- $pshome\profile.ps1
+	- This profile applies to **all users and all hosts** (Powershell Console Host + Powershell ISE).
+
+- $pshome\Microsoft.PowerShell_profile.ps1
+	- This profile applies to **all users, but only for the PowerShell Console Host ** (i.e. NOT on Powershell ISE).
+
+- Microsoft.PowerShellISE_profile.ps1
+	- This profile applies to **all users, but only for PowerShell ISE** (i.e. NOT for the Powershell Console Host).
+
+- $home\Documents\WindowsPowerShell\profile.ps1
+	- This profile applies to **the current user and all hosts** (Powershell Console Host + Powershell ISE).
+
+- $home\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1
+	- This profile applies to **the current user, but only for the PowerShell Console Host** (i.e. NOT on Powershell ISE).
+
+- $home\Documents\WindowsPowerShell\Microsoft.PowerShellISE_profile.ps1
+	- This profile applies to **the current user, but only for PowerShell ISE** (i.e. NOT for the Powershell Console Host).
+
+The $PsHome and $Home are variables within the Powershell environment.
+You can retrieve their value via the "echo $pshome" command:
+
 
 ## Exporting objects/cmdlets
 
 •       Convertto-Html: put the information in html format
 •       Convertto-Xml: put the information in xml format
 •       Convertto-Csv: put the information in csv format
-•       Export-CSV: = the same as Convertto-Csv except that it keeps the Csv strings in a file
+•       Export-CSV: The same as Convertto-Csv except that it keeps the Csv strings in a file
 •       Out-File: places the information in a file
 •       Input item: simulates opening files
 ## Input and Output:
@@ -282,15 +311,18 @@ read-host
 write-host
 write-output
 ## Execution policy
+
+- restricted = default -> don't allow ps scripts to be ran, you can only run powershell interactively from the ps shell.
+- remote-signed -> allows locally written scripts but external scripts have to be signed by a trusted publisher
+- all-signed -> only scripts signed by trusted publishers can be run
+- unrestricted -> allow all scripts, but prompt if not trusted
+- bypass -> allow all scripts and don't even prompt
 ```powershell
 set-executionpolicy remotesigned
-
-
 ```
 ## History
 get-history
-
-hoofdstuk 12 niet op examen
+invoke-history
 
 ## getting and setting NTFS permissions.
 
@@ -304,3 +336,11 @@ $acl | Set-Acl c:\test
 ```
 
 
+## Pester
+Is a powershell tool and is used to do unit tests on scripts.
+
+### Install pester
+
+```
+install-module pester -force -skippublishercheck
+```
