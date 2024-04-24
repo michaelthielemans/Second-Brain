@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 401.5024719238281
+    "width": 401.5024719238281,
+    "collapsed": true
   },
   "right": {
     "id": "f9757c9a7378738d",
@@ -163,7 +164,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "8d0292ea51f596e7",
+  "active": "6ebe52bc1f1100dd",
   "lastOpenFiles": [
     "Networking/Enterprise networking/12. Troubleshooting.md",
     "Networking/Enterprise networking/Port mirroring.md",
