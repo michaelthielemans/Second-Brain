@@ -10,6 +10,10 @@ till 14% it will cost less
 cheapest 14%
 fastest 18%
 
+goedkoopste = 14% SE  
+het snelste  = 18% SE
+het gemiddelde = 7% SE
+
 ## A system engineer:
 - Probeert de “big picture” te begrijpen
 - Zoekt patronen en trends

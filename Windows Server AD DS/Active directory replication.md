@@ -10,7 +10,7 @@
 	It is not possible to configure a schedule
 # AD replication between DCs of OTHER sites
 
-- Every 3 hours dc will contact the others to ask for changes (pull request)
+- Every 3 hours(by default) dc will contact the others to ask for changes (pull request)
 - The DC has 1 hour to continue replication.
 - There is no notify -> no push replication only pull
 - Protocol for replication = IP with fixed port  => firewall friendly

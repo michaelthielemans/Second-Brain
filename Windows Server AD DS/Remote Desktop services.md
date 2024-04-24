@@ -6,7 +6,7 @@
 
 
 ## Terminal services in windows server
-- Terminal server
+- Terminal server service
 - Terminal services Licensing
 - Terminal services session broker
 - Terminal services Gateway

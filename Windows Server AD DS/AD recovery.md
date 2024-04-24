@@ -6,10 +6,6 @@ Kerberos
 ## realm is used for building a trust between unix and AD
 
 
-realm trust
-
-
-
 indien DC met alle FSMO rollen crashed -> neem andere DC en neem de FSMO rollen over.
 
 dit is in princiepe geen probleem alleen bij de RID kan het zijn dat de nieuwe dc niet over dezelfde info beschikt als de vorige DC.
