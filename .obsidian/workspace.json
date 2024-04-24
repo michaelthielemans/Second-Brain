@@ -31,10 +31,11 @@
             "id": "621a8866dc84696d",
             "type": "leaf",
             "state": {
-              "type": "diff-view",
+              "type": "markdown",
               "state": {
-                "file": "snipe-it",
-                "staged": true
+                "file": "Kubernetes/Container technology.md",
+                "mode": "source",
+                "source": false
               }
             }
           },
@@ -117,6 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Kubernetes/Container technology.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,6 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Kubernetes/Container technology.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,7 +157,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Kubernetes/Container technology.md"
+              }
             }
           },
           {
@@ -193,17 +198,21 @@
   },
   "active": "621a8866dc84696d",
   "lastOpenFiles": [
+    "Kubernetes/Kubernetes Operators.md",
+    "Kubernetes/K8s architecture.md",
+    "Kubernetes/Container technology.md",
+    "DevSecOps.md",
+    "Project.md",
+    "spotify.png",
+    "test.md",
     "conflict-files-obsidian-git.md",
     "snipe-it",
     "Project hosting/waarom.md",
     "Project hosting/kubeadm installation.md",
     "Project hosting/Objectives.md",
-    "Project.md",
     "Project hosting/Intro.md",
     "System Engineering/Chapter 1 system engineering intro.md",
     "Project hosting",
-    "test.md",
-    "spotify.png",
     "Obsidian/mermaid examples.md",
     "Obsidian/Mark down styling.md",
     "Windows Server AD DS/Windows server command list.md",
@@ -218,9 +227,6 @@
     "Windows Server AD DS/Default administrator membership in AD.md",
     "Windows Server AD DS/DNS client schema.md",
     "Windows Server AD DS/Active directory replication.md",
-    "Windows Server AD DS/Active Directory Database partitions.md",
-    "waarom.md",
-    "System Engineering/system engineering roles and players.md",
     "Podman & Docker",
     "System Engineering",
     "Networking/Pasted image 20231130140530.png",
