@@ -4,50 +4,40 @@
     "type": "split",
     "children": [
       {
-        "id": "deffe9117a9b351b",
+        "id": "5c13bc2eb09c9bae",
         "type": "tabs",
         "children": [
           {
-            "id": "fbeafa0f3f0b0dba",
+            "id": "3acd965845494ecc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Project hosting/Intro.md",
+                "file": "Project hosting/vpn school.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "7ab930a6e7b29e98",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
-          },
-          {
-            "id": "621a8866dc84696d",
+            "id": "26e17019b7afebe8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Kubernetes/Container technology.md",
+                "file": "Netplan.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "1ed22b63d31b86d6",
+            "id": "280bf54e5167f913",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "release-notes",
               "state": {
-                "file": "Project.md",
-                "mode": "source",
-                "source": false
+                "currentVersion": "1.5.12"
               }
             }
           }
@@ -81,7 +71,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "mark",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": true,
@@ -102,7 +92,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 308.5
+    "width": 288.5
   },
   "right": {
     "id": "f9757c9a7378738d",
@@ -118,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Kubernetes/Container technology.md",
+                "file": "Netplan.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Kubernetes/Container technology.md",
+                "file": "Netplan.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Kubernetes/Container technology.md"
+                "file": "Netplan.md"
               }
             }
           },
@@ -196,13 +186,32 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "621a8866dc84696d",
+  "active": "280bf54e5167f913",
   "lastOpenFiles": [
+    "Project hosting/vpn school.md",
+    "Netplan.md",
+    "Securing DNS – access control lists.md",
+    "README.md",
+    "Project hosting/Puppet/Puppet.md",
+    "Project hosting/Project.md",
+    "Project hosting/Intro.md",
+    "Project hosting/Puppet/Puppet - Creating Modules.md",
+    "Project hosting/Vagrant",
+    "Project hosting/Install puppet-client (agent).md",
+    "Project hosting/Terraform",
+    "Project hosting/Puppet/Install puppet-master.md",
+    "Project hosting/Puppet",
+    "Obsidian/Mark down styling.md",
+    "Linux/DNS/DNS Slave Server.md",
+    "Linux/DNS/DNS Cash Server.md",
+    "Linux/DNS/DNS Reverse lookup zone server.md",
+    "Linux/DNS/DNS.md",
+    "Linux/DNS",
+    "Windows/DNS.md",
+    "Kubernetes/Container technology.md",
     "Kubernetes/Kubernetes Operators.md",
     "Kubernetes/K8s architecture.md",
-    "Kubernetes/Container technology.md",
     "DevSecOps.md",
-    "Project.md",
     "spotify.png",
     "test.md",
     "conflict-files-obsidian-git.md",
@@ -210,33 +219,14 @@
     "Project hosting/waarom.md",
     "Project hosting/kubeadm installation.md",
     "Project hosting/Objectives.md",
-    "Project hosting/Intro.md",
     "System Engineering/Chapter 1 system engineering intro.md",
     "Project hosting",
-    "Obsidian/mermaid examples.md",
-    "Obsidian/Mark down styling.md",
-    "Windows Server AD DS/Windows server command list.md",
-    "Windows Server AD DS/Remote Desktop services.md",
-    "Windows Server AD DS/Nog uitzoeken.md",
-    "Windows Server AD DS/IPsec.md",
-    "Windows Server AD DS/FSMO rollen.md",
-    "Windows Server AD DS/Domains and trusts.md",
-    "Windows Server AD DS/DNS server schema.md",
-    "Windows Server AD DS/DNS in active directory.md",
-    "Windows Server AD DS/AD recovery.md",
-    "Windows Server AD DS/Default administrator membership in AD.md",
-    "Windows Server AD DS/DNS client schema.md",
-    "Windows Server AD DS/Active directory replication.md",
     "Podman & Docker",
     "System Engineering",
     "Networking/Pasted image 20231130140530.png",
     "Windows Server AD DS",
     "Untitled.canvas",
     "Networking/Config files",
-    "Networking/Enterprise networking",
-    "Mac",
-    "VIM",
-    "Linux/Apache",
     "Untitled 1.canvas",
     "Pasted image 20231110210251.png",
     "Pasted image 20231116184553.png"
