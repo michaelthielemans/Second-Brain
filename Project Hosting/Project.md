@@ -1,13 +1,10 @@
 Plan van aanpak
 
-
-
 WH CMS = webhost cms
 ## MOSCOW
 
 ### Must Haves:
 
-- 
 - Webhosting info pagina voor bestaande klanten
 	- info omtrent prijs, beschikbare diensten,...
 - webhosting pagina waarop kmo's kunnen registreren inloggen en vervolgens contact kunnen opnemen met ons.
@@ -24,7 +21,6 @@ WH CMS = webhost cms
 - automatisatie -> ansible of/en puppet?
 	- ansible = clientless
 	- 
-- 
 
 - Voor kleine ondernemingen:
 	- Kant en klaar webwinkel kunnen leveren aan klant ( kleine KMO zonder IT kennis)
