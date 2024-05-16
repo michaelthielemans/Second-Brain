@@ -35,9 +35,11 @@
             "id": "280bf54e5167f913",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.5.12"
+                "file": "Project hosting/Puppet/Puppet - Creating Modules.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -108,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Netplan.md",
+                "file": "Project hosting/Puppet/Puppet - Creating Modules.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Netplan.md",
+                "file": "Project hosting/Puppet/Puppet - Creating Modules.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Netplan.md"
+                "file": "Project hosting/Puppet/Puppet - Creating Modules.md"
               }
             }
           },
@@ -188,16 +190,19 @@
   },
   "active": "280bf54e5167f913",
   "lastOpenFiles": [
+    "Project hosting/Puppet/Puppet.md",
+    "Project hosting/Project.md",
     "Project hosting/vpn school.md",
+    "Project hosting/waarom.md",
+    "Project hosting/Puppet/Install puppet-client (agent).md",
+    "Project hosting/Objectives.md",
+    "Project hosting/kubeadm installation.md",
     "Netplan.md",
     "Securing DNS – access control lists.md",
     "README.md",
-    "Project hosting/Puppet/Puppet.md",
-    "Project hosting/Project.md",
     "Project hosting/Intro.md",
     "Project hosting/Puppet/Puppet - Creating Modules.md",
     "Project hosting/Vagrant",
-    "Project hosting/Install puppet-client (agent).md",
     "Project hosting/Terraform",
     "Project hosting/Puppet/Install puppet-master.md",
     "Project hosting/Puppet",
@@ -216,9 +221,6 @@
     "test.md",
     "conflict-files-obsidian-git.md",
     "snipe-it",
-    "Project hosting/waarom.md",
-    "Project hosting/kubeadm installation.md",
-    "Project hosting/Objectives.md",
     "System Engineering/Chapter 1 system engineering intro.md",
     "Project hosting",
     "Podman & Docker",

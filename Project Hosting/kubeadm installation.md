@@ -1,3 +1,0 @@
-# Installing kubernetes with kubeadm
-
-
