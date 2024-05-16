@@ -42,9 +42,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "e6bebfd3fa811cd4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -110,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Project hosting/Puppet/Puppet - Creating Modules.md",
+                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Project hosting/Puppet/Puppet - Creating Modules.md",
+                "file": "conflict-files-obsidian-git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Project hosting/Puppet/Puppet - Creating Modules.md"
+                "file": "conflict-files-obsidian-git.md"
               }
             }
           },
@@ -188,20 +200,22 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "280bf54e5167f913",
+  "active": "e6bebfd3fa811cd4",
   "lastOpenFiles": [
+    "Project hosting/kubeadm installation.md",
+    "Podman & Docker/nifi compose",
+    "Project hosting/Puppet/Puppet - Creating Modules.md",
+    "conflict-files-obsidian-git.md",
     "Project hosting/Puppet/Puppet.md",
     "Project hosting/Project.md",
     "Project hosting/vpn school.md",
     "Project hosting/waarom.md",
     "Project hosting/Puppet/Install puppet-client (agent).md",
     "Project hosting/Objectives.md",
-    "Project hosting/kubeadm installation.md",
     "Netplan.md",
     "Securing DNS – access control lists.md",
     "README.md",
     "Project hosting/Intro.md",
-    "Project hosting/Puppet/Puppet - Creating Modules.md",
     "Project hosting/Vagrant",
     "Project hosting/Terraform",
     "Project hosting/Puppet/Install puppet-master.md",
@@ -219,16 +233,13 @@
     "DevSecOps.md",
     "spotify.png",
     "test.md",
-    "conflict-files-obsidian-git.md",
     "snipe-it",
-    "System Engineering/Chapter 1 system engineering intro.md",
     "Project hosting",
     "Podman & Docker",
     "System Engineering",
     "Networking/Pasted image 20231130140530.png",
     "Windows Server AD DS",
     "Untitled.canvas",
-    "Networking/Config files",
     "Untitled 1.canvas",
     "Pasted image 20231110210251.png",
     "Pasted image 20231116184553.png"
