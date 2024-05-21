@@ -8,24 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "24b58d4da421074f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "test linux..md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "9d12a6a6851f04f0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Usefull links.md",
+                "file": "Obsidian/Mark down styling.md",
                 "mode": "source",
                 "source": false
               }
@@ -60,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "mark",
+                "query": "obsidian",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": true,
@@ -77,7 +65,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -97,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "test linux..md",
+                "file": "Obsidian/Mark down styling.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "test linux..md",
+                "file": "Obsidian/Mark down styling.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "test linux..md"
+                "file": "Obsidian/Mark down styling.md"
               }
             }
           },
@@ -175,8 +164,9 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "24b58d4da421074f",
+  "active": "9d12a6a6851f04f0",
   "lastOpenFiles": [
+    "Obsidian/mermaid examples.md",
     "Usefull links.md",
     "test linux..md",
     "Presentatie.md",
@@ -208,7 +198,6 @@
     "Linux/DNS/DNS.md",
     "Linux/DNS",
     "Windows/DNS.md",
-    "Kubernetes/Container technology.md",
     "spotify.png",
     "snipe-it",
     "Project hosting",

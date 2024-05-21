@@ -14,12 +14,9 @@
 - item 2
 * item
 [ +]  item
-
-
 ## Quotes and Callouts
 
 > To create a Quote start your paragraph with a  ' > '
-
 
 
 > [!info]
