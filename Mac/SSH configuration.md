@@ -1,6 +1,6 @@
 #ssh #security 
 ### Add a new keypair to ssh
-`sh-keygen -t ed25519 -C "michaelthielemans@gmail.com"
+`ssh-keygen -t ed25519 -C "michaelthielemans@gmail.com"
 
 ### You need to specify a filename.
  The file will be saved in the ~/.ssh/ directory
