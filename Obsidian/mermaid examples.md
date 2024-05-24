@@ -12,6 +12,7 @@ Start --> Stop
 ```mermaid
 flowchart TB
 Start --> Stop
+Start --> Stop2
 ```
 
 
