@@ -8,42 +8,31 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e1a77d11c6a912b4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Project Hosting/LDAP.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "abc8716bf3ef24c4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "FTP.md",
+                "file": "Git/Git.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "4121d96e2afb6099",
+            "id": "6df9451040f67b7d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian/mermaid examples.md",
+                "file": "Usefull links.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -109,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Project Hosting/LDAP.md",
+                "file": "Usefull links.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Project Hosting/LDAP.md",
+                "file": "Usefull links.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Project Hosting/LDAP.md"
+                "file": "Usefull links.md"
               }
             }
           },
@@ -187,45 +176,46 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "e1a77d11c6a912b4",
+  "active": "6df9451040f67b7d",
   "lastOpenFiles": [
-    "Obsidian/mermaid examples.md",
+    "README.md",
+    "git privata repo.md",
+    "DevSecOps.md",
+    "Project Hosting/DNS/Securing DNS – access control lists.md",
+    "Presentatie.md",
+    "test linux..md",
+    "Pasted image 20240612194412.png",
+    "Application Security",
+    "Cloud Platforms",
+    "Project Hosting/DNS/DNS resolved client.md",
+    "Project Hosting/DNS/DNS global overview.md",
+    "Project Hosting/DNS/BIND9 - named.md",
+    "Project Hosting/Puppet/Install puppet-master.md",
+    "Project Hosting/Puppet/Install puppet-client (agent).md",
+    "Project Hosting/Puppet/Puppet.md",
+    "Project Hosting/Puppet/Puppet - Creating Modules.md",
     "Project Hosting/LDAP.md",
+    "Project Hosting/FTP.md",
+    "Project Hosting/DHCP.md",
+    "Project Hosting/Ansible.md",
+    "Git/Git.md",
+    "Obsidian/mermaid examples.md",
     "Obsidian/Mark down styling.md",
-    "FTP.md",
     "Mac/SSH configuration.md",
     "Usefull links.md",
-    "test linux..md",
-    "Presentatie.md",
-    "DHCP.md",
     "Project hosting/Project.md",
     "Project hosting/Intro.md",
     "Project hosting/Netplan.md",
     "Kubernetes/kubeadm installation.md",
-    "Project hosting/DNS/Securing DNS – access control lists.md",
     "Project hosting/DNS",
-    "Project hosting/DNS/DNS stub resolver.md",
-    "Project hosting/Puppet/Puppet - Creating Modules.md",
-    "conflict-files-obsidian-git.md",
     "Podman & Docker/nifi compose",
-    "Project hosting/Puppet/Puppet.md",
-    "Project hosting/vpn school.md",
-    "Project hosting/waarom.md",
-    "Project hosting/Puppet/Install puppet-client (agent).md",
-    "Project hosting/Objectives.md",
-    "README.md",
     "Project hosting/Vagrant",
     "Project hosting/Terraform",
-    "Project hosting/Puppet/Install puppet-master.md",
     "Project hosting/Puppet",
-    "Linux/DNS/DNS Slave Server.md",
-    "Linux/DNS/DNS Cash Server.md",
     "Linux/DNS",
     "spotify.png",
     "snipe-it",
     "Project hosting",
-    "Podman & Docker",
-    "System Engineering",
     "Networking/Pasted image 20231130140530.png",
     "Untitled.canvas",
     "Untitled 1.canvas",

@@ -14,16 +14,18 @@ sudo apt-get install puppet-agent -y
 ## Adjust the puppet-client configuration
 ```
 vim /etc/puppetlabs/puppet/puppet.conf
-
 ```
 
+***Puppet uses four configuration sections in its puppet.conf file:
 
-Puppet uses four configuration sections in its puppet.conf file:
-
-·       main is the global section used by all commands and services. It can be overridden by the other sections.
-·       master is used by the primary Puppet server service and the Puppet Server ca command.
-·       agent is used by the Puppet agent service.
-·       user is used by the Puppet apply command_
+- **Main:**
+	is the global section used by all commands and services. It can be overridden by the other sections.
+- **Master:**
+	is used by the primary Puppet server service and the Puppet Server ca command.
+- **Agent**
+	is used by the Puppet agent service.
+- **User:**
+	is used by the Puppet apply command_
 
 The main section will apply to all run modes, but agent will only apply to the given run mode.
 

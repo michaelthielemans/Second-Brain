@@ -1,10 +1,3 @@
-Informational:
-- /etc/hosts = the file with all static dns names -> for fast dns query.
-- /etc/resolv.conf = the file with all the dns servers.
-
-1. use hosts file
-2. use resolv.conf
-
 # Systemd-resolved
 - is a systemd service
 - `systemctl status systemd-resolved
@@ -20,7 +13,6 @@ The mode decides how the /etc/resolv.conf file is used. the resolv.conf file is 
 - systemd-resolver will manage the resolv.conf file
 - a symlink is made from /etc/resolv.conf to /run/systemd/resolve/stub-resolv.conf
 - it can cause issues with other programs who wants to change the resolv.conf file itselfs
-
 ## Compatibility mode
 - /etc/resolv.conf is not altered
 - in this mode other programs can manage the resolv.conf file
