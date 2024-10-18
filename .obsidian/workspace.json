@@ -8,31 +8,55 @@
         "type": "tabs",
         "children": [
           {
-            "id": "abc8716bf3ef24c4",
+            "id": "00a8b4673f9c342d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git/Git.md",
+                "file": "Cloud Platforms/AWS/AWS.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "6df9451040f67b7d",
+            "id": "53f96bc589ea2f76",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Usefull links.md",
+                "file": "Cloud Platforms/AWS/AWS.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "29041be13c2d26d3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cloud Platforms/AWS/AWS.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8073d6ad28ce722a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cloud Platforms/AWS/create  VPC.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -98,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Usefull links.md",
+                "file": "Cloud Platforms/AWS/create  VPC.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Usefull links.md",
+                "file": "Cloud Platforms/AWS/create  VPC.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Usefull links.md"
+                "file": "Cloud Platforms/AWS/create  VPC.md"
               }
             }
           },
@@ -176,9 +200,22 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "6df9451040f67b7d",
+  "active": "8073d6ad28ce722a",
   "lastOpenFiles": [
+    "Cloud Platforms/general information.md",
+    "Cloud Platforms/AWS/create  VPC.md",
+    "Application Security/Topics/CSRF.md",
+    "Application Security/Topics/SSRF.md",
+    "Application Security/Topics/SQL injections.md",
+    "Application Security/Topics/File upload vulnerability.md",
+    "Application Security/Topics/xss.md",
+    "Cloud Platforms/AWS/AWS.md",
+    "Application Security/Topics",
+    "Application Security/Project.md",
+    "Cloud Platforms/AWS/AWS CLI.md",
+    "Cloud Platforms/AWS",
     "README.md",
+    "Usefull links.md",
     "git privata repo.md",
     "DevSecOps.md",
     "Project Hosting/DNS/Securing DNS – access control lists.md",
@@ -196,17 +233,6 @@
     "Project Hosting/Puppet/Puppet - Creating Modules.md",
     "Project Hosting/LDAP.md",
     "Project Hosting/FTP.md",
-    "Project Hosting/DHCP.md",
-    "Project Hosting/Ansible.md",
-    "Git/Git.md",
-    "Obsidian/mermaid examples.md",
-    "Obsidian/Mark down styling.md",
-    "Mac/SSH configuration.md",
-    "Usefull links.md",
-    "Project hosting/Project.md",
-    "Project hosting/Intro.md",
-    "Project hosting/Netplan.md",
-    "Kubernetes/kubeadm installation.md",
     "Project hosting/DNS",
     "Podman & Docker/nifi compose",
     "Project hosting/Vagrant",
@@ -214,8 +240,6 @@
     "Project hosting/Puppet",
     "Linux/DNS",
     "spotify.png",
-    "snipe-it",
-    "Project hosting",
     "Networking/Pasted image 20231130140530.png",
     "Untitled.canvas",
     "Untitled 1.canvas",
