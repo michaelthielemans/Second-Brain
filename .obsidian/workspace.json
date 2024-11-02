@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cloud Platforms/AWS/create  VPC.md",
+                "file": "Application Security/Topics/XSS.md",
                 "mode": "source",
                 "source": false
               }
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cloud Platforms/AWS/create  VPC.md",
+                "file": "Application Security/Topics/XSS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cloud Platforms/AWS/create  VPC.md",
+                "file": "Application Security/Topics/XSS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cloud Platforms/AWS/create  VPC.md"
+                "file": "Application Security/Topics/XSS.md"
               }
             }
           },
@@ -187,7 +187,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 238.5
+    "width": 268.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -202,13 +202,20 @@
   },
   "active": "8073d6ad28ce722a",
   "lastOpenFiles": [
-    "Cloud Platforms/general information.md",
-    "Cloud Platforms/AWS/create  VPC.md",
-    "Application Security/Topics/CSRF.md",
+    "Application Security/Topics/Authentication.md",
+    "Application Security/Topics/XSS.md",
     "Application Security/Topics/SSRF.md",
-    "Application Security/Topics/SQL injections.md",
+    "Application Security/Topics/Access Control.md",
+    "Obsidian/Mark down styling.md",
+    "Application Security/Topics/Information disclosure.md",
     "Application Security/Topics/File upload vulnerability.md",
-    "Application Security/Topics/xss.md",
+    "Application Security/Topics/Path traversal.md",
+    "Application Security/Topics/Command injection.md",
+    "Application Security/Topics/SQL injections.md",
+    "Linux/Ansible.md",
+    "Cloud Platforms/AWS/create  VPC.md",
+    "Cloud Platforms/general information.md",
+    "Application Security/Topics/CSRF.md",
     "Cloud Platforms/AWS/AWS.md",
     "Application Security/Topics",
     "Application Security/Project.md",
@@ -226,13 +233,6 @@
     "Cloud Platforms",
     "Project Hosting/DNS/DNS resolved client.md",
     "Project Hosting/DNS/DNS global overview.md",
-    "Project Hosting/DNS/BIND9 - named.md",
-    "Project Hosting/Puppet/Install puppet-master.md",
-    "Project Hosting/Puppet/Install puppet-client (agent).md",
-    "Project Hosting/Puppet/Puppet.md",
-    "Project Hosting/Puppet/Puppet - Creating Modules.md",
-    "Project Hosting/LDAP.md",
-    "Project Hosting/FTP.md",
     "Project hosting/DNS",
     "Podman & Docker/nifi compose",
     "Project hosting/Vagrant",
