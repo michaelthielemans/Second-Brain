@@ -8,55 +8,31 @@
         "type": "tabs",
         "children": [
           {
-            "id": "00a8b4673f9c342d",
+            "id": "67cdbe62cdae051b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cloud Platforms/AWS/AWS.md",
+                "file": "Application Security/Topics/SQL/SQL injections.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "53f96bc589ea2f76",
+            "id": "4efae6f8537d65f0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cloud Platforms/AWS/AWS.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "29041be13c2d26d3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Cloud Platforms/AWS/AWS.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8073d6ad28ce722a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Application Security/Topics/XSS.md",
+                "file": "Cloud Platforms/Azure.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -122,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Application Security/Topics/XSS.md",
+                "file": "Cloud Platforms/Azure.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Application Security/Topics/XSS.md",
+                "file": "Cloud Platforms/Azure.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Application Security/Topics/XSS.md"
+                "file": "Cloud Platforms/Azure.md"
               }
             }
           },
@@ -200,45 +176,45 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "8073d6ad28ce722a",
+  "active": "4efae6f8537d65f0",
   "lastOpenFiles": [
-    "Application Security/Topics/Authentication.md",
-    "Application Security/Topics/XSS.md",
-    "Application Security/Topics/SSRF.md",
-    "Application Security/Topics/Access Control.md",
-    "Obsidian/Mark down styling.md",
-    "Application Security/Topics/Information disclosure.md",
-    "Application Security/Topics/File upload vulnerability.md",
-    "Application Security/Topics/Path traversal.md",
-    "Application Security/Topics/Command injection.md",
-    "Application Security/Topics/SQL injections.md",
-    "Linux/Ansible.md",
+    "Cloud Platforms/AWS/CAF cloud adoption framework.md",
+    "Cloud Platforms/Azure.md",
+    "Cloud Platforms/AWS/AWS.md",
+    "Cloud Platforms/AWS/AWS CLI.md",
     "Cloud Platforms/AWS/create  VPC.md",
     "Cloud Platforms/general information.md",
+    "Application Security/Topics/SSRF.md",
+    "Application Security/Topics/Information disclosure.md",
+    "Application Security/Topics/SQL/SQL Injection examples.md",
     "Application Security/Topics/CSRF.md",
-    "Cloud Platforms/AWS/AWS.md",
+    "Application Security/Topics/SQL",
+    "Application Security/Topics/Command injection.md",
+    "Application Security/Topics/Authentication.md",
+    "Application Security/Topics/XSS/XSS.md",
+    "Application Security/Topics/SQL/SQL injections.md",
+    "Application Security/Topics/Path traversal.md",
+    "Application Security/Topics/Access Control.md",
+    "Application Security/Topics/XSS/Stored XSS.md",
+    "Application Security/Topics/XSS/Reflected XSS.md",
+    "Application Security/Topics/XSS",
+    "Obsidian/Mark down styling.md",
+    "Application Security/Topics/File upload vulnerability.md",
+    "Linux/Ansible.md",
     "Application Security/Topics",
     "Application Security/Project.md",
-    "Cloud Platforms/AWS/AWS CLI.md",
     "Cloud Platforms/AWS",
     "README.md",
     "Usefull links.md",
     "git privata repo.md",
     "DevSecOps.md",
-    "Project Hosting/DNS/Securing DNS – access control lists.md",
-    "Presentatie.md",
-    "test linux..md",
     "Pasted image 20240612194412.png",
     "Application Security",
     "Cloud Platforms",
-    "Project Hosting/DNS/DNS resolved client.md",
-    "Project Hosting/DNS/DNS global overview.md",
     "Project hosting/DNS",
     "Podman & Docker/nifi compose",
     "Project hosting/Vagrant",
     "Project hosting/Terraform",
-    "Project hosting/Puppet",
-    "Linux/DNS",
     "spotify.png",
     "Networking/Pasted image 20231130140530.png",
     "Untitled.canvas",
