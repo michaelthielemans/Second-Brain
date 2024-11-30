@@ -20,19 +20,31 @@
             }
           },
           {
-            "id": "4efae6f8537d65f0",
+            "id": "d329e42af7e5e881",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cloud Platforms/Azure.md",
+                "file": "IoT essentials/IoT essentials.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "bc3b4e6e40a90d4b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cloud Engineering/Intro.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -98,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cloud Platforms/Azure.md",
+                "file": "Cloud Engineering/Intro.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cloud Platforms/Azure.md",
+                "file": "Cloud Engineering/Intro.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cloud Platforms/Azure.md"
+                "file": "Cloud Engineering/Intro.md"
               }
             }
           },
@@ -176,10 +188,20 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "4efae6f8537d65f0",
+  "active": "bc3b4e6e40a90d4b",
   "lastOpenFiles": [
-    "Cloud Platforms/AWS/CAF cloud adoption framework.md",
+    "IoT essentials/IoT essentials.md",
+    "DevSecOps.md",
+    "Dev Ops & CI CD.md",
+    "Usefull links.md",
+    "README.md",
+    "git privata repo.md",
+    "Cloud Engineering/Intro.md",
+    "Cloud Engineering",
+    "Application Security/Topics/SQL/SQL injections.md",
     "Cloud Platforms/Azure.md",
+    "IoT essentials",
+    "Cloud Platforms/AWS/CAF cloud adoption framework.md",
     "Cloud Platforms/AWS/AWS.md",
     "Cloud Platforms/AWS/AWS CLI.md",
     "Cloud Platforms/AWS/create  VPC.md",
@@ -192,29 +214,19 @@
     "Application Security/Topics/Command injection.md",
     "Application Security/Topics/Authentication.md",
     "Application Security/Topics/XSS/XSS.md",
-    "Application Security/Topics/SQL/SQL injections.md",
     "Application Security/Topics/Path traversal.md",
     "Application Security/Topics/Access Control.md",
     "Application Security/Topics/XSS/Stored XSS.md",
     "Application Security/Topics/XSS/Reflected XSS.md",
     "Application Security/Topics/XSS",
     "Obsidian/Mark down styling.md",
-    "Application Security/Topics/File upload vulnerability.md",
-    "Linux/Ansible.md",
     "Application Security/Topics",
-    "Application Security/Project.md",
     "Cloud Platforms/AWS",
-    "README.md",
-    "Usefull links.md",
-    "git privata repo.md",
-    "DevSecOps.md",
     "Pasted image 20240612194412.png",
     "Application Security",
     "Cloud Platforms",
     "Project hosting/DNS",
     "Podman & Docker/nifi compose",
-    "Project hosting/Vagrant",
-    "Project hosting/Terraform",
     "spotify.png",
     "Networking/Pasted image 20231130140530.png",
     "Untitled.canvas",
