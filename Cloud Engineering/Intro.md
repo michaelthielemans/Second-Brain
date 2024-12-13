@@ -15,3 +15,7 @@ CloudEngineering
 argumenten in python
 
 argparse library in python
+
+
+
+dotenvx is a tool that will add variables int the .env file into a system variable when the command is completed the system variables will be deleted 

@@ -20,31 +20,19 @@
             }
           },
           {
-            "id": "d329e42af7e5e881",
+            "id": "84519dcc9ba8b8e7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IoT essentials/IoT essentials.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "bc3b4e6e40a90d4b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Cloud Engineering/Intro.md",
+                "file": "IoT/Individual project.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -73,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "obsidian",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": true,
@@ -110,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cloud Engineering/Intro.md",
+                "file": "IoT/Individual project.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cloud Engineering/Intro.md",
+                "file": "IoT/Individual project.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cloud Engineering/Intro.md"
+                "file": "IoT/Individual project.md"
               }
             }
           },
@@ -188,19 +176,23 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "bc3b4e6e40a90d4b",
+  "active": "84519dcc9ba8b8e7",
   "lastOpenFiles": [
-    "IoT essentials/IoT essentials.md",
+    "Cloud Engineering/Intro.md",
+    "IoT/IoT general info.md",
+    "Application Security/Topics/SQL/SQL injections.md",
+    "IoT/Individual project.md",
+    "IoT/Orange pi packages.md",
+    "Obsidian/Mark down styling.md",
+    "README.md",
+    "IoT/Python3.md",
     "DevSecOps.md",
     "Dev Ops & CI CD.md",
     "Usefull links.md",
-    "README.md",
     "git privata repo.md",
-    "Cloud Engineering/Intro.md",
     "Cloud Engineering",
-    "Application Security/Topics/SQL/SQL injections.md",
     "Cloud Platforms/Azure.md",
-    "IoT essentials",
+    "IoT",
     "Cloud Platforms/AWS/CAF cloud adoption framework.md",
     "Cloud Platforms/AWS/AWS.md",
     "Cloud Platforms/AWS/AWS CLI.md",
@@ -215,11 +207,7 @@
     "Application Security/Topics/Authentication.md",
     "Application Security/Topics/XSS/XSS.md",
     "Application Security/Topics/Path traversal.md",
-    "Application Security/Topics/Access Control.md",
-    "Application Security/Topics/XSS/Stored XSS.md",
-    "Application Security/Topics/XSS/Reflected XSS.md",
     "Application Security/Topics/XSS",
-    "Obsidian/Mark down styling.md",
     "Application Security/Topics",
     "Cloud Platforms/AWS",
     "Pasted image 20240612194412.png",
