@@ -8,7 +8,11 @@
 | Highlight              | `== ==`                | `==Highlighted text==`                   | ==Highlighted text==                   |
 | Bold and nested italic | `** **` and `_ _`      | `**Bold text and _nested italic_ text**` | **Bold text and _nested italic_ text** |
 | Bold and italic        | `*** ***` or `___ ___` | `***Bold and italic text***`             | **_Bold and italic text_**             |
+| hyperlink              | [linkaddress]          |                                          |                                        |
+```bash
+ | column 1 | column 2|--
 
+```
 ### lists
 - item 1
 - item 2

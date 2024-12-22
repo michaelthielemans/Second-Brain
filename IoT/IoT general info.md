@@ -2,7 +2,7 @@ lokaal docenten P307. 87
 
 fixed ip orangepi: 192.168.137.2
 
-### wifi accesspoint: 
+#### wifi accesspoint: 
 sid: IoT essentials
 password: only4iot
 
@@ -36,3 +36,14 @@ metaalfilm weerstanden zijn lichtblauw
 6 banden kleur is voor meer nauwkeurige weerstanden. meestal 1% weerstand (laatste band is voor temperatuut coeficient)
 bij 6 banden zijn de eerste 3 de beduidende cijfers
 
+
+enablen van spi, pwm, i2c op de oragepi
+
+/boot/orangepiEnv.txt
+overlays=i2c0 pwm spi-spidev1
+
+
+
+mqtt and thingspeak
+
+mqtt topic = /channels/<channel ID>/publish

@@ -4,35 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "025e96c34c33b6a4",
+        "id": "ac1d3f479c7f4faf",
         "type": "tabs",
         "children": [
           {
-            "id": "67cdbe62cdae051b",
+            "id": "e30bfac7338d7702",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Application Security/Topics/SQL/SQL injections.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "84519dcc9ba8b8e7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "IoT/Individual project.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IoT/Individual project.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "IoT/Individual project.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "IoT/Individual project.md"
-              }
+              "state": {}
             }
           },
           {
@@ -176,20 +155,28 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "84519dcc9ba8b8e7",
+  "active": "e30bfac7338d7702",
   "lastOpenFiles": [
-    "Cloud Engineering/Intro.md",
-    "IoT/IoT general info.md",
     "Application Security/Topics/SQL/SQL injections.md",
-    "IoT/Individual project.md",
-    "IoT/Orange pi packages.md",
+    "Cryptography.md",
+    "Git/Git.md",
     "Obsidian/Mark down styling.md",
-    "README.md",
-    "IoT/Python3.md",
-    "DevSecOps.md",
+    "Obsidian/mermaid examples.md",
+    "SSH/SSH keys.md",
+    "SSH",
+    "Git/git privata repo.md",
+    "IoT/Orange pi packages.md",
+    "IoT/IoT general info.md",
+    "IoT/Individual project.md",
+    "Virtual environments.md",
+    "Python",
     "Dev Ops & CI CD.md",
+    "DevSecOps.md",
+    "README.md",
+    "Cloud Engineering/Groeps project.md",
+    "IoT/Python3.md",
+    "Cloud Engineering/Intro.md",
     "Usefull links.md",
-    "git privata repo.md",
     "Cloud Engineering",
     "Cloud Platforms/Azure.md",
     "IoT",
@@ -200,21 +187,13 @@
     "Cloud Platforms/general information.md",
     "Application Security/Topics/SSRF.md",
     "Application Security/Topics/Information disclosure.md",
-    "Application Security/Topics/SQL/SQL Injection examples.md",
-    "Application Security/Topics/CSRF.md",
     "Application Security/Topics/SQL",
-    "Application Security/Topics/Command injection.md",
-    "Application Security/Topics/Authentication.md",
-    "Application Security/Topics/XSS/XSS.md",
-    "Application Security/Topics/Path traversal.md",
     "Application Security/Topics/XSS",
     "Application Security/Topics",
     "Cloud Platforms/AWS",
     "Pasted image 20240612194412.png",
     "Application Security",
     "Cloud Platforms",
-    "Project hosting/DNS",
-    "Podman & Docker/nifi compose",
     "spotify.png",
     "Networking/Pasted image 20231130140530.png",
     "Untitled.canvas",
