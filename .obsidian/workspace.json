@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Software deployment and design.md",
+                "file": "Cloud Engineering/Theorie/Software deployment and design.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Software deployment and design.md",
+                "file": "Cloud Engineering/Theorie/Software deployment and design.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Software deployment and design.md",
+                "file": "Cloud Engineering/Theorie/Software deployment and design.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Software deployment and design.md"
+                "file": "Cloud Engineering/Theorie/Software deployment and design.md"
               }
             }
           },
@@ -176,10 +176,10 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "a23b59baf760e5e2",
+  "active": "8d0292ea51f596e7",
   "lastOpenFiles": [
     "Cloud Engineering/Theorie/Intro.md",
-    "Software deployment and design.md",
+    "Cloud Engineering/Theorie/Software deployment and design.md",
     "Git/Git.md",
     "Cloud Engineering/Theorie",
     "IoT/IoT general info.md",
