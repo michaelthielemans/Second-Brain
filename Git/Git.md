@@ -21,4 +21,34 @@ Check which remotes are configured
 `git remote -v`
 
 
+## Linking a local repo to a remote repo (github)
 
+#### 1. Make sure you have a valid local repository
+```
+	git status
+```
+#### 2. Link the local repo to the remote repo
+
+```
+git remote add origin git@github.com:michaelthielemans/IoT-individual-project.git
+```
+
+You can replace the name 'origin' by another name if you want , this name just defines the remote url on you git instance
+#### 3. Align the local main branch to the remote main branch
+	If you have not yet defined the name of the local 'master' or 'main branch' you can do it by:
+```
+git branch -m main
+```
+
+##### Push your 'main' branch to the main branch at the remote
+```
+git push -u origin main
+```
+push it to the -upstream to the remote (->origin) main branch
+if you have done this once, git knows that your main is linked to their main.
+
+##### I you want to align the main branches (local<->remote) without pushing anything
+
+```
+git push --set-upstream origin main
+```
