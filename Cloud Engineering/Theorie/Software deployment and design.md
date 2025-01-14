@@ -72,9 +72,88 @@ myresult = functionsum(5, 5)
 
 #### Modules
 Purpose:
-- devide large portions of code in to smaller parts
+- divide large portions of code in to smaller parts
 - It is packaged as a single file.  for example: module1.py
 - It should work as independently
 
 
 # Code review and testing
+### Testing
+##### Functional testing
+- Does the software work correctly.
+- Unit testing
+- Integration testing
+Non-functional testing
+- performance
+- security
+- resilience
+- compliance
+- localization
+##### TDD = Test drive development
+First write the tests based on the requirements THEN develop the software and check if it passes the tests.
+
+
+# Data formats
+
+###### REST APIs (Representational State Transfer Application Programming Interface)
+- Makes use of the HTTP + principles that define how resources should be accessed and manipulated
+- it is stateless , so every time you need to supply all the information
+
+###### REST methods are
+- GET - POST - PUT - DELETE - ....
+
+
+
+Most popular formats for exchanging information between APIs
+- YAML
+- JSON
+- XML
+
+
+#### Flow of a REST API transaction
+1. authenticate
+2. execute a GET request
+3. Modify the received XML, JSON or YAML
+4. Execute a post with the modified XML,JSON,YAML 
+5. request a GET again to check if the modification was succesfull
+
+
+## XML
+Extensible markup language
+- it is the parent of HTML ( in html the tags are fixed)
+
+#### Header of the XML
+only the first 2 lines
+
+#### TAGS
+all tags in xml are user-defined. It is your application so you can choose the tags
+
+XML prologue =. the first line in the XML file
+
+#### Attributes
+You can add additional information within the tags
+
+#### XML namespace ( defines the standard and version of that xml )
+
+### JSON
+JavaScript Object Notation
+
+- Data types: Boolean, string, numbers, nulls
+
+
+### YAML
+Yaml Ain't Markup Language
+- Better readable
+- Is a superset of JSON  -> a YAML file can embed json code
+
+Always start with    ---
+
+Indentations is important
+
+#### Long strings
+
+
+## Parsing <-> Serializing
+
+Parsing = from a long string of chars -> retrieve components and values
+Serializing = turn a internal data structure into a character string
