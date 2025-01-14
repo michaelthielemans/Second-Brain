@@ -15,12 +15,11 @@ tofu plan
 ```
 When triggering the plan command terraform will first check if the statefile is up to date with the read world infrastructure. I executes a tofu refresh in the background. If the state file is refreshed it then can calculate the difference between the configured configuration you have written in the terraform files and the statefile.
 
-
-
 ```
-
+# apply the configuratio to the real infrastructure
 tofu apply
 ```
+
 ```
 # show the resources that are in the state file
 tofu show
@@ -29,6 +28,9 @@ tofu show
 tofu state list
 ```
 
+```
+tofu destroy
+```
 
 ## HCL - terraform files .tf
 Hashicorp Configuration Language
@@ -47,9 +49,25 @@ when specifying a provider it is best practice to define a version. So you have 
 environment variables and terraform/opentofu.
 create TF_VAR_ example so terraform can read it. -> var.example
 
+##### Auto approve commands
+```bash
+tofu <command> -auto-approve
+```
+
+##### Outputs
+You can show some outputs that will be shown at the end when the terraform apply procedure is finished.
+```HCL
+output websiteurl {
+  value = aws_s3_bucket_website_configuration.<your-initials>website.website_endpoint
+}
+```
 
 
-
+After the `tofu apply`, you can also use `tofu output <name-of-attribute>` to get the value of one specific attribute.
+```bash
+$tofu output websiteurl
+"s3website.bv.bucket.s3-website-us-east-1.amazonaws.com"
+```
 ## Modules
 A directory with different .ft files is called a directory
 
