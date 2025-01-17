@@ -4,71 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "6a631969121a3662",
+        "id": "1f9cd88af08d47aa",
         "type": "tabs",
         "children": [
           {
-            "id": "b624272a496e7dc6",
+            "id": "a96f45aa13f970d6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cloud Engineering/Theorie/Infra automation.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "72ed2f9d38465251",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Cloud Engineering/Theorie/Infrastructure as code.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d578312574f9b15f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Cloud Engineering/Theorie/Intro.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "df69626e503b400d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Cloud Engineering/Theorie/Network programmability and program models.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3b3e923e4fae498c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "OpenTofu.md",
+                "file": "Cloud Engineering/Theorie/Software deployment and design.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -134,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OpenTofu.md",
+                "file": "Cloud Engineering/Theorie/Software deployment and design.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OpenTofu.md",
+                "file": "Cloud Engineering/Theorie/Software deployment and design.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OpenTofu.md"
+                "file": "Cloud Engineering/Theorie/Software deployment and design.md"
               }
             }
           },
@@ -212,19 +163,20 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "3b3e923e4fae498c",
+  "active": "a96f45aa13f970d6",
   "lastOpenFiles": [
-    "Cloud Engineering/Theorie/Network programmability and program models.md",
-    "OpenTofu.md",
+    "Cloud Engineering/Theorie/OpenTofu.md",
+    "Cloud Engineering/Theorie/Continues Integration Continues Deployment.md",
+    "Cloud Engineering/Theorie/APIs.md",
+    "Cloud Engineering/Theorie/(no exam) Network programmability and program models.md",
     "Cloud Engineering/Theorie/Software deployment and design.md",
+    "Cloud Engineering/Theorie/Infrastructure as code.md",
+    "Cloud Engineering/Theorie/Infra automation.md",
+    "README.md",
+    "Cloud Engineering/Theorie/Intro.md",
     "Cloud Engineering/Groeps project.md",
     "Dev Ops & CI CD.md",
     "DevSecOps.md",
-    "Cloud Engineering/Theorie/Intro.md",
-    "Cloud Engineering/Theorie/Continues Integration Continues Deployment.md",
-    "Cloud Engineering/Theorie/Infrastructure as code.md",
-    "Cloud Engineering/Theorie/Infra automation.md",
-    "Cloud Engineering/Theorie/APIs.md",
     "Git/Git.md",
     "Cloud Engineering/Theorie",
     "IoT/IoT general info.md",
@@ -239,7 +191,6 @@
     "IoT/Individual project.md",
     "Python/Virtual environments.md",
     "Python",
-    "README.md",
     "IoT/Python3.md",
     "Usefull links.md",
     "Cloud Engineering",

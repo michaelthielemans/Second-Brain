@@ -1,5 +1,5 @@
-Continues Delivery -> has human safeguards, 
-Continues Deployment -> successful automated pipeline will push directly to production
+- Continues Delivery -> Is has a pipeline where there are human safeguards. new versions are not completely automatically applied to production.
+- Continues Deployment -> successful automated pipeline will push directly to production. No human safeguards.
 
 # Network infrastructure for service development
 

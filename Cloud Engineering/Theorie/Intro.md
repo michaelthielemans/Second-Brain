@@ -1,6 +1,5 @@
 
-
-in de slides van cisco zijn er grayed out slides -> komt niet op examen
+In de slides van cisco zijn er grayed out slides -> komt niet op examen
 
 cisco devnet -> sandbox : cloud versie van CML cisco modeling Labs. is een complete simulatie van echte hardware.
 

@@ -1,8 +1,4 @@
 # SDLC Software Development Life Cycle
-- gathering requirements
-- creating a proof of concept
-- testing
-- fixing bugs
 
 ### Phases of SDLC
 1. Requirements and analysis
@@ -15,7 +11,6 @@ This is a kind of waterfall method
 Newer methods like agile have other steps
 
 # Coding basics
-
 
 #### What is clean code
 

@@ -15,4 +15,15 @@ The indicators should map to the practical reality of the service delivery
 - Bash scripting
 - sdk's
 #### Procedural automation
-- is an ordered list of command that will be executed to achieve a goal.
+- Is an ordered list of command that will be executed to achieve a goal.
+
+Examples of this method
+- Python SDK's
+
+#### The declarative automation
+Instead of telling which steps should be executed and in a specified order, you just define in a configuration file how the infrastructure should look like. You DECLARE the end state.
+
+Tools that use this type of programming are:
+- Ansible
+- puppet
+- terraform
