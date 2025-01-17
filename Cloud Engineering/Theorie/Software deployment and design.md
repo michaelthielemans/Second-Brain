@@ -132,9 +132,7 @@ You can add additional information within the tags
 
 ### JSON
 JavaScript Object Notation
-
 - Data types: Boolean, string, numbers, nulls
-
 
 ### YAML
 Yaml Ain't Markup Language
@@ -146,7 +144,6 @@ Always start with    ---
 Indentations is important
 
 #### Long strings
-
 
 ## Parsing <-> Serializing
 

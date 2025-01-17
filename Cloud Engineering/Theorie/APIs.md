@@ -52,10 +52,8 @@ A soap message is in fact a XML document that may contains the following element
 - is stateless -> the server cannot contain session information
 cache model:
 
-Uniform interface:
-
 #### Code-on-Demand
-The rest message can include executional code. this will add functionality to the client. This offcourse can become a vulnerability.
+The rest message can include executional code. this will add functionality to the client. This ofcourse can become a vulnerability.
 
 # API rate limits
 ### Per-Client Rate Limits
