@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "1f9cd88af08d47aa",
+        "id": "cd3bb7bc49795212",
         "type": "tabs",
         "children": [
           {
-            "id": "a96f45aa13f970d6",
+            "id": "9ce9feeb3a796a15",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cloud Engineering/Theorie/APIs.md",
+                "file": "IoT/Theory/I2C.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "mqtt",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": true,
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 288.5
+    "width": 203.5
   },
   "right": {
     "id": "f9757c9a7378738d",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cloud Engineering/Theorie/APIs.md",
+                "file": "IoT/Theory/I2C.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cloud Engineering/Theorie/APIs.md",
+                "file": "IoT/Theory/I2C.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cloud Engineering/Theorie/APIs.md"
+                "file": "IoT/Theory/I2C.md"
               }
             }
           },
@@ -150,7 +150,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 268.5
+    "width": 263.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -163,45 +163,45 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "a96f45aa13f970d6",
+  "active": "9ce9feeb3a796a15",
   "lastOpenFiles": [
+    "IoT/Theory/SPI.md",
+    "IoT/Theory/PWM.md",
+    "IoT/Theory/Orange Pi 3.md",
+    "IoT/Theory/Multithreading.md",
+    "IoT/Theory/MQTT.md",
+    "IoT/Theory/I2C.md",
+    "IoT/Theory/Basic Python.md",
+    "IoT/Theory/Basic Electronics.md",
+    "IoT/Theory/ADC.md",
+    "Obsidian/Mark down styling.md",
+    "IoT/Orange pi packages.md",
+    "Kubernetes/kubeadm installation.md",
+    "Kubernetes/Kubernetes Operators.md",
+    "Kubernetes/K8s architecture.md",
+    "Kubernetes/Container technology.md",
+    "Cloud Engineering/Dev Ops & CI CD.md",
+    "Cloud Engineering/Theorie/APIs.md",
+    "IoT/Theory",
     "Cloud Engineering/Theorie/Software deployment and design.md",
     "Cloud Engineering/Theorie/OpenTofu.md",
     "Cloud Engineering/Theorie/Continues Integration Continues Deployment.md",
-    "Cloud Engineering/Theorie/APIs.md",
     "Cloud Engineering/Theorie/(no exam) Network programmability and program models.md",
     "Cloud Engineering/Theorie/Infrastructure as code.md",
     "Cloud Engineering/Theorie/Infra automation.md",
     "README.md",
     "Cloud Engineering/Theorie/Intro.md",
     "Cloud Engineering/Groeps project.md",
-    "Dev Ops & CI CD.md",
-    "DevSecOps.md",
-    "Git/Git.md",
     "Cloud Engineering/Theorie",
-    "IoT/IoT general info.md",
-    "SSH/SSH keys.md",
-    "Application Security/Topics/SQL/SQL injections.md",
-    "Cryptography.md",
-    "Obsidian/Mark down styling.md",
-    "Obsidian/mermaid examples.md",
     "SSH",
-    "Git/git privata repo.md",
-    "IoT/Orange pi packages.md",
-    "IoT/Individual project.md",
-    "Python/Virtual environments.md",
     "Python",
-    "IoT/Python3.md",
-    "Usefull links.md",
     "Cloud Engineering",
-    "Cloud Platforms/Azure.md",
     "IoT",
     "Application Security/Topics/SQL",
     "Application Security/Topics/XSS",
     "Application Security/Topics",
     "Cloud Platforms/AWS",
     "Pasted image 20240612194412.png",
-    "Application Security",
     "spotify.png",
     "Networking/Pasted image 20231130140530.png",
     "Untitled.canvas",
