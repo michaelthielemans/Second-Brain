@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IoT/Theory/I2C.md",
+                "file": "IoT/Theory/ADC.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IoT/Theory/I2C.md",
+                "file": "IoT/Theory/ADC.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "IoT/Theory/I2C.md",
+                "file": "IoT/Theory/ADC.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "IoT/Theory/I2C.md"
+                "file": "IoT/Theory/ADC.md"
               }
             }
           },
@@ -165,14 +165,15 @@
   },
   "active": "9ce9feeb3a796a15",
   "lastOpenFiles": [
-    "IoT/Theory/SPI.md",
-    "IoT/Theory/PWM.md",
-    "IoT/Theory/Orange Pi 3.md",
-    "IoT/Theory/Multithreading.md",
-    "IoT/Theory/MQTT.md",
-    "IoT/Theory/I2C.md",
     "IoT/Theory/Basic Python.md",
+    "IoT/Theory/I2C.md",
+    "IoT/Theory/MQTT.md",
+    "IoT/Theory/Multithreading.md",
+    "IoT/Theory/Orange Pi 3.md",
+    "IoT/Theory/PWM.md",
+    "IoT/Theory/SPI.md",
     "IoT/Theory/Basic Electronics.md",
+    "IoT/IoT general info.md",
     "IoT/Theory/ADC.md",
     "Obsidian/Mark down styling.md",
     "IoT/Orange pi packages.md",
@@ -191,7 +192,6 @@
     "Cloud Engineering/Theorie/Infra automation.md",
     "README.md",
     "Cloud Engineering/Theorie/Intro.md",
-    "Cloud Engineering/Groeps project.md",
     "Cloud Engineering/Theorie",
     "SSH",
     "Python",

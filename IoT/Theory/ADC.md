@@ -1,3 +1,4 @@
+#IoT
 Analog -> digital convertor
 
 MCP3008 is a ADC

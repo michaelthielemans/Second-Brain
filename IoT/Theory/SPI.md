@@ -1,3 +1,4 @@
+#IoT
 ### Enable SPI on the raspberry / orange pi
 sudo nano /boot/orangepiEnv.txt and add  
     overlays=spi-spidev1
@@ -16,8 +17,7 @@ Is a Synchronous protocol:
 
 **Advantages of SPI:**
 - It’s faster than asynchronous serial
-- The receive hardware can be a simple shift register
-- It supports multiple slaves (via SS – Slave Select)
+- The receiving hardware can be a simple shift register
 
 
 Multiple slaves with SPI:

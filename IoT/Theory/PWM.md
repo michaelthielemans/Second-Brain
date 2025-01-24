@@ -1,3 +1,4 @@
+#IoT
 ### Hard PWM
 The duty cycle is controlled by dedicated hardware.
 -> is fast and precise , but requires expensive hardware
