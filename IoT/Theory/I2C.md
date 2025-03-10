@@ -77,7 +77,7 @@ Resistor values:
 - 4K7 Ohms for 400Kb/s
 - 10K Ohm for 100Kb/s
 
-Why does the value of the pull up resistor affects the max speed of the bus.
+Why does the value of the pull up resistor affects the max speed of the bus. A higher resistance means lower energy consumption but also a slower transition from LOW signal back to HIGH signal.
 
 
 ## Start, R/W bit, ack and stop bit

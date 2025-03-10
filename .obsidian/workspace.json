@@ -8,18 +8,43 @@
         "type": "tabs",
         "children": [
           {
-            "id": "9ce9feeb3a796a15",
+            "id": "9ee99abb9a8674ad",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IoT/Theory/ADC.md",
+                "file": "OS security/examen.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "38ccd2f80ff0df13",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OS security/Firewall settings.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3a21e2d9ac6a34d4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OS security/tryhackme.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IoT/Theory/ADC.md",
+                "file": "OS security/Firewall settings.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "IoT/Theory/ADC.md",
+                "file": "OS security/Firewall settings.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "IoT/Theory/ADC.md"
+                "file": "OS security/Firewall settings.md"
               }
             }
           },
@@ -163,17 +188,23 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "9ce9feeb3a796a15",
+  "active": "38ccd2f80ff0df13",
   "lastOpenFiles": [
-    "IoT/Theory/Basic Python.md",
-    "IoT/Theory/I2C.md",
-    "IoT/Theory/MQTT.md",
-    "IoT/Theory/Multithreading.md",
-    "IoT/Theory/Orange Pi 3.md",
-    "IoT/Theory/PWM.md",
-    "IoT/Theory/SPI.md",
-    "IoT/Theory/Basic Electronics.md",
+    "OS security/examen.md",
     "IoT/IoT general info.md",
+    "OS security/tryhackme.md",
+    "Bachelor stage/Bachelor stage.md",
+    "Bachelor stage",
+    "OS security/Firewall settings.md",
+    "OS security",
+    "IoT/Theory/SPI.md",
+    "IoT/Theory/PWM.md",
+    "IoT/Theory/Orange Pi 3.md",
+    "IoT/Theory/Multithreading.md",
+    "IoT/Theory/MQTT.md",
+    "IoT/Theory/I2C.md",
+    "IoT/Theory/Basic Python.md",
+    "IoT/Theory/Basic Electronics.md",
     "IoT/Theory/ADC.md",
     "Obsidian/Mark down styling.md",
     "IoT/Orange pi packages.md",
@@ -188,10 +219,6 @@
     "Cloud Engineering/Theorie/OpenTofu.md",
     "Cloud Engineering/Theorie/Continues Integration Continues Deployment.md",
     "Cloud Engineering/Theorie/(no exam) Network programmability and program models.md",
-    "Cloud Engineering/Theorie/Infrastructure as code.md",
-    "Cloud Engineering/Theorie/Infra automation.md",
-    "README.md",
-    "Cloud Engineering/Theorie/Intro.md",
     "Cloud Engineering/Theorie",
     "SSH",
     "Python",
@@ -199,8 +226,6 @@
     "IoT",
     "Application Security/Topics/SQL",
     "Application Security/Topics/XSS",
-    "Application Security/Topics",
-    "Cloud Platforms/AWS",
     "Pasted image 20240612194412.png",
     "spotify.png",
     "Networking/Pasted image 20231130140530.png",

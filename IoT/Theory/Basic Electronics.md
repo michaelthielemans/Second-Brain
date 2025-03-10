@@ -12,8 +12,8 @@ Rt = 1 / (1/R1 + 1/R2 + 1/R3)
 | Anode   | +   | longer leg  | anvil( semicondutor die) |
 | ------- | --- | ----------- | ------------------------ |
 | Kathode | -   | shorter leg | post                     |
-#### Standard led
-- Allowed current range: 5mA -> 20mA
+#### Threshold voltages of leds
+- Allowed current range: 5mA -> 20mA ( commonly = 10mA)
 -  voltage: 
 	- **Infrared**: Less than 1.9V
 	- **Red**: 1.7 to 2.2V
@@ -23,8 +23,7 @@ Rt = 1 / (1/R1 + 1/R2 + 1/R3)
 	- **Blue**: 3.2 to 4.0V
 	- **Ultraviolet**: 2.1 to 3.8V
 	- **White**: 3.3 to 3.6V
-
-### Calculate the Led Resistor
+#### Calculate the Led Resistor
 
 The value of the resistor you have to place before the LED is:
 (the total voltage minuis the voltage over the led ) devided be the allowed current through the led
@@ -37,18 +36,18 @@ R = (Utotal- Uled)/ I
 - 4 banden kleurencode
 - licht bruine kleur behuizing
 
-#### Kleurencode
+#### Kleurencode:
 1e band: waarde
 2e band: waarde
 3e band: multiplier
 4e band: tolerance
 
 ### Metaal film weerstanden
-- nauwkeuriger
+- Nauwkeuriger
 - 6 banden kleurencode
 - licht blauwe kleur van de behuizing
 
-#### color code
+#### Color code:
 1e band: value
 2e band : value
 3e band: value
@@ -59,24 +58,24 @@ R = (Utotal- Uled)/ I
 
 #### NPN transistor
 - Collector +
-- Base -> should be more positive than the emmiter 
-- Emmiter -
+- Base -> should be more positive than the emitter 
+- Emitter -
 
-In a cut-off :
+In cut-off state :
 - There is no positive voltage on the base (not more positive that the emmiter)
 - There is no current flowing from collector to emmiter.
 
 In a conductive state:
-- A voltage higher than 0.7 V is applied to the base
-- a small current from base to emmiter can flow
-- A large current between collecter + and emmiter can flow.
+- A voltage higher than 0.7 V is applied to the base, you need to overwin the threshold voltage
+- A small current from base to the emitter will flow
+- A large current between collector + and emitter can flow.
 
 #### PNP transistor
 Collector -
 base : apply a negative voltage to get in a saturation state
 emmiter: +
 
-#### Cut-of fphase:
+#### Cut-of phase:
 no current from the base -> current from collector to emitter is blocked
 
 #### Saturation phase
