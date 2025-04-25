@@ -32,6 +32,30 @@
             }
           },
           {
+            "id": "7d582e989f0aae59",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SSH/SSH keys.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0d39a825966084d2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ITIL/Intro.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "3a21e2d9ac6a34d4",
             "type": "leaf",
             "state": {
@@ -44,7 +68,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -110,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OS security/Firewall settings.md",
+                "file": "ITIL/Intro.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OS security/Firewall settings.md",
+                "file": "ITIL/Intro.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OS security/Firewall settings.md"
+                "file": "ITIL/Intro.md"
               }
             }
           },
@@ -188,14 +212,18 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "38ccd2f80ff0df13",
+  "active": "0d39a825966084d2",
   "lastOpenFiles": [
-    "OS security/examen.md",
-    "IoT/IoT general info.md",
+    "SSH/SSH keys.md",
+    "ITIL/Intro.md",
+    "ITIL",
     "OS security/tryhackme.md",
+    "OS security/Firewall settings.md",
+    "OS security/examen.md",
+    "OS security/SOC - Security Operations Center.md",
+    "IoT/IoT general info.md",
     "Bachelor stage/Bachelor stage.md",
     "Bachelor stage",
-    "OS security/Firewall settings.md",
     "OS security",
     "IoT/Theory/SPI.md",
     "IoT/Theory/PWM.md",
@@ -216,16 +244,12 @@
     "Cloud Engineering/Theorie/APIs.md",
     "IoT/Theory",
     "Cloud Engineering/Theorie/Software deployment and design.md",
-    "Cloud Engineering/Theorie/OpenTofu.md",
-    "Cloud Engineering/Theorie/Continues Integration Continues Deployment.md",
-    "Cloud Engineering/Theorie/(no exam) Network programmability and program models.md",
     "Cloud Engineering/Theorie",
     "SSH",
     "Python",
     "Cloud Engineering",
     "IoT",
     "Application Security/Topics/SQL",
-    "Application Security/Topics/XSS",
     "Pasted image 20240612194412.png",
     "spotify.png",
     "Networking/Pasted image 20231130140530.png",
