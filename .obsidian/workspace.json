@@ -4,71 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "cd3bb7bc49795212",
+        "id": "0cdc6d1ef5e082fa",
         "type": "tabs",
         "children": [
           {
-            "id": "9ee99abb9a8674ad",
+            "id": "eadbf2b8cc30492b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OS security/examen.md",
+                "file": "ITSM-ITIL/Les 3.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "38ccd2f80ff0df13",
+            "id": "3d19d0ffaaed344f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OS security/Firewall settings.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7d582e989f0aae59",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SSH/SSH keys.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0d39a825966084d2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ITIL/Intro.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3a21e2d9ac6a34d4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "OS security/tryhackme.md",
+                "file": "ITSM-ITIL/les 5.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -134,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ITIL/Intro.md",
+                "file": "ITSM-ITIL/les 5.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ITIL/Intro.md",
+                "file": "ITSM-ITIL/les 5.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ITIL/Intro.md"
+                "file": "ITSM-ITIL/les 5.md"
               }
             }
           },
@@ -199,7 +163,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 263.5
+    "width": 281.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -212,14 +176,25 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "0d39a825966084d2",
+  "active": "3d19d0ffaaed344f",
   "lastOpenFiles": [
-    "SSH/SSH keys.md",
-    "ITIL/Intro.md",
-    "ITIL",
-    "OS security/tryhackme.md",
-    "OS security/Firewall settings.md",
+    "ITSM-ITIL/les 4.md",
+    "ITSM-ITIL/les 5.md",
+    "The digital startup/opdracht 4 testing.md",
+    "ITSM-ITIL/Les 2.md",
+    "ITSM-ITIL/Intro.md",
+    "The digital startup/Les 3.md",
+    "ITSM-ITIL/Les 3.md",
+    "The digital startup/Les 2.md",
+    "The digital startup/Les 1.md",
+    "The digital startup/Introduction.md",
+    "The digital startup/schriftelijk examen The digital startup.md",
+    "The digital startup",
     "OS security/examen.md",
+    "OS security/Firewall settings.md",
+    "SSH/SSH keys.md",
+    "ITSM-ITIL",
+    "OS security/tryhackme.md",
     "OS security/SOC - Security Operations Center.md",
     "IoT/IoT general info.md",
     "Bachelor stage/Bachelor stage.md",
@@ -233,23 +208,12 @@
     "IoT/Theory/I2C.md",
     "IoT/Theory/Basic Python.md",
     "IoT/Theory/Basic Electronics.md",
-    "IoT/Theory/ADC.md",
-    "Obsidian/Mark down styling.md",
-    "IoT/Orange pi packages.md",
-    "Kubernetes/kubeadm installation.md",
-    "Kubernetes/Kubernetes Operators.md",
-    "Kubernetes/K8s architecture.md",
-    "Kubernetes/Container technology.md",
-    "Cloud Engineering/Dev Ops & CI CD.md",
-    "Cloud Engineering/Theorie/APIs.md",
     "IoT/Theory",
-    "Cloud Engineering/Theorie/Software deployment and design.md",
     "Cloud Engineering/Theorie",
     "SSH",
     "Python",
     "Cloud Engineering",
     "IoT",
-    "Application Security/Topics/SQL",
     "Pasted image 20240612194412.png",
     "spotify.png",
     "Networking/Pasted image 20231130140530.png",
