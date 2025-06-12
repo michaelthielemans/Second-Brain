@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "0cdc6d1ef5e082fa",
+        "id": "75d2edf20f44c513",
         "type": "tabs",
         "children": [
           {
-            "id": "eadbf2b8cc30492b",
+            "id": "4c39d217b3b6bd8b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ITSM-ITIL/Les 3.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3d19d0ffaaed344f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ITSM-ITIL/les 5.md",
+                "file": "ITSM-ITIL/Summary.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ITSM-ITIL/les 5.md",
+                "file": "ITSM-ITIL/Summary.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ITSM-ITIL/les 5.md",
+                "file": "ITSM-ITIL/Summary.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ITSM-ITIL/les 5.md"
+                "file": "ITSM-ITIL/Summary.md"
               }
             }
           },
@@ -176,19 +163,27 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "3d19d0ffaaed344f",
+  "active": "4c39d217b3b6bd8b",
   "lastOpenFiles": [
+    "ITSM-ITIL/Les 5.md",
+    "ITSM-ITIL/Les 6.md",
+    "ITSM-ITIL/Summary.md",
     "ITSM-ITIL/les 4.md",
-    "ITSM-ITIL/les 5.md",
-    "The digital startup/opdracht 4 testing.md",
+    "ITSM-ITIL/Les 3.md",
     "ITSM-ITIL/Les 2.md",
     "ITSM-ITIL/Intro.md",
-    "The digital startup/Les 3.md",
-    "ITSM-ITIL/Les 3.md",
-    "The digital startup/Les 2.md",
-    "The digital startup/Les 1.md",
-    "The digital startup/Introduction.md",
+    "Usefull links.md",
+    "README.md",
+    "The digital startup/les 23 mei.md",
+    "The digital startup/examen.md",
     "The digital startup/schriftelijk examen The digital startup.md",
+    "The digital startup/Reminder 5.md",
+    "The digital startup/Reminder 4.md",
+    "The digital startup/opdracht 4 testing.md",
+    "The digital startup/Introduction.md",
+    "The digital startup/Reminder 3.md",
+    "The digital startup/Reminder 2.md",
+    "The digital startup/Reminder 1.md",
     "The digital startup",
     "OS security/examen.md",
     "OS security/Firewall settings.md",
@@ -200,14 +195,6 @@
     "Bachelor stage/Bachelor stage.md",
     "Bachelor stage",
     "OS security",
-    "IoT/Theory/SPI.md",
-    "IoT/Theory/PWM.md",
-    "IoT/Theory/Orange Pi 3.md",
-    "IoT/Theory/Multithreading.md",
-    "IoT/Theory/MQTT.md",
-    "IoT/Theory/I2C.md",
-    "IoT/Theory/Basic Python.md",
-    "IoT/Theory/Basic Electronics.md",
     "IoT/Theory",
     "Cloud Engineering/Theorie",
     "SSH",

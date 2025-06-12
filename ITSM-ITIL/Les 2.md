@@ -1,8 +1,8 @@
 ITSM -  IT service management
 ## Service
-iedere it er is een service engineer
--> IT dienst = service organistatie
-+ hoge qualiteit
+iedere it'er is een service engineer
+-> IT dienst = service organisatie
++ hoge qualliteit
 + lage kost
 -> waarde creatie voor het bedrijf
 
@@ -11,21 +11,29 @@ IT moet een extra waarde creeren voor een bedrijf
 => return on investment
 
 
-### Hoe service deliveren?
+# Hoe kunnen we service deliveren?
 We gebruiken het ITIL framework om onze service organisatie in te richten.
 
-## 4P's
-Process
-People
-Partner
-Product
+## IT service framework with 4P's
 
+In order to organise you ITSM you need to take 4 pillars into account.
 
+#### Process
+Define how work flows, who does what, and in what order.
+#### People
+Make sure you have the right skilled workforce, good communicators, tech, skills, interaction with customers.
+#### Partner
+Suppliers, vendors, distributors, resellers, and other third-party service providers.
+#### Product
+Make use of the right tools and infrastructure
+
+A strong **Process** relies on competent **People** using effective **Products** and leveraging valuable **Partners** to consistently deliver high-quality services that meet customer needs and drive business value.
 ## Kosten
 - CAPEX -> capital expenses -> eenmalige kosten
 - OPEX -> Operational Expenses -> recurrente kosten
 
-### OPS Exellence 
+
+### OPS Excellence 
 Wanneer er een manier gevonden wordt om de kwaliteit of rendement verbeterd wordt.
 
 ## Service demand

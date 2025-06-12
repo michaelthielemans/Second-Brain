@@ -1,4 +1,4 @@
-business = bedrijfs activiteiten. doel van het bedrijf , 
+business = bedrijfs activiteiten. doel van het bedrijf.
 core business =   hoofd activiteit
 
 
@@ -9,8 +9,6 @@ Hedendaagse trend is dat de klant de noden bepaald!
 Het is de business die zich moet aanpassen aan de noden en verwachtingen van de klant.
 -> indien niet zal de klant naar de concurrentie overstappen.
 
-
-
 #### Business case:
 een analyse om te beslissen om het te doen of niet te doen.
 bekijken wat zijn de kosten en wat brengt het mij op.
@@ -20,7 +18,6 @@ wat is het rendement van mijn investering.
 
 
 #### PRIO = IMPACT x URGENTIE
-
 
 ## Termen
 

@@ -14,6 +14,3 @@ installatie stappen plan maken voor self install klant
 	- installatie stappen plan / handleiding
 	- dashboard
 	- technisch concept schema ?
-					xxdfghhjtrrewqq
-				]
-				O

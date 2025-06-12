@@ -1,10 +1,9 @@
 schema met practices kennen
 
 inrichting voor een service organisatie en geeft richtlijjen en best practices
-te bekoemn voor efficnete dienstverlevning
+te bekomen voor efficnete dienstverlevning
 
-het geeft een aantal best practices mee,
-\
+het geeft een aantal best practices mee
 
 # Incident
 ## I1 What
@@ -29,7 +28,7 @@ het geeft een aantal best practices mee,
 
 ## incident resolution
 
-geen trail and error tijdens resolution page.
+geen trail and error tijdens resolution phase.
 -> het ticket mag dus niet in de resolution phase worden geplaatst als men niet zeker is van de oplossing. -> ping pong vermijden.
 
 ### incident closure
@@ -42,13 +41,9 @@ categorization volgens
 - symptoms
 - reported / affected user
 
-SERT - Security emergency responce team
-
-
+SERT - Security emergency response team
 
 ## Problems
-
-
 ### P1 - What
 - Wederkerig soortgelijk service verstoring
 - Een problem kan ook komen pro-active zoals een bug gerapporteerd van de vendor
