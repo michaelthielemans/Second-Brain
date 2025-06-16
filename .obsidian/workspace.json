@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "75d2edf20f44c513",
+        "id": "db7bb3ff139b8495",
         "type": "tabs",
         "children": [
           {
-            "id": "4c39d217b3b6bd8b",
+            "id": "65b031de59363654",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ITSM-ITIL/Summary.md",
+                "file": "The digital startup/Reminder 5.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ITSM-ITIL/Summary.md",
+                "file": "The digital startup/Reminder 5.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ITSM-ITIL/Summary.md",
+                "file": "The digital startup/Reminder 5.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ITSM-ITIL/Summary.md"
+                "file": "The digital startup/Reminder 5.md"
               }
             }
           },
@@ -163,27 +163,29 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "4c39d217b3b6bd8b",
+  "active": "65b031de59363654",
   "lastOpenFiles": [
-    "ITSM-ITIL/Les 5.md",
-    "ITSM-ITIL/Les 6.md",
-    "ITSM-ITIL/Summary.md",
-    "ITSM-ITIL/les 4.md",
-    "ITSM-ITIL/Les 3.md",
-    "ITSM-ITIL/Les 2.md",
-    "ITSM-ITIL/Intro.md",
-    "Usefull links.md",
-    "README.md",
-    "The digital startup/les 23 mei.md",
-    "The digital startup/examen.md",
-    "The digital startup/schriftelijk examen The digital startup.md",
-    "The digital startup/Reminder 5.md",
     "The digital startup/Reminder 4.md",
-    "The digital startup/opdracht 4 testing.md",
-    "The digital startup/Introduction.md",
     "The digital startup/Reminder 3.md",
+    "The digital startup/Reminder 5.md",
     "The digital startup/Reminder 2.md",
     "The digital startup/Reminder 1.md",
+    "The digital startup/examen.md",
+    "The digital startup/schriftelijk examen The digital startup.md",
+    "ITSM-ITIL/Summary.md",
+    "ITSM-ITIL/Les 5.md",
+    "ITSM-ITIL/Les 6.md",
+    "ITSM-ITIL/Les 2.md",
+    "ITSM-ITIL/Les 3.md",
+    "ITSM-ITIL/les 4.md",
+    "ITSM-ITIL/Intro.md",
+    "linux-itf.maartje.dev.md",
+    "Usefull links.md",
+    "Untitled.canvas",
+    "README.md",
+    "The digital startup/les 23 mei.md",
+    "The digital startup/opdracht 4 testing.md",
+    "The digital startup/Introduction.md",
     "The digital startup",
     "OS security/examen.md",
     "OS security/Firewall settings.md",
@@ -192,7 +194,6 @@
     "OS security/tryhackme.md",
     "OS security/SOC - Security Operations Center.md",
     "IoT/IoT general info.md",
-    "Bachelor stage/Bachelor stage.md",
     "Bachelor stage",
     "OS security",
     "IoT/Theory",
@@ -204,7 +205,6 @@
     "Pasted image 20240612194412.png",
     "spotify.png",
     "Networking/Pasted image 20231130140530.png",
-    "Untitled.canvas",
     "Untitled 1.canvas",
     "Pasted image 20231110210251.png",
     "Pasted image 20231116184553.png"
